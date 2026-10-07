@@ -1,0 +1,436 @@
+{
+  "state": "Vermont",
+  "slug": "vermont",
+  "abbr": "VT",
+  "cityCount": 107,
+  "cities": [
+    {
+      "name": "Algiers",
+      "slug": "algiers"
+    },
+    {
+      "name": "Ascutney",
+      "slug": "ascutney"
+    },
+    {
+      "name": "Bakersfield",
+      "slug": "bakersfield"
+    },
+    {
+      "name": "Barre",
+      "slug": "barre"
+    },
+    {
+      "name": "Beecher Falls",
+      "slug": "beecher-falls"
+    },
+    {
+      "name": "Bellows Falls",
+      "slug": "bellows-falls"
+    },
+    {
+      "name": "Bolton",
+      "slug": "bolton"
+    },
+    {
+      "name": "Bolton Valley",
+      "slug": "bolton-valley"
+    },
+    {
+      "name": "Burlington",
+      "slug": "burlington"
+    },
+    {
+      "name": "Castleton Four Corners",
+      "slug": "castleton-four-corners"
+    },
+    {
+      "name": "Chimney Hill",
+      "slug": "chimney-hill"
+    },
+    {
+      "name": "Chittenden",
+      "slug": "chittenden"
+    },
+    {
+      "name": "Danby",
+      "slug": "danby"
+    },
+    {
+      "name": "Derby Center",
+      "slug": "derby-center"
+    },
+    {
+      "name": "Derby Line",
+      "slug": "derby-line"
+    },
+    {
+      "name": "East Barre",
+      "slug": "east-barre"
+    },
+    {
+      "name": "East Burke",
+      "slug": "east-burke"
+    },
+    {
+      "name": "East Charlotte",
+      "slug": "east-charlotte"
+    },
+    {
+      "name": "East Dorset",
+      "slug": "east-dorset"
+    },
+    {
+      "name": "East Middlebury",
+      "slug": "east-middlebury"
+    },
+    {
+      "name": "East Poultney",
+      "slug": "east-poultney"
+    },
+    {
+      "name": "Enosburg Falls",
+      "slug": "enosburg-falls"
+    },
+    {
+      "name": "Essex Junction",
+      "slug": "essex-junction"
+    },
+    {
+      "name": "Gilman",
+      "slug": "gilman"
+    },
+    {
+      "name": "Grafton",
+      "slug": "grafton"
+    },
+    {
+      "name": "Graniteville",
+      "slug": "graniteville"
+    },
+    {
+      "name": "Greensboro Bend",
+      "slug": "greensboro-bend"
+    },
+    {
+      "name": "Hanksville",
+      "slug": "hanksville"
+    },
+    {
+      "name": "Harmonyville",
+      "slug": "harmonyville"
+    },
+    {
+      "name": "Hartford Village",
+      "slug": "hartford-village"
+    },
+    {
+      "name": "Highgate Center",
+      "slug": "highgate-center"
+    },
+    {
+      "name": "Highgate Springs",
+      "slug": "highgate-springs"
+    },
+    {
+      "name": "Huntington",
+      "slug": "huntington"
+    },
+    {
+      "name": "Huntington Center",
+      "slug": "huntington-center"
+    },
+    {
+      "name": "Island Pond",
+      "slug": "island-pond"
+    },
+    {
+      "name": "Jacksonville",
+      "slug": "jacksonville"
+    },
+    {
+      "name": "Jamaica",
+      "slug": "jamaica"
+    },
+    {
+      "name": "Jeffersonville",
+      "slug": "jeffersonville"
+    },
+    {
+      "name": "Jericho Center",
+      "slug": "jericho-center"
+    },
+    {
+      "name": "Killington Village",
+      "slug": "killington-village"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln"
+    },
+    {
+      "name": "Londonderry",
+      "slug": "londonderry"
+    },
+    {
+      "name": "Lunenburg",
+      "slug": "lunenburg"
+    },
+    {
+      "name": "Lyndon",
+      "slug": "lyndon"
+    },
+    {
+      "name": "Lyndon Center",
+      "slug": "lyndon-center"
+    },
+    {
+      "name": "Lyndonville",
+      "slug": "lyndonville"
+    },
+    {
+      "name": "Manchester Center",
+      "slug": "manchester-center"
+    },
+    {
+      "name": "Middletown Springs",
+      "slug": "middletown-springs"
+    },
+    {
+      "name": "Montpelier",
+      "slug": "montpelier"
+    },
+    {
+      "name": "Morrisville",
+      "slug": "morrisville"
+    },
+    {
+      "name": "New Haven",
+      "slug": "new-haven"
+    },
+    {
+      "name": "Newport",
+      "slug": "newport"
+    },
+    {
+      "name": "Newport Center",
+      "slug": "newport-center"
+    },
+    {
+      "name": "North Bennington",
+      "slug": "north-bennington"
+    },
+    {
+      "name": "North Clarendon",
+      "slug": "north-clarendon"
+    },
+    {
+      "name": "North Hartland",
+      "slug": "north-hartland"
+    },
+    {
+      "name": "North Hyde Park",
+      "slug": "north-hyde-park"
+    },
+    {
+      "name": "North Pownal",
+      "slug": "north-pownal"
+    },
+    {
+      "name": "North Springfield",
+      "slug": "north-springfield"
+    },
+    {
+      "name": "North Troy",
+      "slug": "north-troy"
+    },
+    {
+      "name": "North Westminster",
+      "slug": "north-westminster"
+    },
+    {
+      "name": "Old Bennington",
+      "slug": "old-bennington"
+    },
+    {
+      "name": "Orleans",
+      "slug": "orleans"
+    },
+    {
+      "name": "Pawlet",
+      "slug": "pawlet"
+    },
+    {
+      "name": "Peacham",
+      "slug": "peacham"
+    },
+    {
+      "name": "Pownal",
+      "slug": "pownal"
+    },
+    {
+      "name": "Pownal Center",
+      "slug": "pownal-center"
+    },
+    {
+      "name": "Proctor",
+      "slug": "proctor"
+    },
+    {
+      "name": "Proctorsville",
+      "slug": "proctorsville"
+    },
+    {
+      "name": "Quechee",
+      "slug": "quechee"
+    },
+    {
+      "name": "Rutland",
+      "slug": "rutland"
+    },
+    {
+      "name": "Saint George",
+      "slug": "saint-george"
+    },
+    {
+      "name": "Saxtons River",
+      "slug": "saxtons-river"
+    },
+    {
+      "name": "Sheffield",
+      "slug": "sheffield"
+    },
+    {
+      "name": "South Barre",
+      "slug": "south-barre"
+    },
+    {
+      "name": "South Burlington",
+      "slug": "south-burlington"
+    },
+    {
+      "name": "South Hero",
+      "slug": "south-hero"
+    },
+    {
+      "name": "South Lincoln",
+      "slug": "south-lincoln"
+    },
+    {
+      "name": "South Londonderry",
+      "slug": "south-londonderry"
+    },
+    {
+      "name": "South Royalton",
+      "slug": "south-royalton"
+    },
+    {
+      "name": "South Shaftsbury",
+      "slug": "south-shaftsbury"
+    },
+    {
+      "name": "South Woodstock",
+      "slug": "south-woodstock"
+    },
+    {
+      "name": "St. Albans",
+      "slug": "st-albans"
+    },
+    {
+      "name": "Stamford",
+      "slug": "stamford"
+    },
+    {
+      "name": "Stratton Mountain",
+      "slug": "stratton-mountain"
+    },
+    {
+      "name": "Sutton",
+      "slug": "sutton"
+    },
+    {
+      "name": "Townshend",
+      "slug": "townshend"
+    },
+    {
+      "name": "Underhill Center",
+      "slug": "underhill-center"
+    },
+    {
+      "name": "Underhill Flats",
+      "slug": "underhill-flats"
+    },
+    {
+      "name": "Vergennes",
+      "slug": "vergennes"
+    },
+    {
+      "name": "Wardsboro",
+      "slug": "wardsboro"
+    },
+    {
+      "name": "Waterbury Center",
+      "slug": "waterbury-center"
+    },
+    {
+      "name": "Websterville",
+      "slug": "websterville"
+    },
+    {
+      "name": "Wells River",
+      "slug": "wells-river"
+    },
+    {
+      "name": "West Brattleboro",
+      "slug": "west-brattleboro"
+    },
+    {
+      "name": "West Burke",
+      "slug": "west-burke"
+    },
+    {
+      "name": "West Charlotte",
+      "slug": "west-charlotte"
+    },
+    {
+      "name": "West Dummerston",
+      "slug": "west-dummerston"
+    },
+    {
+      "name": "West Pawlet",
+      "slug": "west-pawlet"
+    },
+    {
+      "name": "West Woodstock",
+      "slug": "west-woodstock"
+    },
+    {
+      "name": "Westford",
+      "slug": "westford"
+    },
+    {
+      "name": "Weston",
+      "slug": "weston"
+    },
+    {
+      "name": "White River Junction",
+      "slug": "white-river-junction"
+    },
+    {
+      "name": "Whitingham",
+      "slug": "whitingham"
+    },
+    {
+      "name": "Wilder",
+      "slug": "wilder"
+    },
+    {
+      "name": "Winooski",
+      "slug": "winooski"
+    },
+    {
+      "name": "Wolcott",
+      "slug": "wolcott"
+    }
+  ]
+}

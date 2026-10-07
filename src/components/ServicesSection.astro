@@ -1,0 +1,449 @@
+---
+// ServicesSection.astro - All 19 Targeted Drain Cleaning Services
+const allServices = [
+  // Category: Emergency & Advanced Clearing
+  {
+    title: "Emergency Drain Cleaning",
+    slug: "emergency-drain-cleaning",
+    category: "emergency",
+    badge: "24/7 Priority",
+    desc: "Immediate same-hour response for overflowing toilets, flooded utility drains, and severe indoor plumbing backups.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>`
+  },
+  {
+    title: "Hydro Jetting",
+    slug: "hydro-jetting",
+    category: "emergency",
+    badge: "4,000 PSI Power",
+    desc: "Industrial-grade high-velocity water jetting that scrubs interior pipe walls clean of heavy grease, sludge, and tree roots.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="m14 15 4 4M4 12h16m-6-3-4-4"/></svg>`
+  },
+  {
+    title: "Drain Snaking",
+    slug: "drain-snaking",
+    category: "emergency",
+    badge: "Fast Relief",
+    desc: "Heavy-duty motorized mechanical augering to pierce and pull out stubborn localized obstructions deep inside drain lines.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>`
+  },
+  {
+    title: "Clogged Drain Cleaning",
+    slug: "clogged-drain-cleaning",
+    category: "emergency",
+    badge: "All Drain Types",
+    desc: "Targeted diagnostics and rapid clearing for slow drains, gurgling pipes, and persistent standing water anywhere in the building.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>`
+  },
+  {
+    title: "Grease Clog Removal",
+    slug: "grease-clog-removal",
+    category: "emergency",
+    badge: "Kitchen Specialist",
+    desc: "Dissolves and extracts hardened fats, oils, and grease (FOG) coagulated inside kitchen waste pipes and lateral lines.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>`
+  },
+
+  // Category: Residential Fixtures
+  {
+    title: "Residential Drain Cleaning",
+    slug: "residential-drain-cleaning",
+    category: "residential",
+    badge: "Whole-Home",
+    desc: "Complete preventative and corrective drainage care for single-family homes, townhomes, and residential condominiums.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>`
+  },
+  {
+    title: "Kitchen Sink Drain Cleaning",
+    slug: "kitchen-sink-drain-cleaning",
+    category: "residential",
+    badge: "Food & Soap Buildup",
+    desc: "Clears stubborn kitchen sink blockages, trap clogs, and odor-causing food waste without damaging pipes or garbage disposals.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>`
+  },
+  {
+    title: "Bathroom Sink Drain Cleaning",
+    slug: "bathroom-sink-drain-cleaning",
+    category: "residential",
+    badge: "Hair & Soap Scum",
+    desc: "Removes accumulated toothpaste sludge, tangled hair clumps, and pop-up stopper debris for smooth water drainage.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 10h16M4 14h16M7 6v12M17 6v12"/></svg>`
+  },
+  {
+    title: "Shower & Bathtub Drain Cleaning",
+    slug: "shower-and-bathtub-drain-cleaning",
+    category: "residential",
+    badge: "No Standing Water",
+    desc: "Ends ankle-deep shower water by extracting deep hair tangles, mineral scale, and bath product coagulations.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 11V7a5 5 0 0 1 10 0v4"/><path d="M2 13h20"/><rect x="4" y="13" width="16" height="9" rx="2"/></svg>`
+  },
+  {
+    title: "Toilet Clog Removal",
+    slug: "toilet-clog-removal",
+    category: "residential",
+    badge: "Urgent Relief",
+    desc: "Safe porcelain-safe closet augering to retrieve obstructions, foreign items, and heavy paper blockages instantly.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 12h10M12 7v10M2 12h2M20 12h2"/></svg>`
+  },
+  {
+    title: "Floor Drain Cleaning",
+    slug: "floor-drain-cleaning",
+    category: "residential",
+    badge: "Basement & Laundry",
+    desc: "Maintains basement, laundry room, and garage floor traps to prevent sewer gas leakage and torrential floor flooding.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="3" x2="12" y2="9"/><line x1="12" y1="15" x2="12" y2="21"/><line x1="3" y1="12" x2="9" y2="12"/><line x1="15" y1="12" x2="21" y2="12"/></svg>`
+  },
+  {
+    title: "Garbage Disposal Clog Removal",
+    slug: "garbage-disposal-clog-removal",
+    category: "residential",
+    badge: "Unit Safe",
+    desc: "Unjams jammed impellers and clears fibrous vegetable scraps and grease from disposal discharge piping safely.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6z"/></svg>`
+  },
+
+  // Category: Sewer & Main Line
+  {
+    title: "Main Sewer Line Cleaning",
+    slug: "main-sewer-line-cleaning",
+    category: "sewer",
+    badge: "Municipal Connection",
+    desc: "Comprehensive cleaning of your underground main lateral connecting your building to the municipal main or septic.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>`
+  },
+  {
+    title: "Sewer Line Clog Removal",
+    slug: "sewer-line-clog-removal",
+    category: "sewer",
+    badge: "Root Cutting",
+    desc: "Mechanical root slicing and obstruction pulverization for deep underground sewer lines suffering flow stoppage.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`
+  },
+  {
+    title: "Sewer Backup Cleanup & Clearing",
+    slug: "sewer-backup-cleanup-and-clearing",
+    category: "sewer",
+    badge: "Biohazard Safety",
+    desc: "Emergency extraction of raw sewage, deep line clearing, and sanitary disinfection of flooded basements and drains.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`
+  },
+
+  // Category: Commercial, Storm & Specialty
+  {
+    title: "Commercial Drain Cleaning",
+    slug: "commercial-drain-cleaning",
+    category: "specialty",
+    badge: "Business Grade",
+    desc: "Scheduled maintenance for restaurants, retail, hotels, and industrial facilities to satisfy strict health sanitation codes.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>`
+  },
+  {
+    title: "Roof Drain Cleaning",
+    slug: "roof-drain-cleaning",
+    category: "specialty",
+    badge: "Prevent Collapses",
+    desc: "Clears scuppers, leaders, and parapet drains of leaves, silt, and bird debris to prevent structural roof ponding and water damage.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>`
+  },
+  {
+    title: "Storm Drain Cleaning",
+    slug: "storm-drain-cleaning",
+    category: "specialty",
+    badge: "Runoff Control",
+    desc: "Flushes catch basins, parking lot grates, and retention culverts before heavy storms cause exterior property washouts.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/><line x1="12" y1="19" x2="12" y2="23"/></svg>`
+  },
+  {
+    title: "Septic Tank Cleaning",
+    slug: "septic-tank-cleaning",
+    category: "specialty",
+    badge: "Pumping & Inspection",
+    desc: "Pumping solid sludge, baffles cleaning, and filter maintenance to keep rural wastewater systems flowing cleanly without backups.",
+    icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>`
+  }
+];
+---
+
+<section id="services" class="section-padding services-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Complete Nationwide Drainage Catalog</span>
+      <h2>19 Dedicated Drain & Sewer Services We Provide</h2>
+      <p>From single fixture clogs in homes to large-scale municipal sewer laterals, storm culverts, and commercial kitchens—our licensed specialists have the equipment to clear any pipe.</p>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-filter="all">All 19 Services</button>
+        <button class="filter-tab" data-filter="emergency">Emergency & Jetting (5)</button>
+        <button class="filter-tab" data-filter="residential">Residential Fixtures (7)</button>
+        <button class="filter-tab" data-filter="sewer">Sewer Line Solutions (3)</button>
+        <button class="filter-tab" data-filter="specialty">Commercial, Storm & Roof (4)</button>
+      </div>
+    </div>
+
+    <!-- 19 Services Grid -->
+    <div class="services-grid" id="services-grid-container">
+      {allServices.map((svc) => (
+        <div class="service-card" data-category={svc.category}>
+          <div class="service-card-top">
+            <div class="service-icon-box" set:html={svc.icon} />
+            <span class="service-badge">{svc.badge}</span>
+          </div>
+          <h3 class="service-title">{svc.title}</h3>
+          <p class="service-desc">{svc.desc}</p>
+          <div class="service-footer">
+            <a href={`/services/${svc.slug}/`} class="service-cta">
+              View {svc.title} Details
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Hydro Jetting Callout Banner -->
+    <div class="services-banner">
+      <div class="banner-content">
+        <div class="banner-badge">Advanced Technology</div>
+        <h3>Tired of Drains That Clog Again Every Month?</h3>
+        <p>Standard retail chemical cleaners and cheap rental snakes only punch a tiny 1-inch temporary hole. Our commercial hydro-jetters and HD sewer cameras locate the actual root cause and scrub the line 360 degrees clean to prevent callbacks.</p>
+        <div class="banner-actions">
+          <a href="tel:+18778230231" class="btn btn-emergency">
+            Call For Same Day Service: (877) 823-0231
+          </a>
+          <a href="#locations" class="btn btn-secondary">
+            Find Your City Technician
+          </a>
+        </div>
+      </div>
+      <div class="banner-image">
+        <img src="/images/hydro-jetting-manhole.jpg" alt="Commercial Hydro Jetting Clearing Sewer Line" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .services-section {
+    background-color: var(--color-slate-50);
+  }
+
+  .filter-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 2rem;
+  }
+
+  .filter-tab {
+    padding: 0.55rem 1.15rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    border-radius: var(--radius-full);
+    background: var(--color-white);
+    color: var(--color-slate-700);
+    border: 1px solid var(--color-slate-200);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .filter-tab:hover {
+    background: var(--color-slate-100);
+    border-color: var(--color-slate-300);
+  }
+
+  .filter-tab.active {
+    background: var(--color-primary-600);
+    color: var(--color-white);
+    border-color: var(--color-primary-600);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    margin-bottom: 4rem;
+  }
+
+  .service-card {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: 1.8rem 1.6rem;
+    border: 1px solid var(--color-slate-200);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.22s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-primary-500);
+  }
+
+  .service-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.1rem;
+  }
+
+  .service-icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-md);
+    background: rgba(37, 99, 235, 0.08);
+    color: var(--color-primary-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-badge {
+    background: var(--color-slate-100);
+    color: var(--color-slate-700);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--radius-full);
+  }
+
+  .service-title {
+    font-size: 1.18rem;
+    margin-bottom: 0.6rem;
+    color: var(--color-primary-950);
+  }
+
+  .service-desc {
+    color: var(--color-slate-600);
+    font-size: 0.9rem;
+    margin-bottom: 1.4rem;
+    line-height: 1.55;
+    flex-grow: 1;
+  }
+
+  .service-footer {
+    border-top: 1px solid var(--color-slate-100);
+    padding-top: 1rem;
+  }
+
+  .service-cta {
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: var(--color-primary-600);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: gap 0.2s ease;
+  }
+
+  .service-cta:hover {
+    gap: 0.6rem;
+    color: var(--color-primary-800);
+  }
+
+  /* Banner */
+  .services-banner {
+    background: linear-gradient(135deg, var(--color-primary-950) 0%, var(--color-primary-900) 100%);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    box-shadow: var(--shadow-xl);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .banner-content {
+    padding: 3.5rem;
+    color: var(--color-white);
+  }
+
+  .banner-badge {
+    display: inline-block;
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--color-accent-400);
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0.35rem 0.85rem;
+    border-radius: var(--radius-full);
+    margin-bottom: 1rem;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+  }
+
+  .banner-content h3 {
+    font-size: 2rem;
+    color: var(--color-white);
+    margin-bottom: 1rem;
+  }
+
+  .banner-content p {
+    color: var(--color-slate-300);
+    font-size: 1.02rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .banner-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .banner-image {
+    height: 100%;
+    position: relative;
+    min-height: 320px;
+  }
+
+  .banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 1024px) {
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .services-banner {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+    .banner-content {
+      padding: 1.8rem;
+    }
+  }
+</style>
+
+<script>
+  const tabs = document.querySelectorAll('.filter-tab');
+  const serviceCards = document.querySelectorAll('.service-card');
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      const filter = tab.getAttribute('data-filter');
+
+      serviceCards.forEach((card) => {
+        const cat = card.getAttribute('data-category');
+        if (filter === 'all' || cat === filter) {
+          (card as HTMLElement).style.display = 'flex';
+        } else {
+          (card as HTMLElement).style.display = 'none';
+        }
+      });
+    });
+  });
+</script>

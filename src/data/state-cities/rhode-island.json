@@ -1,0 +1,132 @@
+{
+  "state": "Rhode Island",
+  "slug": "rhode-island",
+  "abbr": "RI",
+  "cityCount": 31,
+  "cities": [
+    {
+      "name": "Ashaway",
+      "slug": "ashaway"
+    },
+    {
+      "name": "Bradford",
+      "slug": "bradford"
+    },
+    {
+      "name": "Carolina",
+      "slug": "carolina"
+    },
+    {
+      "name": "Central Falls",
+      "slug": "central-falls"
+    },
+    {
+      "name": "Chepachet",
+      "slug": "chepachet"
+    },
+    {
+      "name": "Clayville",
+      "slug": "clayville"
+    },
+    {
+      "name": "Cranston",
+      "slug": "cranston"
+    },
+    {
+      "name": "Cumberland Hill",
+      "slug": "cumberland-hill"
+    },
+    {
+      "name": "East Providence",
+      "slug": "east-providence"
+    },
+    {
+      "name": "Foster Center",
+      "slug": "foster-center"
+    },
+    {
+      "name": "Greene",
+      "slug": "greene"
+    },
+    {
+      "name": "Greenville",
+      "slug": "greenville"
+    },
+    {
+      "name": "Harmony",
+      "slug": "harmony"
+    },
+    {
+      "name": "Harrisville",
+      "slug": "harrisville"
+    },
+    {
+      "name": "Hope Valley",
+      "slug": "hope-valley"
+    },
+    {
+      "name": "Kingston",
+      "slug": "kingston"
+    },
+    {
+      "name": "Melville",
+      "slug": "melville"
+    },
+    {
+      "name": "Misquamicut",
+      "slug": "misquamicut"
+    },
+    {
+      "name": "Narragansett Pier",
+      "slug": "narragansett-pier"
+    },
+    {
+      "name": "Newport",
+      "slug": "newport"
+    },
+    {
+      "name": "Newport East",
+      "slug": "newport-east"
+    },
+    {
+      "name": "Pascoag",
+      "slug": "pascoag"
+    },
+    {
+      "name": "Pawtucket",
+      "slug": "pawtucket"
+    },
+    {
+      "name": "Providence",
+      "slug": "providence"
+    },
+    {
+      "name": "Quonochontaug",
+      "slug": "quonochontaug"
+    },
+    {
+      "name": "Valley Falls",
+      "slug": "valley-falls"
+    },
+    {
+      "name": "Warwick",
+      "slug": "warwick"
+    },
+    {
+      "name": "Watch Hill",
+      "slug": "watch-hill"
+    },
+    {
+      "name": "Weekapaug",
+      "slug": "weekapaug"
+    },
+    {
+      "name": "Woonsocket",
+      "slug": "woonsocket"
+    },
+    {
+      "name": "Wyoming",
+      "slug": "wyoming"
+    }
+  ]
+}

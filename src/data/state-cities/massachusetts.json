@@ -1,0 +1,508 @@
+{
+  "state": "Massachusetts",
+  "slug": "massachusetts",
+  "abbr": "MA",
+  "cityCount": 125,
+  "cities": [
+    {
+      "name": "Acushnet Center",
+      "slug": "acushnet-center"
+    },
+    {
+      "name": "Attleboro",
+      "slug": "attleboro"
+    },
+    {
+      "name": "Baldwinville",
+      "slug": "baldwinville"
+    },
+    {
+      "name": "Beverly",
+      "slug": "beverly"
+    },
+    {
+      "name": "Bliss Corner",
+      "slug": "bliss-corner"
+    },
+    {
+      "name": "Boston",
+      "slug": "boston"
+    },
+    {
+      "name": "Brockton",
+      "slug": "brockton"
+    },
+    {
+      "name": "Buzzards Bay",
+      "slug": "buzzards-bay"
+    },
+    {
+      "name": "Cambridge",
+      "slug": "cambridge"
+    },
+    {
+      "name": "Cedar Crest",
+      "slug": "cedar-crest"
+    },
+    {
+      "name": "Chelsea",
+      "slug": "chelsea"
+    },
+    {
+      "name": "Chicopee",
+      "slug": "chicopee"
+    },
+    {
+      "name": "Cochituate",
+      "slug": "cochituate"
+    },
+    {
+      "name": "Cordaville",
+      "slug": "cordaville"
+    },
+    {
+      "name": "Dennis Port",
+      "slug": "dennis-port"
+    },
+    {
+      "name": "Devens",
+      "slug": "devens"
+    },
+    {
+      "name": "East Dennis",
+      "slug": "east-dennis"
+    },
+    {
+      "name": "East Douglas",
+      "slug": "east-douglas"
+    },
+    {
+      "name": "East Falmouth",
+      "slug": "east-falmouth"
+    },
+    {
+      "name": "East Harwich",
+      "slug": "east-harwich"
+    },
+    {
+      "name": "East Pepperell",
+      "slug": "east-pepperell"
+    },
+    {
+      "name": "East Sandwich",
+      "slug": "east-sandwich"
+    },
+    {
+      "name": "Everett",
+      "slug": "everett"
+    },
+    {
+      "name": "Fall River",
+      "slug": "fall-river"
+    },
+    {
+      "name": "Fiskdale",
+      "slug": "fiskdale"
+    },
+    {
+      "name": "Fitchburg",
+      "slug": "fitchburg"
+    },
+    {
+      "name": "Forestdale",
+      "slug": "forestdale"
+    },
+    {
+      "name": "Framingham",
+      "slug": "framingham"
+    },
+    {
+      "name": "Gardner",
+      "slug": "gardner"
+    },
+    {
+      "name": "Gloucester",
+      "slug": "gloucester"
+    },
+    {
+      "name": "Green Harbor",
+      "slug": "green-harbor"
+    },
+    {
+      "name": "Hanscom AFB",
+      "slug": "hanscom-afb"
+    },
+    {
+      "name": "Harwich Center",
+      "slug": "harwich-center"
+    },
+    {
+      "name": "Harwich Port",
+      "slug": "harwich-port"
+    },
+    {
+      "name": "Haverhill",
+      "slug": "haverhill"
+    },
+    {
+      "name": "Holyoke",
+      "slug": "holyoke"
+    },
+    {
+      "name": "Housatonic",
+      "slug": "housatonic"
+    },
+    {
+      "name": "Lawrence",
+      "slug": "lawrence"
+    },
+    {
+      "name": "Lenox Dale",
+      "slug": "lenox-dale"
+    },
+    {
+      "name": "Leominster",
+      "slug": "leominster"
+    },
+    {
+      "name": "Littleton Common",
+      "slug": "littleton-common"
+    },
+    {
+      "name": "Lowell",
+      "slug": "lowell"
+    },
+    {
+      "name": "Lynn",
+      "slug": "lynn"
+    },
+    {
+      "name": "Madaket",
+      "slug": "madaket"
+    },
+    {
+      "name": "Malden",
+      "slug": "malden"
+    },
+    {
+      "name": "Mansfield Center",
+      "slug": "mansfield-center"
+    },
+    {
+      "name": "Marion Center",
+      "slug": "marion-center"
+    },
+    {
+      "name": "Marlborough",
+      "slug": "marlborough"
+    },
+    {
+      "name": "Marshfield Hills",
+      "slug": "marshfield-hills"
+    },
+    {
+      "name": "Mashpee Neck",
+      "slug": "mashpee-neck"
+    },
+    {
+      "name": "Mattapoisett Center",
+      "slug": "mattapoisett-center"
+    },
+    {
+      "name": "Medford",
+      "slug": "medford"
+    },
+    {
+      "name": "Melrose",
+      "slug": "melrose"
+    },
+    {
+      "name": "Middleborough Center",
+      "slug": "middleborough-center"
+    },
+    {
+      "name": "Millers Falls",
+      "slug": "millers-falls"
+    },
+    {
+      "name": "Millis-Clicquot",
+      "slug": "millis-clicquot"
+    },
+    {
+      "name": "Monomoscoy Island",
+      "slug": "monomoscoy-island"
+    },
+    {
+      "name": "Monson Center",
+      "slug": "monson-center"
+    },
+    {
+      "name": "Monument Beach",
+      "slug": "monument-beach"
+    },
+    {
+      "name": "New Bedford",
+      "slug": "new-bedford"
+    },
+    {
+      "name": "New Seabury",
+      "slug": "new-seabury"
+    },
+    {
+      "name": "Newburyport",
+      "slug": "newburyport"
+    },
+    {
+      "name": "Newton",
+      "slug": "newton"
+    },
+    {
+      "name": "North Adams",
+      "slug": "north-adams"
+    },
+    {
+      "name": "North Eastham",
+      "slug": "north-eastham"
+    },
+    {
+      "name": "North Falmouth",
+      "slug": "north-falmouth"
+    },
+    {
+      "name": "North Lakeville",
+      "slug": "north-lakeville"
+    },
+    {
+      "name": "North Pembroke",
+      "slug": "north-pembroke"
+    },
+    {
+      "name": "North Plymouth",
+      "slug": "north-plymouth"
+    },
+    {
+      "name": "North Scituate",
+      "slug": "north-scituate"
+    },
+    {
+      "name": "North Seekonk",
+      "slug": "north-seekonk"
+    },
+    {
+      "name": "North Westport",
+      "slug": "north-westport"
+    },
+    {
+      "name": "Northampton",
+      "slug": "northampton"
+    },
+    {
+      "name": "Northwest Harwich",
+      "slug": "northwest-harwich"
+    },
+    {
+      "name": "Norton Center",
+      "slug": "norton-center"
+    },
+    {
+      "name": "Oak Bluffs",
+      "slug": "oak-bluffs"
+    },
+    {
+      "name": "Ocean Bluff-Brant Rock",
+      "slug": "ocean-bluff-brant-rock"
+    },
+    {
+      "name": "Ocean Grove",
+      "slug": "ocean-grove"
+    },
+    {
+      "name": "Onset",
+      "slug": "onset"
+    },
+    {
+      "name": "Peabody",
+      "slug": "peabody"
+    },
+    {
+      "name": "Pinehurst",
+      "slug": "pinehurst"
+    },
+    {
+      "name": "Pittsfield",
+      "slug": "pittsfield"
+    },
+    {
+      "name": "Pocasset",
+      "slug": "pocasset"
+    },
+    {
+      "name": "Popponesset",
+      "slug": "popponesset"
+    },
+    {
+      "name": "Popponesset Island",
+      "slug": "popponesset-island"
+    },
+    {
+      "name": "Quincy",
+      "slug": "quincy"
+    },
+    {
+      "name": "Raynham Center",
+      "slug": "raynham-center"
+    },
+    {
+      "name": "Revere",
+      "slug": "revere"
+    },
+    {
+      "name": "Sagamore",
+      "slug": "sagamore"
+    },
+    {
+      "name": "Salem",
+      "slug": "salem"
+    },
+    {
+      "name": "Seabrook",
+      "slug": "seabrook"
+    },
+    {
+      "name": "Seconsett Island",
+      "slug": "seconsett-island"
+    },
+    {
+      "name": "Shelburne Falls",
+      "slug": "shelburne-falls"
+    },
+    {
+      "name": "Siasconset",
+      "slug": "siasconset"
+    },
+    {
+      "name": "Smith Mills",
+      "slug": "smith-mills"
+    },
+    {
+      "name": "Somerville",
+      "slug": "somerville"
+    },
+    {
+      "name": "South Ashburnham",
+      "slug": "south-ashburnham"
+    },
+    {
+      "name": "South Deerfield",
+      "slug": "south-deerfield"
+    },
+    {
+      "name": "South Dennis",
+      "slug": "south-dennis"
+    },
+    {
+      "name": "South Duxbury",
+      "slug": "south-duxbury"
+    },
+    {
+      "name": "South Lancaster",
+      "slug": "south-lancaster"
+    },
+    {
+      "name": "South Yarmouth",
+      "slug": "south-yarmouth"
+    },
+    {
+      "name": "Springfield",
+      "slug": "springfield"
+    },
+    {
+      "name": "Taunton",
+      "slug": "taunton"
+    },
+    {
+      "name": "Teaticket",
+      "slug": "teaticket"
+    },
+    {
+      "name": "The Pinehills",
+      "slug": "the-pinehills"
+    },
+    {
+      "name": "Turners Falls",
+      "slug": "turners-falls"
+    },
+    {
+      "name": "Vineyard Haven",
+      "slug": "vineyard-haven"
+    },
+    {
+      "name": "Waltham",
+      "slug": "waltham"
+    },
+    {
+      "name": "Wareham Center",
+      "slug": "wareham-center"
+    },
+    {
+      "name": "West Chatham",
+      "slug": "west-chatham"
+    },
+    {
+      "name": "West Concord",
+      "slug": "west-concord"
+    },
+    {
+      "name": "West Dennis",
+      "slug": "west-dennis"
+    },
+    {
+      "name": "West Falmouth",
+      "slug": "west-falmouth"
+    },
+    {
+      "name": "West Wareham",
+      "slug": "west-wareham"
+    },
+    {
+      "name": "West Warren",
+      "slug": "west-warren"
+    },
+    {
+      "name": "West Yarmouth",
+      "slug": "west-yarmouth"
+    },
+    {
+      "name": "Westfield",
+      "slug": "westfield"
+    },
+    {
+      "name": "Weweantic",
+      "slug": "weweantic"
+    },
+    {
+      "name": "White Island Shores",
+      "slug": "white-island-shores"
+    },
+    {
+      "name": "Whitinsville",
+      "slug": "whitinsville"
+    },
+    {
+      "name": "Woburn",
+      "slug": "woburn"
+    },
+    {
+      "name": "Woods Hole",
+      "slug": "woods-hole"
+    },
+    {
+      "name": "Worcester",
+      "slug": "worcester"
+    },
+    {
+      "name": "Yarmouth Port",
+      "slug": "yarmouth-port"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import TrustBadges from '../components/TrustBadges.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
+import ContactSection from '../components/ContactSection.astro';
+
+const breadcrumbItems = [
+  { name: "Home", url: "/" },
+  { name: "About Us" }
+];
+---
+
+<Layout
+  title="About Rapid Flow Drain Pros | Nationwide Drain & Sewer Network"
+  description="Learn about Rapid Flow Drain Pros, America's trusted 24/7 drain cleaning and sewer repair network. Licensed master technicians, upfront flat rates."
+  canonicalUrl="https://maxsonplumbing.com/about/"
+>
+  <Breadcrumb items={breadcrumbItems} />
+
+  <!-- About Hero -->
+  <section class="about-hero">
+    <div class="container">
+      <span class="badge-pill">Nationwide Plumbing Excellence</span>
+      <h1 class="page-title">About <span class="highlight-text">Rapid Flow Drain Pros</span></h1>
+      <p class="page-lead">
+        Dedicated to fast, transparent, and permanent drainage solutions for homeowners and commercial businesses across all 50 states.
+      </p>
+    </div>
+  </section>
+
+  <TrustBadges />
+
+  <!-- Main Story Section -->
+  <section class="section-padding about-content-section">
+    <div class="container">
+      <div class="about-story-grid">
+        <div class="story-text">
+          <h2>Restoring Clean Flow With Honesty & Precision</h2>
+          <p>
+            Founded on the principle that emergency plumbing shouldn't come with high-pressure sales tactics or hidden pricing surprises, Rapid Flow Drain Pros has built one of the nation's most responsive drain and sewer networks.
+          </p>
+          <p>
+            Our master technicians specialize exclusively in drainage diagnostics, mechanical rooter clearing, high-pressure hydro-jetting, and non-invasive sewer camera inspections. By focusing deeply on drains, we arrive equipped with industrial-grade machinery that standard general plumbers often lack.
+          </p>
+
+          <div class="values-list">
+            <div class="val-item">
+              <h4>24/7 Emergency Dispatch</h4>
+              <p>Because sewage backups never follow a schedule, our dispatch centers operate round the clock, 365 days a year.</p>
+            </div>
+            <div class="val-item">
+              <h4>100% Upfront Written Quotes</h4>
+              <p>You approve the flat-rate price in writing before any work begins. No hidden travel fees or holiday surcharges.</p>
+            </div>
+            <div class="val-item">
+              <h4>State-Of-The-Art Optical Tech</h4>
+              <p>We believe in diagnostic proof. We use HD waterproof sewer cameras so you see the obstruction on-screen with your own eyes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="story-stats-card">
+          <h3>Why Customers Choose Us</h3>
+          <div class="stat-row">
+            <span class="stat-number">50</span>
+            <span class="stat-label">States Covered Nationwide</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-number">30-45m</span>
+            <span class="stat-label">Average Emergency Dispatch Window</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-number">4.9 ★</span>
+            <span class="stat-label">Average Verified Customer Rating</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Clear Flow Workmanship Guarantee</span>
+          </div>
+
+          <div class="card-cta">
+            <a href="tel:+18778230231" class="btn btn-emergency full-width">
+              Call Dispatch: (877) 823-0231
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <FAQAccordion />
+  <ContactSection />
+</Layout>
+
+<style>
+  .about-hero {
+    background: linear-gradient(160deg, #040d1f 0%, #0a1e3d 40%, #0f2847 70%, #132e52 100%);
+    color: var(--color-white);
+    padding: 4.5rem 0;
+    text-align: center;
+  }
+
+  .badge-pill {
+    background: rgba(234, 88, 12, 0.2);
+    border: 1px solid rgba(234, 88, 12, 0.45);
+    color: #fb923c;
+    padding: 0.35rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    margin-bottom: 1.25rem;
+  }
+
+  .page-title {
+    font-size: 2.75rem;
+    color: var(--color-white);
+    margin-bottom: 1rem;
+  }
+
+  .page-lead {
+    font-size: 1.15rem;
+    color: #cbd5e1;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .about-content-section {
+    background: var(--color-slate-50);
+  }
+
+  .about-story-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 3.5rem;
+    align-items: start;
+  }
+
+  .story-text h2 {
+    font-size: 2.1rem;
+    color: var(--color-primary-950);
+    margin-bottom: 1.25rem;
+  }
+
+  .story-text p {
+    color: var(--color-slate-700);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+  }
+
+  .values-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .val-item {
+    background: var(--color-white);
+    border: 1px solid var(--color-slate-200);
+    border-radius: var(--radius-md);
+    padding: 1.25rem 1.5rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .val-item h4 {
+    color: var(--color-primary-600);
+    font-size: 1.1rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .val-item p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--color-slate-600);
+  }
+
+  .story-stats-card {
+    background: linear-gradient(135deg, var(--color-primary-950) 0%, var(--color-primary-900) 100%);
+    color: var(--color-white);
+    border-radius: var(--radius-xl);
+    padding: 2.5rem;
+    box-shadow: var(--shadow-xl);
+  }
+
+  .story-stats-card h3 {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .stat-row {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color-accent-400);
+    font-family: var(--font-heading);
+    min-width: 90px;
+  }
+
+  .stat-label {
+    font-size: 0.95rem;
+    color: #cbd5e1;
+    font-weight: 500;
+  }
+
+  .card-cta {
+    margin-top: 2rem;
+  }
+
+  .full-width {
+    width: 100%;
+    justify-content: center;
+  }
+
+  @media (max-width: 992px) {
+    .about-story-grid {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+  }
+</style>

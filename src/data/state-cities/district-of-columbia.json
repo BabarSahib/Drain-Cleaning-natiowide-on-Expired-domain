@@ -1,0 +1,12 @@
+{
+  "state": "District of Columbia",
+  "slug": "district-of-columbia",
+  "abbr": "DC",
+  "cityCount": 1,
+  "cities": [
+    {
+      "name": "Washington",
+      "slug": "washington"
+    }
+  ]
+}

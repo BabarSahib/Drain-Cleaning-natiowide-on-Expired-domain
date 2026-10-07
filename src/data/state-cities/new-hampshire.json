@@ -1,0 +1,172 @@
+{
+  "state": "New Hampshire",
+  "slug": "new-hampshire",
+  "abbr": "NH",
+  "cityCount": 41,
+  "cities": [
+    {
+      "name": "Berlin",
+      "slug": "berlin"
+    },
+    {
+      "name": "Blodgett Landing",
+      "slug": "blodgett-landing"
+    },
+    {
+      "name": "Center Ossipee",
+      "slug": "center-ossipee"
+    },
+    {
+      "name": "Center Sandwich",
+      "slug": "center-sandwich"
+    },
+    {
+      "name": "Claremont",
+      "slug": "claremont"
+    },
+    {
+      "name": "Concord",
+      "slug": "concord"
+    },
+    {
+      "name": "Contoocook",
+      "slug": "contoocook"
+    },
+    {
+      "name": "Dover",
+      "slug": "dover"
+    },
+    {
+      "name": "East Merrimack",
+      "slug": "east-merrimack"
+    },
+    {
+      "name": "Francestown",
+      "slug": "francestown"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin"
+    },
+    {
+      "name": "Groveton",
+      "slug": "groveton"
+    },
+    {
+      "name": "Hampton Beach",
+      "slug": "hampton-beach"
+    },
+    {
+      "name": "Keene",
+      "slug": "keene"
+    },
+    {
+      "name": "Klondike Corner",
+      "slug": "klondike-corner"
+    },
+    {
+      "name": "Laconia",
+      "slug": "laconia"
+    },
+    {
+      "name": "Lebanon",
+      "slug": "lebanon"
+    },
+    {
+      "name": "Manchester",
+      "slug": "manchester"
+    },
+    {
+      "name": "Melvin Village",
+      "slug": "melvin-village"
+    },
+    {
+      "name": "Milton Mills",
+      "slug": "milton-mills"
+    },
+    {
+      "name": "Mountain Lakes",
+      "slug": "mountain-lakes"
+    },
+    {
+      "name": "Nashua",
+      "slug": "nashua"
+    },
+    {
+      "name": "New Boston",
+      "slug": "new-boston"
+    },
+    {
+      "name": "North Conway",
+      "slug": "north-conway"
+    },
+    {
+      "name": "North Haverhill",
+      "slug": "north-haverhill"
+    },
+    {
+      "name": "North Walpole",
+      "slug": "north-walpole"
+    },
+    {
+      "name": "North Woodstock",
+      "slug": "north-woodstock"
+    },
+    {
+      "name": "Pinardville",
+      "slug": "pinardville"
+    },
+    {
+      "name": "Portsmouth",
+      "slug": "portsmouth"
+    },
+    {
+      "name": "Rochester",
+      "slug": "rochester"
+    },
+    {
+      "name": "Sanbornville",
+      "slug": "sanbornville"
+    },
+    {
+      "name": "Seabrook Beach",
+      "slug": "seabrook-beach"
+    },
+    {
+      "name": "Somersworth",
+      "slug": "somersworth"
+    },
+    {
+      "name": "South Hooksett",
+      "slug": "south-hooksett"
+    },
+    {
+      "name": "Suissevale",
+      "slug": "suissevale"
+    },
+    {
+      "name": "Suncook",
+      "slug": "suncook"
+    },
+    {
+      "name": "Tilton Northfield",
+      "slug": "tilton-northfield"
+    },
+    {
+      "name": "Union",
+      "slug": "union"
+    },
+    {
+      "name": "West Stewartstown",
+      "slug": "west-stewartstown"
+    },
+    {
+      "name": "West Swanzey",
+      "slug": "west-swanzey"
+    },
+    {
+      "name": "Woodsville",
+      "slug": "woodsville"
+    }
+  ]
+}

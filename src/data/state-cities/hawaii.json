@@ -1,0 +1,640 @@
+{
+  "state": "Hawaii",
+  "slug": "hawaii",
+  "abbr": "HI",
+  "cityCount": 158,
+  "cities": [
+    {
+      "name": "Ahuimanu",
+      "slug": "ahuimanu"
+    },
+    {
+      "name": "Aiea",
+      "slug": "aiea"
+    },
+    {
+      "name": "Ainaloa",
+      "slug": "ainaloa"
+    },
+    {
+      "name": "Anahola",
+      "slug": "anahola"
+    },
+    {
+      "name": "Black Sands",
+      "slug": "black-sands"
+    },
+    {
+      "name": "Captain Cook",
+      "slug": "captain-cook"
+    },
+    {
+      "name": "Discovery Harbour",
+      "slug": "discovery-harbour"
+    },
+    {
+      "name": "East Honolulu",
+      "slug": "east-honolulu"
+    },
+    {
+      "name": "East Kapolei",
+      "slug": "east-kapolei"
+    },
+    {
+      "name": "Eden Roc",
+      "slug": "eden-roc"
+    },
+    {
+      "name": "Eleele",
+      "slug": "eleele"
+    },
+    {
+      "name": "Ewa Beach",
+      "slug": "ewa-beach"
+    },
+    {
+      "name": "Ewa Gentry",
+      "slug": "ewa-gentry"
+    },
+    {
+      "name": "Ewa Villages",
+      "slug": "ewa-villages"
+    },
+    {
+      "name": "Fern Acres",
+      "slug": "fern-acres"
+    },
+    {
+      "name": "Fern Forest",
+      "slug": "fern-forest"
+    },
+    {
+      "name": "Haena",
+      "slug": "haena"
+    },
+    {
+      "name": "Haiku-Pauwela",
+      "slug": "haiku-pauwela"
+    },
+    {
+      "name": "Halaula",
+      "slug": "halaula"
+    },
+    {
+      "name": "Halawa",
+      "slug": "halawa"
+    },
+    {
+      "name": "Haleiwa",
+      "slug": "haleiwa"
+    },
+    {
+      "name": "Haliimaile",
+      "slug": "haliimaile"
+    },
+    {
+      "name": "Hana",
+      "slug": "hana"
+    },
+    {
+      "name": "Hanalei",
+      "slug": "hanalei"
+    },
+    {
+      "name": "Hanamaulu",
+      "slug": "hanamaulu"
+    },
+    {
+      "name": "Hanapepe",
+      "slug": "hanapepe"
+    },
+    {
+      "name": "Hauula",
+      "slug": "hauula"
+    },
+    {
+      "name": "Hawaiian Acres",
+      "slug": "hawaiian-acres"
+    },
+    {
+      "name": "Hawaiian Beaches",
+      "slug": "hawaiian-beaches"
+    },
+    {
+      "name": "Hawaiian Ocean View",
+      "slug": "hawaiian-ocean-view"
+    },
+    {
+      "name": "Hawaiian Paradise Park",
+      "slug": "hawaiian-paradise-park"
+    },
+    {
+      "name": "Hawi",
+      "slug": "hawi"
+    },
+    {
+      "name": "Heeia",
+      "slug": "heeia"
+    },
+    {
+      "name": "Helemano",
+      "slug": "helemano"
+    },
+    {
+      "name": "Hickam Housing",
+      "slug": "hickam-housing"
+    },
+    {
+      "name": "Hilo",
+      "slug": "hilo"
+    },
+    {
+      "name": "Holualoa",
+      "slug": "holualoa"
+    },
+    {
+      "name": "Honalo",
+      "slug": "honalo"
+    },
+    {
+      "name": "Honaunau-Napoopoo",
+      "slug": "honaunau-napoopoo"
+    },
+    {
+      "name": "Honokaa",
+      "slug": "honokaa"
+    },
+    {
+      "name": "Honolulu",
+      "slug": "honolulu"
+    },
+    {
+      "name": "Honomu",
+      "slug": "honomu"
+    },
+    {
+      "name": "Iroquois Point",
+      "slug": "iroquois-point"
+    },
+    {
+      "name": "Kaaawa",
+      "slug": "kaaawa"
+    },
+    {
+      "name": "Kaanapali",
+      "slug": "kaanapali"
+    },
+    {
+      "name": "Kahaluu",
+      "slug": "kahaluu"
+    },
+    {
+      "name": "Kahaluu-Keauhou",
+      "slug": "kahaluu-keauhou"
+    },
+    {
+      "name": "Kahuku",
+      "slug": "kahuku"
+    },
+    {
+      "name": "Kahului",
+      "slug": "kahului"
+    },
+    {
+      "name": "Kailua",
+      "slug": "kailua"
+    },
+    {
+      "name": "Kalaeloa",
+      "slug": "kalaeloa"
+    },
+    {
+      "name": "Kalaheo",
+      "slug": "kalaheo"
+    },
+    {
+      "name": "Kalapana",
+      "slug": "kalapana"
+    },
+    {
+      "name": "Kalihiwai",
+      "slug": "kalihiwai"
+    },
+    {
+      "name": "Kaloko",
+      "slug": "kaloko"
+    },
+    {
+      "name": "Kamaili",
+      "slug": "kamaili"
+    },
+    {
+      "name": "Kaneohe",
+      "slug": "kaneohe"
+    },
+    {
+      "name": "Kapaa",
+      "slug": "kapaa"
+    },
+    {
+      "name": "Kapaau",
+      "slug": "kapaau"
+    },
+    {
+      "name": "Kapalua",
+      "slug": "kapalua"
+    },
+    {
+      "name": "Kapolei",
+      "slug": "kapolei"
+    },
+    {
+      "name": "Kaumakani",
+      "slug": "kaumakani"
+    },
+    {
+      "name": "Kaunakakai",
+      "slug": "kaunakakai"
+    },
+    {
+      "name": "Kawela Bay",
+      "slug": "kawela-bay"
+    },
+    {
+      "name": "Keaau",
+      "slug": "keaau"
+    },
+    {
+      "name": "Kealakekua",
+      "slug": "kealakekua"
+    },
+    {
+      "name": "Kekaha",
+      "slug": "kekaha"
+    },
+    {
+      "name": "Keokea",
+      "slug": "keokea"
+    },
+    {
+      "name": "Kihei",
+      "slug": "kihei"
+    },
+    {
+      "name": "Kilauea",
+      "slug": "kilauea"
+    },
+    {
+      "name": "Ko Olina",
+      "slug": "ko-olina"
+    },
+    {
+      "name": "Koloa",
+      "slug": "koloa"
+    },
+    {
+      "name": "Kualapuu",
+      "slug": "kualapuu"
+    },
+    {
+      "name": "Kukuihaele",
+      "slug": "kukuihaele"
+    },
+    {
+      "name": "Kula",
+      "slug": "kula"
+    },
+    {
+      "name": "Kurtistown",
+      "slug": "kurtistown"
+    },
+    {
+      "name": "Lahaina",
+      "slug": "lahaina"
+    },
+    {
+      "name": "Laie",
+      "slug": "laie"
+    },
+    {
+      "name": "Lanai City",
+      "slug": "lanai-city"
+    },
+    {
+      "name": "Launiupoko",
+      "slug": "launiupoko"
+    },
+    {
+      "name": "Laupahoehoe",
+      "slug": "laupahoehoe"
+    },
+    {
+      "name": "Lawai",
+      "slug": "lawai"
+    },
+    {
+      "name": "Leilani Estates",
+      "slug": "leilani-estates"
+    },
+    {
+      "name": "Lihue",
+      "slug": "lihue"
+    },
+    {
+      "name": "Maalaea",
+      "slug": "maalaea"
+    },
+    {
+      "name": "Mahinahina",
+      "slug": "mahinahina"
+    },
+    {
+      "name": "Maili",
+      "slug": "maili"
+    },
+    {
+      "name": "Makaha",
+      "slug": "makaha"
+    },
+    {
+      "name": "Makaha Valley",
+      "slug": "makaha-valley"
+    },
+    {
+      "name": "Makakilo",
+      "slug": "makakilo"
+    },
+    {
+      "name": "Makawao",
+      "slug": "makawao"
+    },
+    {
+      "name": "Makena",
+      "slug": "makena"
+    },
+    {
+      "name": "Manele",
+      "slug": "manele"
+    },
+    {
+      "name": "Mauna Loa Estates",
+      "slug": "mauna-loa-estates"
+    },
+    {
+      "name": "Maunaloa",
+      "slug": "maunaloa"
+    },
+    {
+      "name": "Maunawili",
+      "slug": "maunawili"
+    },
+    {
+      "name": "Mililani Mauka",
+      "slug": "mililani-mauka"
+    },
+    {
+      "name": "Mililani Town",
+      "slug": "mililani-town"
+    },
+    {
+      "name": "Mokuleia",
+      "slug": "mokuleia"
+    },
+    {
+      "name": "Mountain View",
+      "slug": "mountain-view"
+    },
+    {
+      "name": "Naalehu",
+      "slug": "naalehu"
+    },
+    {
+      "name": "Nanakuli",
+      "slug": "nanakuli"
+    },
+    {
+      "name": "Nanawale Estates",
+      "slug": "nanawale-estates"
+    },
+    {
+      "name": "Napili-Honokowai",
+      "slug": "napili-honokowai"
+    },
+    {
+      "name": "Ocean Pointe",
+      "slug": "ocean-pointe"
+    },
+    {
+      "name": "Olinda",
+      "slug": "olinda"
+    },
+    {
+      "name": "Olowalu",
+      "slug": "olowalu"
+    },
+    {
+      "name": "Omao",
+      "slug": "omao"
+    },
+    {
+      "name": "Orchidlands Estates",
+      "slug": "orchidlands-estates"
+    },
+    {
+      "name": "Paauilo",
+      "slug": "paauilo"
+    },
+    {
+      "name": "Pahala",
+      "slug": "pahala"
+    },
+    {
+      "name": "Pahoa",
+      "slug": "pahoa"
+    },
+    {
+      "name": "Paia",
+      "slug": "paia"
+    },
+    {
+      "name": "Pakala Village",
+      "slug": "pakala-village"
+    },
+    {
+      "name": "Papaikou",
+      "slug": "papaikou"
+    },
+    {
+      "name": "Paukaa",
+      "slug": "paukaa"
+    },
+    {
+      "name": "Pearl City",
+      "slug": "pearl-city"
+    },
+    {
+      "name": "Pepeekeo",
+      "slug": "pepeekeo"
+    },
+    {
+      "name": "Poipu",
+      "slug": "poipu"
+    },
+    {
+      "name": "Princeville",
+      "slug": "princeville"
+    },
+    {
+      "name": "Puako",
+      "slug": "puako"
+    },
+    {
+      "name": "Puhi",
+      "slug": "puhi"
+    },
+    {
+      "name": "Pukalani",
+      "slug": "pukalani"
+    },
+    {
+      "name": "Punaluu",
+      "slug": "punaluu"
+    },
+    {
+      "name": "Pupukea",
+      "slug": "pupukea"
+    },
+    {
+      "name": "Royal Hawaiian Estates",
+      "slug": "royal-hawaiian-estates"
+    },
+    {
+      "name": "Royal Kunia",
+      "slug": "royal-kunia"
+    },
+    {
+      "name": "Schofield Barracks",
+      "slug": "schofield-barracks"
+    },
+    {
+      "name": "Seaview",
+      "slug": "seaview"
+    },
+    {
+      "name": "Tiki Gardens",
+      "slug": "tiki-gardens"
+    },
+    {
+      "name": "Ualapue",
+      "slug": "ualapue"
+    },
+    {
+      "name": "Volcano",
+      "slug": "volcano"
+    },
+    {
+      "name": "Volcano Golf Course",
+      "slug": "volcano-golf-course"
+    },
+    {
+      "name": "Wahiawa",
+      "slug": "wahiawa"
+    },
+    {
+      "name": "Waialua",
+      "slug": "waialua"
+    },
+    {
+      "name": "Waianae",
+      "slug": "waianae"
+    },
+    {
+      "name": "Waihee-Waiehu",
+      "slug": "waihee-waiehu"
+    },
+    {
+      "name": "Waikapu",
+      "slug": "waikapu"
+    },
+    {
+      "name": "Waikele",
+      "slug": "waikele"
+    },
+    {
+      "name": "Waikoloa Beach Resort",
+      "slug": "waikoloa-beach-resort"
+    },
+    {
+      "name": "Waikoloa Village",
+      "slug": "waikoloa-village"
+    },
+    {
+      "name": "Wailea",
+      "slug": "wailea"
+    },
+    {
+      "name": "Wailua",
+      "slug": "wailua"
+    },
+    {
+      "name": "Wailua Homesteads",
+      "slug": "wailua-homesteads"
+    },
+    {
+      "name": "Wailuku",
+      "slug": "wailuku"
+    },
+    {
+      "name": "Waimalu",
+      "slug": "waimalu"
+    },
+    {
+      "name": "Waimanalo",
+      "slug": "waimanalo"
+    },
+    {
+      "name": "Waimanalo Beach",
+      "slug": "waimanalo-beach"
+    },
+    {
+      "name": "Waimea",
+      "slug": "waimea"
+    },
+    {
+      "name": "Wainaku",
+      "slug": "wainaku"
+    },
+    {
+      "name": "Wainiha",
+      "slug": "wainiha"
+    },
+    {
+      "name": "Waiohinu",
+      "slug": "waiohinu"
+    },
+    {
+      "name": "Waipahu",
+      "slug": "waipahu"
+    },
+    {
+      "name": "Waipio",
+      "slug": "waipio"
+    },
+    {
+      "name": "Waipio Acres",
+      "slug": "waipio-acres"
+    },
+    {
+      "name": "West Loch Estate",
+      "slug": "west-loch-estate"
+    },
+    {
+      "name": "Wheeler AFB",
+      "slug": "wheeler-afb"
+    },
+    {
+      "name": "Whitmore Village",
+      "slug": "whitmore-village"
+    }
+  ]
+}

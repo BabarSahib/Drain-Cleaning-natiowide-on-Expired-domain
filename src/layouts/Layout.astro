@@ -1,0 +1,102 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonicalUrl?: string;
+}
+
+const {
+  title = "Rapid Flow Drain Pros | 24/7 Nationwide Drain Cleaning & Sewer Services",
+  description = "24/7 nationwide emergency drain cleaning, hydro-jetting, and sewer unclogging. Fast response with upfront flat-rate pricing. Call (877) 823-0231 for same day drain cleaning!",
+  canonicalUrl = "https://maxsonplumbing.com/"
+} = Astro.props;
+
+const schemaOrg = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://maxsonplumbing.com/#organization",
+      "name": "Rapid Flow Drain Pros",
+      "url": "https://maxsonplumbing.com/",
+      "logo": "https://maxsonplumbing.com/images/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-877-823-0231",
+        "contactType": "customer service",
+        "availableLanguage": "English",
+        "areaServed": "US"
+      }
+    },
+    {
+      "@type": "PlumbingService",
+      "@id": "https://maxsonplumbing.com/#localbusiness",
+      "name": "Rapid Flow Drain Pros",
+      "url": "https://maxsonplumbing.com/",
+      "telephone": "+1-877-823-0231",
+      "priceRange": "$$",
+      "paymentAccepted": "Cash, Credit Card, Check, Financing",
+      "currenciesAccepted": "USD",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1428"
+      }
+    }
+  ]
+};
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/images/plumber-hero.jpg" />
+    <meta property="og:site_name" content="Rapid Flow Drain Pros" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="/images/plumber-hero.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify(schemaOrg)} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

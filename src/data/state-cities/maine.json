@@ -1,0 +1,272 @@
+{
+  "state": "Maine",
+  "slug": "maine",
+  "abbr": "ME",
+  "cityCount": 66,
+  "cities": [
+    {
+      "name": "Auburn",
+      "slug": "auburn"
+    },
+    {
+      "name": "Augusta",
+      "slug": "augusta"
+    },
+    {
+      "name": "Bangor",
+      "slug": "bangor"
+    },
+    {
+      "name": "Bath",
+      "slug": "bath"
+    },
+    {
+      "name": "Belfast",
+      "slug": "belfast"
+    },
+    {
+      "name": "Bethel",
+      "slug": "bethel"
+    },
+    {
+      "name": "Biddeford",
+      "slug": "biddeford"
+    },
+    {
+      "name": "Bradley",
+      "slug": "bradley"
+    },
+    {
+      "name": "Brewer",
+      "slug": "brewer"
+    },
+    {
+      "name": "Brownville Junction",
+      "slug": "brownville-junction"
+    },
+    {
+      "name": "Calais",
+      "slug": "calais"
+    },
+    {
+      "name": "Cape Neddick",
+      "slug": "cape-neddick"
+    },
+    {
+      "name": "Caribou",
+      "slug": "caribou"
+    },
+    {
+      "name": "Chisholm",
+      "slug": "chisholm"
+    },
+    {
+      "name": "Corinna",
+      "slug": "corinna"
+    },
+    {
+      "name": "Cornish",
+      "slug": "cornish"
+    },
+    {
+      "name": "Cousins Island",
+      "slug": "cousins-island"
+    },
+    {
+      "name": "Cumberland Center",
+      "slug": "cumberland-center"
+    },
+    {
+      "name": "Danforth",
+      "slug": "danforth"
+    },
+    {
+      "name": "Dunstan",
+      "slug": "dunstan"
+    },
+    {
+      "name": "Eastport",
+      "slug": "eastport"
+    },
+    {
+      "name": "Ellsworth",
+      "slug": "ellsworth"
+    },
+    {
+      "name": "Falmouth Foreside",
+      "slug": "falmouth-foreside"
+    },
+    {
+      "name": "Gardiner",
+      "slug": "gardiner"
+    },
+    {
+      "name": "Grand Isle",
+      "slug": "grand-isle"
+    },
+    {
+      "name": "Greene",
+      "slug": "greene"
+    },
+    {
+      "name": "Hallowell",
+      "slug": "hallowell"
+    },
+    {
+      "name": "Island Falls",
+      "slug": "island-falls"
+    },
+    {
+      "name": "Jonesport",
+      "slug": "jonesport"
+    },
+    {
+      "name": "Kezar Falls",
+      "slug": "kezar-falls"
+    },
+    {
+      "name": "Kingfield",
+      "slug": "kingfield"
+    },
+    {
+      "name": "Kittery Point",
+      "slug": "kittery-point"
+    },
+    {
+      "name": "Lake Arrowhead",
+      "slug": "lake-arrowhead"
+    },
+    {
+      "name": "Lewiston",
+      "slug": "lewiston"
+    },
+    {
+      "name": "Lisbon",
+      "slug": "lisbon"
+    },
+    {
+      "name": "Lisbon Falls",
+      "slug": "lisbon-falls"
+    },
+    {
+      "name": "Little Falls",
+      "slug": "little-falls"
+    },
+    {
+      "name": "Littlejohn Island",
+      "slug": "littlejohn-island"
+    },
+    {
+      "name": "Mattawamkeag",
+      "slug": "mattawamkeag"
+    },
+    {
+      "name": "Milbridge",
+      "slug": "milbridge"
+    },
+    {
+      "name": "North Anson",
+      "slug": "north-anson"
+    },
+    {
+      "name": "North Windham",
+      "slug": "north-windham"
+    },
+    {
+      "name": "Northeast Harbor",
+      "slug": "northeast-harbor"
+    },
+    {
+      "name": "Oakfield",
+      "slug": "oakfield"
+    },
+    {
+      "name": "Old Town",
+      "slug": "old-town"
+    },
+    {
+      "name": "Patten",
+      "slug": "patten"
+    },
+    {
+      "name": "Portland",
+      "slug": "portland"
+    },
+    {
+      "name": "Presque Isle",
+      "slug": "presque-isle"
+    },
+    {
+      "name": "Rangeley",
+      "slug": "rangeley"
+    },
+    {
+      "name": "Rockland",
+      "slug": "rockland"
+    },
+    {
+      "name": "Sabattus",
+      "slug": "sabattus"
+    },
+    {
+      "name": "Saco",
+      "slug": "saco"
+    },
+    {
+      "name": "Sanford",
+      "slug": "sanford"
+    },
+    {
+      "name": "South Berwick",
+      "slug": "south-berwick"
+    },
+    {
+      "name": "South Eliot",
+      "slug": "south-eliot"
+    },
+    {
+      "name": "South Paris",
+      "slug": "south-paris"
+    },
+    {
+      "name": "South Portland",
+      "slug": "south-portland"
+    },
+    {
+      "name": "South Windham",
+      "slug": "south-windham"
+    },
+    {
+      "name": "Steep Falls",
+      "slug": "steep-falls"
+    },
+    {
+      "name": "Turner",
+      "slug": "turner"
+    },
+    {
+      "name": "Vanceboro",
+      "slug": "vanceboro"
+    },
+    {
+      "name": "Veazie",
+      "slug": "veazie"
+    },
+    {
+      "name": "Waterville",
+      "slug": "waterville"
+    },
+    {
+      "name": "West Kennebunk",
+      "slug": "west-kennebunk"
+    },
+    {
+      "name": "Westbrook",
+      "slug": "westbrook"
+    },
+    {
+      "name": "York Harbor",
+      "slug": "york-harbor"
+    }
+  ]
+}

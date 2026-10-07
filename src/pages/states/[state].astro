@@ -1,0 +1,399 @@
+---
+export const prerender = false;
+
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import ContactSection from '../../components/ContactSection.astro';
+import FAQAccordion from '../../components/FAQAccordion.astro';
+import { allStatesList, getStateData } from '../../data/locations';
+import { services } from '../../data/services';
+
+const { state: stateParam } = Astro.params;
+const stateData = getStateData(stateParam || '');
+
+if (!stateData) {
+  return Astro.redirect('/#locations');
+}
+
+const breadcrumbItems = [
+  { name: "Home", url: "/" },
+  { name: `${stateData.state} Drain Cleaning` }
+];
+
+const stateSchema = {
+  "@context": "https://schema.org",
+  "@type": "PlumbingService",
+  "name": `Rapid Flow Drain Pros - ${stateData.state}`,
+  "telephone": "+1-877-823-0231",
+  "url": `https://maxsonplumbing.com/states/${stateData.slug}/`,
+  "priceRange": "$$",
+  "areaServed": {
+    "@type": "State",
+    "name": stateData.state
+  },
+  "description": `24/7 emergency drain cleaning, hydro-jetting, and sewer rooter services across ${stateData.state}. Upfront flat rates with 30-45 min local arrival.`
+};
+---
+
+<Layout
+  title={`Drain Cleaning in ${stateData.state}, ${stateData.abbr} | Rapid Flow Drain Pros`}
+  description={`Need drain cleaning in ${stateData.state}? We offer statewide 24/7 emergency drain unclogging, hydro-jetting, and sewer repairs with fast local dispatch. Call (877) 823-0231!`}
+  canonicalUrl={`https://maxsonplumbing.com/states/${stateData.slug}/`}
+>
+  <Breadcrumb items={breadcrumbItems} />
+
+  <!-- State Hero -->
+  <section class="state-hero">
+    <div class="container">
+      <span class="badge-pill">{stateData.state} 24/7 Emergency Dispatch</span>
+      <h1 class="state-title">Drain Cleaning in <span class="highlight-text">{stateData.state}, {stateData.abbr}</span></h1>
+      <p class="state-lead">
+        Rapid Flow Drain Pros provides reliable 24/7 emergency drain cleaning, sewer clog removal, and 4,000 PSI hydro-jetting throughout {stateData.state}. Select or search your city below to connect directly with local on-call technicians.
+      </p>
+
+      <div class="hero-actions">
+        <a href="tel:+18778230231" class="btn btn-emergency">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Call 24/7 {stateData.abbr} Dispatch: (877) 823-0231
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- City Search & Comprehensive Pill Grid (furnacerepairpros.com exact style) -->
+  <section class="section-padding state-directory-section">
+    <div class="container">
+      <div class="search-wrapper">
+        <div class="search-input-box">
+          <input 
+            type="text" 
+            id="city-filter-input" 
+            placeholder={`Search your city in ${stateData.state}...`}
+            aria-label={`Search cities in ${stateData.state}`}
+          />
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+        <div class="city-count-info">
+          Showing <span id="visible-count">{stateData.cities.length}</span> service locations across {stateData.state}
+        </div>
+      </div>
+
+      <!-- Pill Grid -->
+      <div class="city-pills-container" id="city-pills-grid">
+        {stateData.cities.map((city: { name: string; slug: string }) => (
+          <a 
+            href={`/${stateData.slug}/${city.slug}/`} 
+            class="city-pill" 
+            data-name={city.name.toLowerCase()}
+          >
+            {city.name}
+          </a>
+        ))}
+      </div>
+
+      <div id="no-results-msg" class="no-results" style="display: none;">
+        <p>No cities found matching your search. Our mobile technicians service all surrounding towns and rural areas in {stateData.state}.</p>
+        <a href="tel:+18778230231" class="btn btn-emergency">Call Dispatch: (877) 823-0231</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- State Services Offered -->
+  <section class="section-padding state-services-section">
+    <div class="container">
+      <div class="section-header-centered">
+        <h2>Complete Drain & Sewer Services in {stateData.state}</h2>
+        <p>Our licensed master technicians provide full residential and commercial drain clearing across {stateData.state}.</p>
+      </div>
+
+      <div class="services-compact-grid">
+        {services.map((srv) => (
+          <div class="service-compact-card">
+            <h4><a href={`/services/${srv.slug}/`}>{srv.name}</a></h4>
+            <p>{srv.shortDesc}</p>
+            <a href={`/services/${srv.slug}/`} class="compact-learn-more">Learn More →</a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <FAQAccordion />
+  <ContactSection />
+
+  <script type="application/ld+json" set:html={JSON.stringify(stateSchema)} />
+</Layout>
+
+<script>
+  const searchInput = document.getElementById('city-filter-input') as HTMLInputElement | null;
+  const pillsGrid = document.getElementById('city-pills-grid');
+  const visibleCount = document.getElementById('visible-count');
+  const noResults = document.getElementById('no-results-msg');
+
+  if (searchInput && pillsGrid) {
+    const pills = Array.from(pillsGrid.querySelectorAll('.city-pill')) as HTMLElement[];
+    const totalCount = pills.length;
+
+    searchInput.addEventListener('input', (e) => {
+      const query = (e.target as HTMLInputElement).value.toLowerCase().trim();
+      let matched = 0;
+
+      pills.forEach((pill) => {
+        const name = pill.getAttribute('data-name') || '';
+        if (!query || name.includes(query)) {
+          pill.style.display = 'inline-flex';
+          matched++;
+        } else {
+          pill.style.display = 'none';
+        }
+      });
+
+      if (visibleCount) {
+        visibleCount.textContent = matched.toString();
+      }
+
+      if (noResults) {
+        noResults.style.display = matched === 0 ? 'block' : 'none';
+      }
+    });
+  }
+</script>
+
+<style>
+  .state-hero {
+    background: linear-gradient(160deg, #040d1f 0%, #0a1e3d 40%, #0f2847 70%, #132e52 100%);
+    color: var(--color-white);
+    padding: 4.5rem 0;
+    text-align: center;
+  }
+
+  .badge-pill {
+    background: rgba(234, 88, 12, 0.2);
+    border: 1px solid rgba(234, 88, 12, 0.45);
+    color: #fb923c;
+    padding: 0.35rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    margin-bottom: 1.25rem;
+  }
+
+  .state-title {
+    font-size: 2.75rem;
+    color: var(--color-white);
+    margin-bottom: 1rem;
+  }
+
+  .state-lead {
+    font-size: 1.15rem;
+    color: #cbd5e1;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+  }
+
+  .hero-actions {
+    display: flex;
+    justify-content: center;
+  }
+
+  .state-directory-section {
+    background: #ffffff;
+    padding: 3.5rem 0 5rem 0;
+  }
+
+  /* Search Box (Screenshot 3 style) */
+  .search-wrapper {
+    max-width: 600px;
+    margin: 0 auto 2.5rem auto;
+    text-align: center;
+  }
+
+  .search-input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-input-box input {
+    width: 100%;
+    padding: 0.85rem 3rem 0.85rem 1.25rem;
+    font-size: 1rem;
+    border: 1.5px solid var(--color-slate-300);
+    border-radius: var(--radius-md);
+    outline: none;
+    transition: all 0.2s ease;
+    background: #fff;
+    color: var(--color-slate-900);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .search-input-box input:focus {
+    border-color: var(--color-primary-600);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 1.1rem;
+    color: var(--color-slate-400);
+    pointer-events: none;
+  }
+
+  .city-count-info {
+    margin-top: 0.6rem;
+    font-size: 0.88rem;
+    color: var(--color-slate-500);
+    font-weight: 500;
+  }
+
+  .city-count-info span {
+    font-weight: 700;
+    color: var(--color-primary-700);
+  }
+
+  /* City Pills Grid (Screenshot 3 exact style) */
+  .city-pills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .city-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 0.45rem 0.85rem;
+    font-size: 0.86rem;
+    font-weight: 500;
+    color: #334155;
+    text-decoration: none;
+    transition: all 0.15s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  }
+
+  .city-pill:hover {
+    background: var(--color-primary-600);
+    color: #ffffff;
+    border-color: var(--color-primary-600);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.2);
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 3rem 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .no-results p {
+    color: var(--color-slate-600);
+    margin-bottom: 1.5rem;
+  }
+
+  .state-services-section {
+    background: var(--color-slate-50);
+    border-top: 1px solid var(--color-slate-200);
+  }
+
+  .section-header-centered {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+  }
+
+  .section-header-centered h2 {
+    font-size: 2.1rem;
+    color: var(--color-primary-950);
+    margin-bottom: 0.5rem;
+  }
+
+  .section-header-centered p {
+    color: var(--color-slate-600);
+    font-size: 1rem;
+  }
+
+  .services-compact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .service-compact-card {
+    background: var(--color-white);
+    border: 1px solid var(--color-slate-200);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .service-compact-card h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .service-compact-card h4 a {
+    color: var(--color-primary-950);
+    text-decoration: none;
+  }
+
+  .service-compact-card h4 a:hover {
+    color: var(--color-primary-600);
+  }
+
+  .service-compact-card p {
+    color: var(--color-slate-600);
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+  }
+
+  .compact-learn-more {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--color-primary-600);
+    text-decoration: none;
+  }
+
+  .compact-learn-more:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 1024px) {
+    .services-compact-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .state-title {
+      font-size: 2rem;
+    }
+    .city-pills-container {
+      gap: 0.4rem;
+    }
+    .city-pill {
+      font-size: 0.8rem;
+      padding: 0.35rem 0.65rem;
+    }
+    .services-compact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

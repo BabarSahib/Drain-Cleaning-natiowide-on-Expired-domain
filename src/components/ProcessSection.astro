@@ -1,0 +1,165 @@
+---
+// ProcessSection.astro
+const steps = [
+  {
+    num: "01",
+    title: "24/7 Call & Rapid Dispatch",
+    desc: "Dial our toll-free direct line. Our live dispatch coordinators immediately connect you with the closest licensed drain specialist in your zip code with zero wait time."
+  },
+  {
+    num: "02",
+    title: "HD Video Camera Inspection",
+    desc: "Your technician arrives with a mobile diagnostic suite and inserts a waterproof optical camera to pinpoint the exact clog location, depth, and pipe condition on screen."
+  },
+  {
+    num: "03",
+    title: "Firm Upfront Written Quote",
+    desc: "Before any tool touches your plumbing, you receive an upfront, flat-rate price in writing. No hidden mileage fees, no holiday rate gouging, and no surprises."
+  },
+  {
+    num: "04",
+    title: "Clearing & Flow Verification",
+    desc: "We clear the blockage using targeted augers or hydro-jetting, perform a final camera confirmation to verify 100% flow restoration, and leave your property spotless."
+  }
+];
+---
+
+<section id="process" class="section-padding process-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">How It Works</span>
+      <h2>Restoring Normal Flow In 4 Simple Steps</h2>
+      <p>From your first phone call to final video flow verification, here is how our nationwide technicians resolve plumbing emergencies with zero stress.</p>
+    </div>
+
+    <div class="process-grid">
+      {steps.map((step, idx) => (
+        <div class="process-card">
+          <div class="step-badge">{step.num}</div>
+          <h3 class="step-title">{step.title}</h3>
+          <p class="step-desc">{step.desc}</p>
+          {idx < steps.length - 1 && (
+            <div class="step-connector">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+
+    <div class="process-cta-box">
+      <div class="cta-inner">
+        <div>
+          <h4>Ready To Schedule Your Same-Day Drain Clearing?</h4>
+          <p>Technicians are actively available in your area. Upfront pricing guaranteed.</p>
+        </div>
+        <a href="tel:+18778230231" class="btn btn-emergency">
+          Call Dispatch: (877) 823-0231
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .process-section {
+    background: var(--color-white);
+  }
+
+  .process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    position: relative;
+    margin-bottom: 3.5rem;
+  }
+
+  .process-card {
+    background: var(--color-slate-50);
+    border: 1px solid var(--color-slate-200);
+    border-radius: var(--radius-lg);
+    padding: 2.2rem 1.6rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.25s ease;
+  }
+
+  .process-card:hover {
+    border-color: var(--color-primary-500);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .step-badge {
+    width: 44px;
+    height: 44px;
+    background: var(--color-primary-950);
+    color: var(--color-white);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-bottom: 1.4rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  }
+
+  .step-title {
+    font-size: 1.15rem;
+    margin-bottom: 0.8rem;
+    color: var(--color-primary-950);
+  }
+
+  .step-desc {
+    font-size: 0.9rem;
+    color: var(--color-slate-600);
+    line-height: 1.55;
+  }
+
+  .step-connector {
+    display: none;
+  }
+
+  .process-cta-box {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.08) 0%, rgba(56, 189, 248, 0.06) 100%);
+    border: 1px solid rgba(37, 99, 235, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem 2.5rem;
+  }
+
+  .cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .cta-inner h4 {
+    font-size: 1.3rem;
+    color: var(--color-primary-950);
+    margin-bottom: 0.25rem;
+  }
+
+  .cta-inner p {
+    color: var(--color-slate-600);
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 992px) {
+    .process-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 680px) {
+    .process-grid {
+      grid-template-columns: 1fr;
+    }
+    .cta-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>

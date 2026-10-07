@@ -1,0 +1,1852 @@
+{
+  "state": "Arizona",
+  "slug": "arizona",
+  "abbr": "AZ",
+  "cityCount": 461,
+  "cities": [
+    {
+      "name": "Aguila",
+      "slug": "aguila"
+    },
+    {
+      "name": "Ajo",
+      "slug": "ajo"
+    },
+    {
+      "name": "Ak Chin",
+      "slug": "ak-chin"
+    },
+    {
+      "name": "Ak-Chin Village",
+      "slug": "ak-chin-village"
+    },
+    {
+      "name": "Alamo Lake",
+      "slug": "alamo-lake"
+    },
+    {
+      "name": "Ali Chuk",
+      "slug": "ali-chuk"
+    },
+    {
+      "name": "Ali Chukson",
+      "slug": "ali-chukson"
+    },
+    {
+      "name": "Ali Molina",
+      "slug": "ali-molina"
+    },
+    {
+      "name": "Alpine",
+      "slug": "alpine"
+    },
+    {
+      "name": "Amado",
+      "slug": "amado"
+    },
+    {
+      "name": "Anegam",
+      "slug": "anegam"
+    },
+    {
+      "name": "Antares",
+      "slug": "antares"
+    },
+    {
+      "name": "Anthem",
+      "slug": "anthem"
+    },
+    {
+      "name": "Apache Junction",
+      "slug": "apache-junction"
+    },
+    {
+      "name": "Arivaca",
+      "slug": "arivaca"
+    },
+    {
+      "name": "Arivaca Junction",
+      "slug": "arivaca-junction"
+    },
+    {
+      "name": "Arizona City",
+      "slug": "arizona-city"
+    },
+    {
+      "name": "Arizona Village",
+      "slug": "arizona-village"
+    },
+    {
+      "name": "Arlington",
+      "slug": "arlington"
+    },
+    {
+      "name": "Ash Fork",
+      "slug": "ash-fork"
+    },
+    {
+      "name": "Avenue B and C",
+      "slug": "avenue-b-and-c"
+    },
+    {
+      "name": "Avondale",
+      "slug": "avondale"
+    },
+    {
+      "name": "Avra Valley",
+      "slug": "avra-valley"
+    },
+    {
+      "name": "Aztec",
+      "slug": "aztec"
+    },
+    {
+      "name": "Bagdad",
+      "slug": "bagdad"
+    },
+    {
+      "name": "Bear Flat",
+      "slug": "bear-flat"
+    },
+    {
+      "name": "Beaver Dam",
+      "slug": "beaver-dam"
+    },
+    {
+      "name": "Beaver Valley",
+      "slug": "beaver-valley"
+    },
+    {
+      "name": "Bellemont",
+      "slug": "bellemont"
+    },
+    {
+      "name": "Benson",
+      "slug": "benson"
+    },
+    {
+      "name": "Beyerville",
+      "slug": "beyerville"
+    },
+    {
+      "name": "Bisbee",
+      "slug": "bisbee"
+    },
+    {
+      "name": "Bitter Springs",
+      "slug": "bitter-springs"
+    },
+    {
+      "name": "Black Canyon City",
+      "slug": "black-canyon-city"
+    },
+    {
+      "name": "Blackwater",
+      "slug": "blackwater"
+    },
+    {
+      "name": "Blue Ridge",
+      "slug": "blue-ridge"
+    },
+    {
+      "name": "Bluewater",
+      "slug": "bluewater"
+    },
+    {
+      "name": "Bouse",
+      "slug": "bouse"
+    },
+    {
+      "name": "Bowie",
+      "slug": "bowie"
+    },
+    {
+      "name": "Brenda",
+      "slug": "brenda"
+    },
+    {
+      "name": "Bryce",
+      "slug": "bryce"
+    },
+    {
+      "name": "Buckeye",
+      "slug": "buckeye"
+    },
+    {
+      "name": "Buckshot",
+      "slug": "buckshot"
+    },
+    {
+      "name": "Bullhead City",
+      "slug": "bullhead-city"
+    },
+    {
+      "name": "Burnside",
+      "slug": "burnside"
+    },
+    {
+      "name": "Bylas",
+      "slug": "bylas"
+    },
+    {
+      "name": "Cactus Flats",
+      "slug": "cactus-flats"
+    },
+    {
+      "name": "Cactus Forest",
+      "slug": "cactus-forest"
+    },
+    {
+      "name": "Cameron",
+      "slug": "cameron"
+    },
+    {
+      "name": "Camp Verde",
+      "slug": "camp-verde"
+    },
+    {
+      "name": "Campo Bonito",
+      "slug": "campo-bonito"
+    },
+    {
+      "name": "Cane Beds",
+      "slug": "cane-beds"
+    },
+    {
+      "name": "Canyon Day",
+      "slug": "canyon-day"
+    },
+    {
+      "name": "Carefree",
+      "slug": "carefree"
+    },
+    {
+      "name": "Carrizo",
+      "slug": "carrizo"
+    },
+    {
+      "name": "Casa Blanca",
+      "slug": "casa-blanca"
+    },
+    {
+      "name": "Casa Grande",
+      "slug": "casa-grande"
+    },
+    {
+      "name": "Casas Adobes",
+      "slug": "casas-adobes"
+    },
+    {
+      "name": "Catalina",
+      "slug": "catalina"
+    },
+    {
+      "name": "Catalina Foothills",
+      "slug": "catalina-foothills"
+    },
+    {
+      "name": "Cave Creek",
+      "slug": "cave-creek"
+    },
+    {
+      "name": "Cedar Creek",
+      "slug": "cedar-creek"
+    },
+    {
+      "name": "Centennial Park",
+      "slug": "centennial-park"
+    },
+    {
+      "name": "Central",
+      "slug": "central"
+    },
+    {
+      "name": "Central Heights-Midland City",
+      "slug": "central-heights-midland-city"
+    },
+    {
+      "name": "Chandler",
+      "slug": "chandler"
+    },
+    {
+      "name": "Charco",
+      "slug": "charco"
+    },
+    {
+      "name": "Chiawuli Tak",
+      "slug": "chiawuli-tak"
+    },
+    {
+      "name": "Chilchinbito",
+      "slug": "chilchinbito"
+    },
+    {
+      "name": "Chinle",
+      "slug": "chinle"
+    },
+    {
+      "name": "Chino Valley",
+      "slug": "chino-valley"
+    },
+    {
+      "name": "Chloride",
+      "slug": "chloride"
+    },
+    {
+      "name": "Christopher Creek",
+      "slug": "christopher-creek"
+    },
+    {
+      "name": "Chuichu",
+      "slug": "chuichu"
+    },
+    {
+      "name": "Cibecue",
+      "slug": "cibecue"
+    },
+    {
+      "name": "Cibola",
+      "slug": "cibola"
+    },
+    {
+      "name": "Cienega Springs",
+      "slug": "cienega-springs"
+    },
+    {
+      "name": "Circle City",
+      "slug": "circle-city"
+    },
+    {
+      "name": "Citrus Park",
+      "slug": "citrus-park"
+    },
+    {
+      "name": "Clacks Canyon",
+      "slug": "clacks-canyon"
+    },
+    {
+      "name": "Clarkdale",
+      "slug": "clarkdale"
+    },
+    {
+      "name": "Clay Springs",
+      "slug": "clay-springs"
+    },
+    {
+      "name": "Claypool",
+      "slug": "claypool"
+    },
+    {
+      "name": "Clifton",
+      "slug": "clifton"
+    },
+    {
+      "name": "Colorado City",
+      "slug": "colorado-city"
+    },
+    {
+      "name": "Comobabi",
+      "slug": "comobabi"
+    },
+    {
+      "name": "Concho",
+      "slug": "concho"
+    },
+    {
+      "name": "Congress",
+      "slug": "congress"
+    },
+    {
+      "name": "Coolidge",
+      "slug": "coolidge"
+    },
+    {
+      "name": "Copper Hill",
+      "slug": "copper-hill"
+    },
+    {
+      "name": "Cordes Lakes",
+      "slug": "cordes-lakes"
+    },
+    {
+      "name": "Cornfields",
+      "slug": "cornfields"
+    },
+    {
+      "name": "Cornville",
+      "slug": "cornville"
+    },
+    {
+      "name": "Corona de Tucson",
+      "slug": "corona-de-tucson"
+    },
+    {
+      "name": "Cottonwood",
+      "slug": "cottonwood"
+    },
+    {
+      "name": "Cowlic",
+      "slug": "cowlic"
+    },
+    {
+      "name": "Crozier",
+      "slug": "crozier"
+    },
+    {
+      "name": "Crystal Beach",
+      "slug": "crystal-beach"
+    },
+    {
+      "name": "Cutter",
+      "slug": "cutter"
+    },
+    {
+      "name": "Dateland",
+      "slug": "dateland"
+    },
+    {
+      "name": "Deer Creek",
+      "slug": "deer-creek"
+    },
+    {
+      "name": "Del Muerto",
+      "slug": "del-muerto"
+    },
+    {
+      "name": "Dennehotso",
+      "slug": "dennehotso"
+    },
+    {
+      "name": "Desert Hills",
+      "slug": "desert-hills"
+    },
+    {
+      "name": "Dewey-Humboldt",
+      "slug": "dewey-humboldt"
+    },
+    {
+      "name": "Dilkon",
+      "slug": "dilkon"
+    },
+    {
+      "name": "Dolan Springs",
+      "slug": "dolan-springs"
+    },
+    {
+      "name": "Doney Park",
+      "slug": "doney-park"
+    },
+    {
+      "name": "Donovan Estates",
+      "slug": "donovan-estates"
+    },
+    {
+      "name": "Douglas",
+      "slug": "douglas"
+    },
+    {
+      "name": "Dragoon",
+      "slug": "dragoon"
+    },
+    {
+      "name": "Drexel Heights",
+      "slug": "drexel-heights"
+    },
+    {
+      "name": "Dripping Springs",
+      "slug": "dripping-springs"
+    },
+    {
+      "name": "Drysdale",
+      "slug": "drysdale"
+    },
+    {
+      "name": "Dudleyville",
+      "slug": "dudleyville"
+    },
+    {
+      "name": "Duncan",
+      "slug": "duncan"
+    },
+    {
+      "name": "Eagar",
+      "slug": "eagar"
+    },
+    {
+      "name": "East Fork",
+      "slug": "east-fork"
+    },
+    {
+      "name": "East Globe",
+      "slug": "east-globe"
+    },
+    {
+      "name": "East Verde Estates",
+      "slug": "east-verde-estates"
+    },
+    {
+      "name": "Ehrenberg",
+      "slug": "ehrenberg"
+    },
+    {
+      "name": "El Capitan",
+      "slug": "el-capitan"
+    },
+    {
+      "name": "El Mirage",
+      "slug": "el-mirage"
+    },
+    {
+      "name": "El Prado Estates",
+      "slug": "el-prado-estates"
+    },
+    {
+      "name": "Elephant Head",
+      "slug": "elephant-head"
+    },
+    {
+      "name": "Elfrida",
+      "slug": "elfrida"
+    },
+    {
+      "name": "Elgin",
+      "slug": "elgin"
+    },
+    {
+      "name": "Eloy",
+      "slug": "eloy"
+    },
+    {
+      "name": "First Mesa",
+      "slug": "first-mesa"
+    },
+    {
+      "name": "Flagstaff",
+      "slug": "flagstaff"
+    },
+    {
+      "name": "Florence",
+      "slug": "florence"
+    },
+    {
+      "name": "Flowing Springs",
+      "slug": "flowing-springs"
+    },
+    {
+      "name": "Flowing Wells",
+      "slug": "flowing-wells"
+    },
+    {
+      "name": "Fort Apache",
+      "slug": "fort-apache"
+    },
+    {
+      "name": "Fort Defiance",
+      "slug": "fort-defiance"
+    },
+    {
+      "name": "Fort Mohave",
+      "slug": "fort-mohave"
+    },
+    {
+      "name": "Fort Thomas",
+      "slug": "fort-thomas"
+    },
+    {
+      "name": "Fort Valley",
+      "slug": "fort-valley"
+    },
+    {
+      "name": "Fortuna Foothills",
+      "slug": "fortuna-foothills"
+    },
+    {
+      "name": "Fountain Hills",
+      "slug": "fountain-hills"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin"
+    },
+    {
+      "name": "Fredonia",
+      "slug": "fredonia"
+    },
+    {
+      "name": "Freedom Acres",
+      "slug": "freedom-acres"
+    },
+    {
+      "name": "Gadsden",
+      "slug": "gadsden"
+    },
+    {
+      "name": "Ganado",
+      "slug": "ganado"
+    },
+    {
+      "name": "Geronimo Estates",
+      "slug": "geronimo-estates"
+    },
+    {
+      "name": "Gila Bend",
+      "slug": "gila-bend"
+    },
+    {
+      "name": "Gila Crossing",
+      "slug": "gila-crossing"
+    },
+    {
+      "name": "Gilbert",
+      "slug": "gilbert"
+    },
+    {
+      "name": "Gisela",
+      "slug": "gisela"
+    },
+    {
+      "name": "Glendale",
+      "slug": "glendale"
+    },
+    {
+      "name": "Globe",
+      "slug": "globe"
+    },
+    {
+      "name": "Gold Canyon",
+      "slug": "gold-canyon"
+    },
+    {
+      "name": "Golden Shores",
+      "slug": "golden-shores"
+    },
+    {
+      "name": "Golden Valley",
+      "slug": "golden-valley"
+    },
+    {
+      "name": "Goodyear",
+      "slug": "goodyear"
+    },
+    {
+      "name": "Goodyear Village",
+      "slug": "goodyear-village"
+    },
+    {
+      "name": "Grand Canyon Village",
+      "slug": "grand-canyon-village"
+    },
+    {
+      "name": "Grand Canyon West",
+      "slug": "grand-canyon-west"
+    },
+    {
+      "name": "Greasewood",
+      "slug": "greasewood"
+    },
+    {
+      "name": "Green Valley",
+      "slug": "green-valley"
+    },
+    {
+      "name": "Greenehaven",
+      "slug": "greenehaven"
+    },
+    {
+      "name": "Greer",
+      "slug": "greer"
+    },
+    {
+      "name": "Gu Oidak",
+      "slug": "gu-oidak"
+    },
+    {
+      "name": "Guadalupe",
+      "slug": "guadalupe"
+    },
+    {
+      "name": "Hackberry",
+      "slug": "hackberry"
+    },
+    {
+      "name": "Haigler Creek",
+      "slug": "haigler-creek"
+    },
+    {
+      "name": "Haivana Nakya",
+      "slug": "haivana-nakya"
+    },
+    {
+      "name": "Hard Rock",
+      "slug": "hard-rock"
+    },
+    {
+      "name": "Hayden",
+      "slug": "hayden"
+    },
+    {
+      "name": "Heber-Overgaard",
+      "slug": "heber-overgaard"
+    },
+    {
+      "name": "Holbrook",
+      "slug": "holbrook"
+    },
+    {
+      "name": "Hondah",
+      "slug": "hondah"
+    },
+    {
+      "name": "Hotevilla-Bacavi",
+      "slug": "hotevilla-bacavi"
+    },
+    {
+      "name": "Houck",
+      "slug": "houck"
+    },
+    {
+      "name": "Huachuca City",
+      "slug": "huachuca-city"
+    },
+    {
+      "name": "Hunter Creek",
+      "slug": "hunter-creek"
+    },
+    {
+      "name": "Icehouse Canyon",
+      "slug": "icehouse-canyon"
+    },
+    {
+      "name": "Indian Wells",
+      "slug": "indian-wells"
+    },
+    {
+      "name": "Jakes Corner",
+      "slug": "jakes-corner"
+    },
+    {
+      "name": "Jeddito",
+      "slug": "jeddito"
+    },
+    {
+      "name": "Jerome",
+      "slug": "jerome"
+    },
+    {
+      "name": "Joseph City",
+      "slug": "joseph-city"
+    },
+    {
+      "name": "Kachina Village",
+      "slug": "kachina-village"
+    },
+    {
+      "name": "Kaibab",
+      "slug": "kaibab"
+    },
+    {
+      "name": "Kaibab Estates West",
+      "slug": "kaibab-estates-west"
+    },
+    {
+      "name": "Kaibito",
+      "slug": "kaibito"
+    },
+    {
+      "name": "Kaka",
+      "slug": "kaka"
+    },
+    {
+      "name": "Katherine",
+      "slug": "katherine"
+    },
+    {
+      "name": "Kayenta",
+      "slug": "kayenta"
+    },
+    {
+      "name": "Keams Canyon",
+      "slug": "keams-canyon"
+    },
+    {
+      "name": "Kearny",
+      "slug": "kearny"
+    },
+    {
+      "name": "Kingman",
+      "slug": "kingman"
+    },
+    {
+      "name": "Kino Springs",
+      "slug": "kino-springs"
+    },
+    {
+      "name": "Klagetoh",
+      "slug": "klagetoh"
+    },
+    {
+      "name": "Kleindale",
+      "slug": "kleindale"
+    },
+    {
+      "name": "Ko Vaya",
+      "slug": "ko-vaya"
+    },
+    {
+      "name": "Kohatk",
+      "slug": "kohatk"
+    },
+    {
+      "name": "Kohls Ranch",
+      "slug": "kohls-ranch"
+    },
+    {
+      "name": "Komatke",
+      "slug": "komatke"
+    },
+    {
+      "name": "Kykotsmovi Village",
+      "slug": "kykotsmovi-village"
+    },
+    {
+      "name": "La Paz Valley",
+      "slug": "la-paz-valley"
+    },
+    {
+      "name": "Lake Havasu City",
+      "slug": "lake-havasu-city"
+    },
+    {
+      "name": "Lake Montezuma",
+      "slug": "lake-montezuma"
+    },
+    {
+      "name": "Lake of the Woods",
+      "slug": "lake-of-the-woods"
+    },
+    {
+      "name": "Lazy Y U",
+      "slug": "lazy-y-u"
+    },
+    {
+      "name": "LeChee",
+      "slug": "lechee"
+    },
+    {
+      "name": "Leupp",
+      "slug": "leupp"
+    },
+    {
+      "name": "Linden",
+      "slug": "linden"
+    },
+    {
+      "name": "Litchfield Park",
+      "slug": "litchfield-park"
+    },
+    {
+      "name": "Littlefield",
+      "slug": "littlefield"
+    },
+    {
+      "name": "Low Mountain",
+      "slug": "low-mountain"
+    },
+    {
+      "name": "Lower Santan Village",
+      "slug": "lower-santan-village"
+    },
+    {
+      "name": "Lukachukai",
+      "slug": "lukachukai"
+    },
+    {
+      "name": "Lupton",
+      "slug": "lupton"
+    },
+    {
+      "name": "Maish Vaya",
+      "slug": "maish-vaya"
+    },
+    {
+      "name": "Mammoth",
+      "slug": "mammoth"
+    },
+    {
+      "name": "Many Farms",
+      "slug": "many-farms"
+    },
+    {
+      "name": "Marana",
+      "slug": "marana"
+    },
+    {
+      "name": "Maricopa",
+      "slug": "maricopa"
+    },
+    {
+      "name": "Maricopa Colony",
+      "slug": "maricopa-colony"
+    },
+    {
+      "name": "Martinez Lake",
+      "slug": "martinez-lake"
+    },
+    {
+      "name": "Mayer",
+      "slug": "mayer"
+    },
+    {
+      "name": "McConnico",
+      "slug": "mcconnico"
+    },
+    {
+      "name": "McNary",
+      "slug": "mcnary"
+    },
+    {
+      "name": "McNeal",
+      "slug": "mcneal"
+    },
+    {
+      "name": "Mead Ranch",
+      "slug": "mead-ranch"
+    },
+    {
+      "name": "Meadview",
+      "slug": "meadview"
+    },
+    {
+      "name": "Mesa",
+      "slug": "mesa"
+    },
+    {
+      "name": "Mesa del Caballo",
+      "slug": "mesa-del-caballo"
+    },
+    {
+      "name": "Mescal",
+      "slug": "mescal"
+    },
+    {
+      "name": "Mesquite Creek",
+      "slug": "mesquite-creek"
+    },
+    {
+      "name": "Miami",
+      "slug": "miami"
+    },
+    {
+      "name": "Miracle Valley",
+      "slug": "miracle-valley"
+    },
+    {
+      "name": "Moccasin",
+      "slug": "moccasin"
+    },
+    {
+      "name": "Moenkopi",
+      "slug": "moenkopi"
+    },
+    {
+      "name": "Mohave Valley",
+      "slug": "mohave-valley"
+    },
+    {
+      "name": "Mojave Ranch Estates",
+      "slug": "mojave-ranch-estates"
+    },
+    {
+      "name": "Morenci",
+      "slug": "morenci"
+    },
+    {
+      "name": "Mormon Lake",
+      "slug": "mormon-lake"
+    },
+    {
+      "name": "Morristown",
+      "slug": "morristown"
+    },
+    {
+      "name": "Mountain View Ranches",
+      "slug": "mountain-view-ranches"
+    },
+    {
+      "name": "Mountainaire",
+      "slug": "mountainaire"
+    },
+    {
+      "name": "Munds Park",
+      "slug": "munds-park"
+    },
+    {
+      "name": "Naco",
+      "slug": "naco"
+    },
+    {
+      "name": "Nazlini",
+      "slug": "nazlini"
+    },
+    {
+      "name": "Nelson",
+      "slug": "nelson"
+    },
+    {
+      "name": "New Kingman-Butler",
+      "slug": "new-kingman-butler"
+    },
+    {
+      "name": "New River",
+      "slug": "new-river"
+    },
+    {
+      "name": "Nogales",
+      "slug": "nogales"
+    },
+    {
+      "name": "Nolic",
+      "slug": "nolic"
+    },
+    {
+      "name": "North Fork",
+      "slug": "north-fork"
+    },
+    {
+      "name": "Nutrioso",
+      "slug": "nutrioso"
+    },
+    {
+      "name": "Oak Creek Canyon",
+      "slug": "oak-creek-canyon"
+    },
+    {
+      "name": "Oak Springs",
+      "slug": "oak-springs"
+    },
+    {
+      "name": "Oatman",
+      "slug": "oatman"
+    },
+    {
+      "name": "Oljato-Monument Valley",
+      "slug": "oljato-monument-valley"
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle"
+    },
+    {
+      "name": "Oro Valley",
+      "slug": "oro-valley"
+    },
+    {
+      "name": "Oxbow Estates",
+      "slug": "oxbow-estates"
+    },
+    {
+      "name": "Padre Ranchitos",
+      "slug": "padre-ranchitos"
+    },
+    {
+      "name": "Page",
+      "slug": "page"
+    },
+    {
+      "name": "Palominas",
+      "slug": "palominas"
+    },
+    {
+      "name": "Paradise Valley",
+      "slug": "paradise-valley"
+    },
+    {
+      "name": "Parker",
+      "slug": "parker"
+    },
+    {
+      "name": "Parker Strip",
+      "slug": "parker-strip"
+    },
+    {
+      "name": "Parks",
+      "slug": "parks"
+    },
+    {
+      "name": "Patagonia",
+      "slug": "patagonia"
+    },
+    {
+      "name": "Paulden",
+      "slug": "paulden"
+    },
+    {
+      "name": "Payson",
+      "slug": "payson"
+    },
+    {
+      "name": "Peach Springs",
+      "slug": "peach-springs"
+    },
+    {
+      "name": "Peeples Valley",
+      "slug": "peeples-valley"
+    },
+    {
+      "name": "Peoria",
+      "slug": "peoria"
+    },
+    {
+      "name": "Peridot",
+      "slug": "peridot"
+    },
+    {
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    {
+      "name": "Picacho",
+      "slug": "picacho"
+    },
+    {
+      "name": "Picture Rocks",
+      "slug": "picture-rocks"
+    },
+    {
+      "name": "Pima",
+      "slug": "pima"
+    },
+    {
+      "name": "Pinal",
+      "slug": "pinal"
+    },
+    {
+      "name": "Pine",
+      "slug": "pine"
+    },
+    {
+      "name": "Pine Lake",
+      "slug": "pine-lake"
+    },
+    {
+      "name": "Pinedale",
+      "slug": "pinedale"
+    },
+    {
+      "name": "Pinetop Country Club",
+      "slug": "pinetop-country-club"
+    },
+    {
+      "name": "Pinetop-Lakeside",
+      "slug": "pinetop-lakeside"
+    },
+    {
+      "name": "Pinion Pines",
+      "slug": "pinion-pines"
+    },
+    {
+      "name": "Pinon",
+      "slug": "pinon"
+    },
+    {
+      "name": "Pirtleville",
+      "slug": "pirtleville"
+    },
+    {
+      "name": "Pisinemo",
+      "slug": "pisinemo"
+    },
+    {
+      "name": "Poston",
+      "slug": "poston"
+    },
+    {
+      "name": "Prescott",
+      "slug": "prescott"
+    },
+    {
+      "name": "Prescott Valley",
+      "slug": "prescott-valley"
+    },
+    {
+      "name": "Quartzsite",
+      "slug": "quartzsite"
+    },
+    {
+      "name": "Queen Creek",
+      "slug": "queen-creek"
+    },
+    {
+      "name": "Queen Valley",
+      "slug": "queen-valley"
+    },
+    {
+      "name": "Rainbow City",
+      "slug": "rainbow-city"
+    },
+    {
+      "name": "Rancho Mesa Verde",
+      "slug": "rancho-mesa-verde"
+    },
+    {
+      "name": "Red Lake",
+      "slug": "red-lake"
+    },
+    {
+      "name": "Red Mesa",
+      "slug": "red-mesa"
+    },
+    {
+      "name": "Red Rock",
+      "slug": "red-rock"
+    },
+    {
+      "name": "Rillito",
+      "slug": "rillito"
+    },
+    {
+      "name": "Rincon Valley",
+      "slug": "rincon-valley"
+    },
+    {
+      "name": "Rio Rico",
+      "slug": "rio-rico"
+    },
+    {
+      "name": "Rio Verde",
+      "slug": "rio-verde"
+    },
+    {
+      "name": "Rock House",
+      "slug": "rock-house"
+    },
+    {
+      "name": "Rock Point",
+      "slug": "rock-point"
+    },
+    {
+      "name": "Roosevelt",
+      "slug": "roosevelt"
+    },
+    {
+      "name": "Roosevelt Estates",
+      "slug": "roosevelt-estates"
+    },
+    {
+      "name": "Rough Rock",
+      "slug": "rough-rock"
+    },
+    {
+      "name": "Round Rock",
+      "slug": "round-rock"
+    },
+    {
+      "name": "Round Valley",
+      "slug": "round-valley"
+    },
+    {
+      "name": "Rye",
+      "slug": "rye"
+    },
+    {
+      "name": "Sacate Village",
+      "slug": "sacate-village"
+    },
+    {
+      "name": "Sacaton",
+      "slug": "sacaton"
+    },
+    {
+      "name": "Sacaton Flats Village",
+      "slug": "sacaton-flats-village"
+    },
+    {
+      "name": "Saddlebrooke",
+      "slug": "saddlebrooke"
+    },
+    {
+      "name": "Safford",
+      "slug": "safford"
+    },
+    {
+      "name": "Sahuarita",
+      "slug": "sahuarita"
+    },
+    {
+      "name": "Salome",
+      "slug": "salome"
+    },
+    {
+      "name": "San Carlos",
+      "slug": "san-carlos"
+    },
+    {
+      "name": "San Jose",
+      "slug": "san-jose"
+    },
+    {
+      "name": "San Luis",
+      "slug": "san-luis"
+    },
+    {
+      "name": "San Manuel",
+      "slug": "san-manuel"
+    },
+    {
+      "name": "San Miguel",
+      "slug": "san-miguel"
+    },
+    {
+      "name": "San Simon",
+      "slug": "san-simon"
+    },
+    {
+      "name": "San Tan Valley",
+      "slug": "san-tan-valley"
+    },
+    {
+      "name": "Sanders",
+      "slug": "sanders"
+    },
+    {
+      "name": "Santa Cruz",
+      "slug": "santa-cruz"
+    },
+    {
+      "name": "Santa Rosa",
+      "slug": "santa-rosa"
+    },
+    {
+      "name": "Sawmill",
+      "slug": "sawmill"
+    },
+    {
+      "name": "Scenic",
+      "slug": "scenic"
+    },
+    {
+      "name": "Scottsdale",
+      "slug": "scottsdale"
+    },
+    {
+      "name": "Seba Dalkai",
+      "slug": "seba-dalkai"
+    },
+    {
+      "name": "Second Mesa",
+      "slug": "second-mesa"
+    },
+    {
+      "name": "Sedona",
+      "slug": "sedona"
+    },
+    {
+      "name": "Sehili",
+      "slug": "sehili"
+    },
+    {
+      "name": "Seligman",
+      "slug": "seligman"
+    },
+    {
+      "name": "Sells",
+      "slug": "sells"
+    },
+    {
+      "name": "Seven Mile",
+      "slug": "seven-mile"
+    },
+    {
+      "name": "Shongopovi",
+      "slug": "shongopovi"
+    },
+    {
+      "name": "Shonto",
+      "slug": "shonto"
+    },
+    {
+      "name": "Show Low",
+      "slug": "show-low"
+    },
+    {
+      "name": "Shumway",
+      "slug": "shumway"
+    },
+    {
+      "name": "Sierra Vista",
+      "slug": "sierra-vista"
+    },
+    {
+      "name": "Sierra Vista Southeast",
+      "slug": "sierra-vista-southeast"
+    },
+    {
+      "name": "Six Shooter Canyon",
+      "slug": "six-shooter-canyon"
+    },
+    {
+      "name": "Snowflake",
+      "slug": "snowflake"
+    },
+    {
+      "name": "So-Hi",
+      "slug": "so-hi"
+    },
+    {
+      "name": "Solomon",
+      "slug": "solomon"
+    },
+    {
+      "name": "Somerton",
+      "slug": "somerton"
+    },
+    {
+      "name": "Sonoita",
+      "slug": "sonoita"
+    },
+    {
+      "name": "South Komelik",
+      "slug": "south-komelik"
+    },
+    {
+      "name": "South Tucson",
+      "slug": "south-tucson"
+    },
+    {
+      "name": "Spring Valley",
+      "slug": "spring-valley"
+    },
+    {
+      "name": "Springerville",
+      "slug": "springerville"
+    },
+    {
+      "name": "St. David",
+      "slug": "st-david"
+    },
+    {
+      "name": "St. Johns",
+      "slug": "st-johns"
+    },
+    {
+      "name": "St. Michaels",
+      "slug": "st-michaels"
+    },
+    {
+      "name": "Stanfield",
+      "slug": "stanfield"
+    },
+    {
+      "name": "Star Valley",
+      "slug": "star-valley"
+    },
+    {
+      "name": "Steamboat",
+      "slug": "steamboat"
+    },
+    {
+      "name": "Stotonic Village",
+      "slug": "stotonic-village"
+    },
+    {
+      "name": "Strawberry",
+      "slug": "strawberry"
+    },
+    {
+      "name": "Summerhaven",
+      "slug": "summerhaven"
+    },
+    {
+      "name": "Summit",
+      "slug": "summit"
+    },
+    {
+      "name": "Sun City",
+      "slug": "sun-city"
+    },
+    {
+      "name": "Sun City West",
+      "slug": "sun-city-west"
+    },
+    {
+      "name": "Sun Lakes",
+      "slug": "sun-lakes"
+    },
+    {
+      "name": "Sun Valley",
+      "slug": "sun-valley"
+    },
+    {
+      "name": "Sunizona",
+      "slug": "sunizona"
+    },
+    {
+      "name": "Sunsites",
+      "slug": "sunsites"
+    },
+    {
+      "name": "Sunwest",
+      "slug": "sunwest"
+    },
+    {
+      "name": "Supai",
+      "slug": "supai"
+    },
+    {
+      "name": "Superior",
+      "slug": "superior"
+    },
+    {
+      "name": "Surprise",
+      "slug": "surprise"
+    },
+    {
+      "name": "Sweet Water Village",
+      "slug": "sweet-water-village"
+    },
+    {
+      "name": "Swift Trail Junction",
+      "slug": "swift-trail-junction"
+    },
+    {
+      "name": "Tacna",
+      "slug": "tacna"
+    },
+    {
+      "name": "Tanque Verde",
+      "slug": "tanque-verde"
+    },
+    {
+      "name": "Tat Momoli",
+      "slug": "tat-momoli"
+    },
+    {
+      "name": "Taylor",
+      "slug": "taylor"
+    },
+    {
+      "name": "Teec Nos Pos",
+      "slug": "teec-nos-pos"
+    },
+    {
+      "name": "Tees Toh",
+      "slug": "tees-toh"
+    },
+    {
+      "name": "Tempe",
+      "slug": "tempe"
+    },
+    {
+      "name": "Thatcher",
+      "slug": "thatcher"
+    },
+    {
+      "name": "Theba",
+      "slug": "theba"
+    },
+    {
+      "name": "Three Points",
+      "slug": "three-points"
+    },
+    {
+      "name": "Timberline-Fernwood",
+      "slug": "timberline-fernwood"
+    },
+    {
+      "name": "Tolani Lake",
+      "slug": "tolani-lake"
+    },
+    {
+      "name": "Tolleson",
+      "slug": "tolleson"
+    },
+    {
+      "name": "Tombstone",
+      "slug": "tombstone"
+    },
+    {
+      "name": "Tonalea",
+      "slug": "tonalea"
+    },
+    {
+      "name": "Tonopah",
+      "slug": "tonopah"
+    },
+    {
+      "name": "Tonto Basin",
+      "slug": "tonto-basin"
+    },
+    {
+      "name": "Tonto Village",
+      "slug": "tonto-village"
+    },
+    {
+      "name": "Top-of-the-World",
+      "slug": "top-of-the-world"
+    },
+    {
+      "name": "Topawa",
+      "slug": "topawa"
+    },
+    {
+      "name": "Topock",
+      "slug": "topock"
+    },
+    {
+      "name": "Toyei",
+      "slug": "toyei"
+    },
+    {
+      "name": "Truxton",
+      "slug": "truxton"
+    },
+    {
+      "name": "Tsaile",
+      "slug": "tsaile"
+    },
+    {
+      "name": "Tuba City",
+      "slug": "tuba-city"
+    },
+    {
+      "name": "Tubac",
+      "slug": "tubac"
+    },
+    {
+      "name": "Tucson",
+      "slug": "tucson"
+    },
+    {
+      "name": "Tucson Estates",
+      "slug": "tucson-estates"
+    },
+    {
+      "name": "Tucson Mountains",
+      "slug": "tucson-mountains"
+    },
+    {
+      "name": "Tumacacori-Carmen",
+      "slug": "tumacacori-carmen"
+    },
+    {
+      "name": "Turkey Creek",
+      "slug": "turkey-creek"
+    },
+    {
+      "name": "Tusayan",
+      "slug": "tusayan"
+    },
+    {
+      "name": "Upper Santan Village",
+      "slug": "upper-santan-village"
+    },
+    {
+      "name": "Utting",
+      "slug": "utting"
+    },
+    {
+      "name": "Vail",
+      "slug": "vail"
+    },
+    {
+      "name": "Vaiva Vo",
+      "slug": "vaiva-vo"
+    },
+    {
+      "name": "Valencia West",
+      "slug": "valencia-west"
+    },
+    {
+      "name": "Valentine",
+      "slug": "valentine"
+    },
+    {
+      "name": "Valle",
+      "slug": "valle"
+    },
+    {
+      "name": "Valle Vista",
+      "slug": "valle-vista"
+    },
+    {
+      "name": "Ventana",
+      "slug": "ventana"
+    },
+    {
+      "name": "Verde Village",
+      "slug": "verde-village"
+    },
+    {
+      "name": "Vernon",
+      "slug": "vernon"
+    },
+    {
+      "name": "Vicksburg",
+      "slug": "vicksburg"
+    },
+    {
+      "name": "Village of Oak Creek",
+      "slug": "village-of-oak-creek"
+    },
+    {
+      "name": "Wagon Wheel",
+      "slug": "wagon-wheel"
+    },
+    {
+      "name": "Wahak Hotrontk",
+      "slug": "wahak-hotrontk"
+    },
+    {
+      "name": "Wall Lane",
+      "slug": "wall-lane"
+    },
+    {
+      "name": "Walnut Creek",
+      "slug": "walnut-creek"
+    },
+    {
+      "name": "Washington Park",
+      "slug": "washington-park"
+    },
+    {
+      "name": "Wellton",
+      "slug": "wellton"
+    },
+    {
+      "name": "Wellton Hills",
+      "slug": "wellton-hills"
+    },
+    {
+      "name": "Wenden",
+      "slug": "wenden"
+    },
+    {
+      "name": "Wet Camp Village",
+      "slug": "wet-camp-village"
+    },
+    {
+      "name": "Wheatfields",
+      "slug": "wheatfields"
+    },
+    {
+      "name": "Whetstone",
+      "slug": "whetstone"
+    },
+    {
+      "name": "Whispering Pines",
+      "slug": "whispering-pines"
+    },
+    {
+      "name": "White Hills",
+      "slug": "white-hills"
+    },
+    {
+      "name": "White Mountain Lake",
+      "slug": "white-mountain-lake"
+    },
+    {
+      "name": "Whitecone",
+      "slug": "whitecone"
+    },
+    {
+      "name": "Whiteriver",
+      "slug": "whiteriver"
+    },
+    {
+      "name": "Why",
+      "slug": "why"
+    },
+    {
+      "name": "Wickenburg",
+      "slug": "wickenburg"
+    },
+    {
+      "name": "Wide Ruins",
+      "slug": "wide-ruins"
+    },
+    {
+      "name": "Wikieup",
+      "slug": "wikieup"
+    },
+    {
+      "name": "Wilhoit",
+      "slug": "wilhoit"
+    },
+    {
+      "name": "Willcox",
+      "slug": "willcox"
+    },
+    {
+      "name": "Williams",
+      "slug": "williams"
+    },
+    {
+      "name": "Williamson",
+      "slug": "williamson"
+    },
+    {
+      "name": "Willow Canyon",
+      "slug": "willow-canyon"
+    },
+    {
+      "name": "Willow Valley",
+      "slug": "willow-valley"
+    },
+    {
+      "name": "Window Rock",
+      "slug": "window-rock"
+    },
+    {
+      "name": "Winkelman",
+      "slug": "winkelman"
+    },
+    {
+      "name": "Winslow",
+      "slug": "winslow"
+    },
+    {
+      "name": "Winslow West",
+      "slug": "winslow-west"
+    },
+    {
+      "name": "Wintersburg",
+      "slug": "wintersburg"
+    },
+    {
+      "name": "Wittmann",
+      "slug": "wittmann"
+    },
+    {
+      "name": "Woodruff",
+      "slug": "woodruff"
+    },
+    {
+      "name": "Yarnell",
+      "slug": "yarnell"
+    },
+    {
+      "name": "York",
+      "slug": "york"
+    },
+    {
+      "name": "Young",
+      "slug": "young"
+    },
+    {
+      "name": "Youngtown",
+      "slug": "youngtown"
+    },
+    {
+      "name": "Yucca",
+      "slug": "yucca"
+    },
+    {
+      "name": "Yuma",
+      "slug": "yuma"
+    },
+    {
+      "name": "Yuma Proving Ground",
+      "slug": "yuma-proving-ground"
+    }
+  ]
+}

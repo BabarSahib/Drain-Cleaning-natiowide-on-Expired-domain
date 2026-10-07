@@ -1,0 +1,585 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TrustBadges from '../components/TrustBadges.astro';
+import ServicesSection from '../components/ServicesSection.astro';
+import ProcessSection from '../components/ProcessSection.astro';
+import StateDirectory from '../components/StateDirectory.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
+import ContactSection from '../components/ContactSection.astro';
+
+const reasons = [
+  {
+    icon: `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+    title: "Licensed & Insured Technicians",
+    desc: "Every technician dispatched to your location is fully licensed, insured, and certified with deep local code expertise."
+  },
+  {
+    icon: `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
+    title: "Rapid 30-45 Min Response",
+    desc: "Our nationwide dispatch system routes the closest mobile unit directly to your address with zero delay."
+  },
+  {
+    icon: `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>`,
+    title: "100% Upfront Written Pricing",
+    desc: "You receive a clear flat-rate quote before any work starts. No surprise hidden charges, mileage, or holiday fees."
+  },
+  {
+    icon: `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="21.17" y1="8" x2="12" y2="8"/></svg>`,
+    title: "High-Tech Optical Diagnostics",
+    desc: "We insert high-definition waterproof cameras into your lines so you see the obstruction on-screen with your own eyes."
+  },
+  {
+    icon: `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>`,
+    title: "Clean Home & Flow Guarantee",
+    desc: "We use protective drop cloths and boot covers, leaving your bathrooms, kitchens, and basements clean and dry."
+  },
+  {
+    icon: `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>`,
+    title: "Fully Stocked Mobile Fleet",
+    desc: "Our vehicles carry industrial hydro-jetters, multi-size mechanical root cutters, and pipe liners for single-visit fixes."
+  }
+];
+
+const testimonials = [
+  {
+    name: "Robert M.",
+    location: "Austin, TX",
+    rating: 5,
+    text: "Had raw sewage backing up into our downstairs shower at 9:30 PM on a Sunday. Rapid Flow had a master technician at our door in 35 minutes. Cleared heavy tree roots with hydro-jetting and verified with the camera. Absolute lifesavers!"
+  },
+  {
+    name: "Elena G.",
+    location: "Orlando, FL",
+    rating: 5,
+    text: "Our restaurant kitchen grease trap line backed up right before lunch rush. They dispatched an emergency truck immediately, blasted the grease line at 4,000 PSI, and had us operating cleanly within an hour. Upfront flat rate as quoted."
+  },
+  {
+    name: "Marcus T.",
+    location: "Columbus, OH",
+    rating: 5,
+    text: "Two other plumbing companies tried snaking our main line and gave up, quoting thousands to dig up the driveway. Rapid Flow ran their HD camera, located a localized root cluster, and cleared it completely without any digging."
+  }
+];
+---
+
+<Layout
+  title="Drain Cleaning & Same Day Drain Cleaning | Rapid Flow Drain Pros"
+  description="Licensed 24/7 nationwide drain cleaning and same day drain cleaning services. 30-45 min emergency arrival with upfront flat-rate pricing. Call (877) 823-0231 now!"
+  canonicalUrl="https://maxsonplumbing.com/"
+>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="badge-pill badge-alert hero-badge">
+          <span class="live-pulse"></span>
+          24/7 Nationwide Emergency Drain Dispatch
+        </div>
+        <h1 class="hero-title">
+          Professional <span class="highlight-text">Drain Cleaning & Same Day Service</span> Nationwide
+        </h1>
+        <p class="hero-description">
+          Licensed local drain and sewer specialists dispatched directly to your door in 30 to 45 minutes. From same day clogged drain clearing to heavy-duty hydro-jetting and sewer camera inspections—backed by upfront written flat-rate pricing and a 100% flow guarantee.
+        </p>
+
+        <!-- Hero CTAs -->
+        <div class="hero-actions">
+          <a href="tel:+18778230231" class="btn btn-emergency hero-phone-cta">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <div>
+              <span class="btn-sub">CALL FOR SAME DAY SERVICE</span>
+              <span class="btn-main">(877) 823-0231</span>
+            </div>
+          </a>
+          <a href="#services" class="btn btn-secondary hero-sec-cta">
+            Explore 19 Services
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+
+        <!-- Quick Proof Metrics -->
+        <div class="hero-metrics">
+          <div class="metric-item">
+            <strong>30-45 Mins</strong>
+            <span>Avg. Dispatch Time</span>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric-item">
+            <strong>$0</strong>
+            <span>Hidden Fees Guarantee</span>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric-item">
+            <strong>4.9 ★</strong>
+            <span>1,400+ Homeowner Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual -->
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="/images/plumber-hero.jpg" alt="Licensed Plumber Performing Drain Cleaning Service" class="hero-main-img" />
+          <div class="floating-tech-card">
+            <div class="tech-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            </div>
+            <div>
+              <strong>HD Camera Diagnostics</strong>
+              <span>Live inside-pipe video feed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges Strip -->
+  <TrustBadges />
+
+  <!-- 19 Services Section with Category Tabs -->
+  <ServicesSection />
+
+  <!-- Why Choose Us -->
+  <section class="section-padding why-choose-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">The Rapid Flow Advantage</span>
+        <h2>Why Homeowners & Businesses Trust Us Nationwide</h2>
+        <p>When wastewater backs up into your home, you need verified tradesmen who arrive on time, treat your property with respect, and fix the root problem right the first time.</p>
+      </div>
+
+      <div class="reasons-grid">
+        {reasons.map((r) => (
+          <div class="reason-card">
+            <div class="reason-icon-box" set:html={r.icon} />
+            <h3 class="reason-title">{r.title}</h3>
+            <p class="reason-desc">{r.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <ProcessSection />
+
+  <!-- Nationwide State Directory -->
+  <StateDirectory />
+
+  <!-- Testimonials Section -->
+  <section id="reviews" class="section-padding reviews-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Verified Homeowner Feedback</span>
+        <h2>Real Reviews From Customers We've Rescued</h2>
+        <p>Over 1,400 five-star reviews from homeowners across the nation who called during urgent drainage emergencies.</p>
+      </div>
+
+      <div class="reviews-grid">
+        {testimonials.map((t) => (
+          <div class="review-card">
+            <div class="review-stars">
+              {"★".repeat(t.rating)}
+            </div>
+            <p class="review-text">"{t.text}"</p>
+            <div class="review-author">
+              <div class="author-avatar">{t.name[0]}</div>
+              <div>
+                <strong>{t.name}</strong>
+                <span>Verified Customer • {t.location}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion -->
+  <FAQAccordion />
+
+  <!-- Contact / Lead Capture -->
+  <ContactSection />
+</Layout>
+
+<style>
+  /* Hero Styles */
+  .hero-section {
+    background: linear-gradient(160deg, #040d1f 0%, #0a1e3d 35%, #0f2847 65%, #132e52 100%);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    right: -15%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(37, 99, 235, 0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-section::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 3.5rem;
+    align-items: center;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-badge {
+    margin-bottom: 1.25rem;
+    background: rgba(234, 88, 12, 0.2);
+    border-color: rgba(234, 88, 12, 0.45);
+    color: #fb923c;
+  }
+
+  .hero-sec-cta.btn-secondary {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--color-white);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .hero-sec-cta.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.14);
+    border-color: rgba(255, 255, 255, 0.35);
+  }
+
+  .hero-title {
+    font-size: 3.1rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    color: var(--color-white);
+    line-height: 1.15;
+    margin-bottom: 1.25rem;
+  }
+
+  .highlight-text {
+    background: linear-gradient(135deg, #60a5fa 0%, #38bdf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero-description {
+    font-size: 1.12rem;
+    color: rgba(203, 213, 225, 0.9);
+    line-height: 1.65;
+    margin-bottom: 2.2rem;
+    max-width: 620px;
+  }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-phone-cta {
+    padding: 0.8rem 1.6rem;
+    gap: 0.9rem;
+  }
+
+  .hero-phone-cta .btn-sub {
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    opacity: 0.9;
+    display: block;
+    line-height: 1;
+  }
+
+  .hero-phone-cta .btn-main {
+    font-size: 1.15rem;
+    font-weight: 800;
+    line-height: 1.1;
+    display: block;
+  }
+
+  .hero-sec-cta {
+    padding: 1rem 1.5rem;
+  }
+
+  .hero-metrics {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 1.8rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    width: 100%;
+    max-width: 580px;
+  }
+
+  .metric-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .metric-item strong {
+    font-size: 1.25rem;
+    color: var(--color-white);
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  .metric-item span {
+    font-size: 0.78rem;
+    color: rgba(148, 163, 184, 0.85);
+    margin-top: 0.2rem;
+  }
+
+  .metric-divider {
+    width: 1px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  /* Hero Visual */
+  .hero-visual {
+    position: relative;
+  }
+
+  .hero-image-wrapper {
+    position: relative;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.5), 0 0 40px rgba(37, 99, 235, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .hero-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+
+  .hero-image-wrapper:hover .hero-main-img {
+    transform: scale(1.02);
+  }
+
+  .floating-tech-card {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius-md);
+    padding: 0.85rem 1.15rem;
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+  }
+
+  .tech-icon-box {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-sm);
+    background: rgba(37, 99, 235, 0.1);
+    color: var(--color-primary-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .floating-tech-card strong {
+    font-size: 0.88rem;
+    color: var(--color-primary-950);
+    display: block;
+  }
+
+  .floating-tech-card span {
+    font-size: 0.75rem;
+    color: var(--color-slate-600);
+    display: block;
+  }
+
+  /* Why Choose Us */
+  .why-choose-section {
+    background: var(--color-white);
+  }
+
+  .reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .reason-card {
+    background: var(--color-slate-50);
+    border: 1px solid var(--color-slate-200);
+    border-radius: var(--radius-lg);
+    padding: 2.2rem 1.8rem;
+    transition: all 0.22s ease;
+  }
+
+  .reason-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-primary-400);
+    box-shadow: var(--shadow-md);
+  }
+
+  .reason-icon-box {
+    width: 52px;
+    height: 52px;
+    border-radius: var(--radius-md);
+    background: var(--color-primary-950);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+  }
+
+  .reason-title {
+    font-size: 1.22rem;
+    margin-bottom: 0.65rem;
+    color: var(--color-primary-950);
+  }
+
+  .reason-desc {
+    font-size: 0.92rem;
+    color: var(--color-slate-600);
+    line-height: 1.6;
+  }
+
+  /* Reviews */
+  .reviews-section {
+    background: var(--color-slate-50);
+    border-top: 1px solid var(--color-slate-200);
+  }
+
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .review-card {
+    background: var(--color-white);
+    border: 1px solid var(--color-slate-200);
+    border-radius: var(--radius-lg);
+    padding: 2.2rem 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .review-stars {
+    color: #f59e0b;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1em;
+  }
+
+  .review-text {
+    font-size: 0.96rem;
+    color: var(--color-slate-700);
+    line-height: 1.6;
+    margin-bottom: 1.8rem;
+    font-style: italic;
+  }
+
+  .review-author {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    border-top: 1px solid var(--color-slate-100);
+    padding-top: 1.2rem;
+  }
+
+  .author-avatar {
+    width: 42px;
+    height: 42px;
+    background: linear-gradient(135deg, var(--color-primary-600) 0%, var(--color-accent-500) 100%);
+    color: var(--color-white);
+    font-weight: 800;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review-author strong {
+    font-size: 0.92rem;
+    color: var(--color-primary-950);
+    display: block;
+  }
+
+  .review-author span {
+    font-size: 0.78rem;
+    color: var(--color-slate-500);
+    display: block;
+  }
+
+  /* Responsive Media Queries */
+  @media (max-width: 1024px) {
+    .hero-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .hero-content {
+      align-items: center;
+    }
+    .hero-title {
+      font-size: 2.5rem;
+    }
+    .hero-actions {
+      justify-content: center;
+    }
+    .hero-metrics {
+      justify-content: center;
+    }
+    .reasons-grid, .reviews-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 680px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+    .hero-actions {
+      flex-direction: column;
+      width: 100%;
+    }
+    .hero-phone-cta, .hero-sec-cta {
+      width: 100%;
+    }
+    .hero-metrics {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .metric-divider {
+      display: none;
+    }
+    .reasons-grid, .reviews-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

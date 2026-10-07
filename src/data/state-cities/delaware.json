@@ -1,0 +1,324 @@
+{
+  "state": "Delaware",
+  "slug": "delaware",
+  "abbr": "DE",
+  "cityCount": 79,
+  "cities": [
+    {
+      "name": "Arden",
+      "slug": "arden"
+    },
+    {
+      "name": "Ardencroft",
+      "slug": "ardencroft"
+    },
+    {
+      "name": "Ardentown",
+      "slug": "ardentown"
+    },
+    {
+      "name": "Bear",
+      "slug": "bear"
+    },
+    {
+      "name": "Bellefonte",
+      "slug": "bellefonte"
+    },
+    {
+      "name": "Bethany Beach",
+      "slug": "bethany-beach"
+    },
+    {
+      "name": "Bethel",
+      "slug": "bethel"
+    },
+    {
+      "name": "Blades",
+      "slug": "blades"
+    },
+    {
+      "name": "Bowers",
+      "slug": "bowers"
+    },
+    {
+      "name": "Bridgeville",
+      "slug": "bridgeville"
+    },
+    {
+      "name": "Brookside",
+      "slug": "brookside"
+    },
+    {
+      "name": "Camden",
+      "slug": "camden"
+    },
+    {
+      "name": "Cheswold",
+      "slug": "cheswold"
+    },
+    {
+      "name": "Claymont",
+      "slug": "claymont"
+    },
+    {
+      "name": "Clayton",
+      "slug": "clayton"
+    },
+    {
+      "name": "Dagsboro",
+      "slug": "dagsboro"
+    },
+    {
+      "name": "Delaware City",
+      "slug": "delaware-city"
+    },
+    {
+      "name": "Delmar",
+      "slug": "delmar"
+    },
+    {
+      "name": "Dewey Beach",
+      "slug": "dewey-beach"
+    },
+    {
+      "name": "Dover",
+      "slug": "dover"
+    },
+    {
+      "name": "Dover Base Housing",
+      "slug": "dover-base-housing"
+    },
+    {
+      "name": "Edgemoor",
+      "slug": "edgemoor"
+    },
+    {
+      "name": "Ellendale",
+      "slug": "ellendale"
+    },
+    {
+      "name": "Elsmere",
+      "slug": "elsmere"
+    },
+    {
+      "name": "Farmington",
+      "slug": "farmington"
+    },
+    {
+      "name": "Felton",
+      "slug": "felton"
+    },
+    {
+      "name": "Fenwick Island",
+      "slug": "fenwick-island"
+    },
+    {
+      "name": "Frankford",
+      "slug": "frankford"
+    },
+    {
+      "name": "Frederica",
+      "slug": "frederica"
+    },
+    {
+      "name": "Georgetown",
+      "slug": "georgetown"
+    },
+    {
+      "name": "Glasgow",
+      "slug": "glasgow"
+    },
+    {
+      "name": "Greenville",
+      "slug": "greenville"
+    },
+    {
+      "name": "Greenwood",
+      "slug": "greenwood"
+    },
+    {
+      "name": "Harrington",
+      "slug": "harrington"
+    },
+    {
+      "name": "Hartly",
+      "slug": "hartly"
+    },
+    {
+      "name": "Henlopen Acres",
+      "slug": "henlopen-acres"
+    },
+    {
+      "name": "Highland Acres",
+      "slug": "highland-acres"
+    },
+    {
+      "name": "Hockessin",
+      "slug": "hockessin"
+    },
+    {
+      "name": "Houston",
+      "slug": "houston"
+    },
+    {
+      "name": "Kent Acres",
+      "slug": "kent-acres"
+    },
+    {
+      "name": "Kenton",
+      "slug": "kenton"
+    },
+    {
+      "name": "Laurel",
+      "slug": "laurel"
+    },
+    {
+      "name": "Leipsic",
+      "slug": "leipsic"
+    },
+    {
+      "name": "Lewes",
+      "slug": "lewes"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln"
+    },
+    {
+      "name": "Little Creek",
+      "slug": "little-creek"
+    },
+    {
+      "name": "Long Neck",
+      "slug": "long-neck"
+    },
+    {
+      "name": "Magnolia",
+      "slug": "magnolia"
+    },
+    {
+      "name": "Middletown",
+      "slug": "middletown"
+    },
+    {
+      "name": "Milford",
+      "slug": "milford"
+    },
+    {
+      "name": "Millsboro",
+      "slug": "millsboro"
+    },
+    {
+      "name": "Millville",
+      "slug": "millville"
+    },
+    {
+      "name": "Milton",
+      "slug": "milton"
+    },
+    {
+      "name": "New Castle",
+      "slug": "new-castle"
+    },
+    {
+      "name": "Newark",
+      "slug": "newark"
+    },
+    {
+      "name": "Newport",
+      "slug": "newport"
+    },
+    {
+      "name": "North Star",
+      "slug": "north-star"
+    },
+    {
+      "name": "Ocean View",
+      "slug": "ocean-view"
+    },
+    {
+      "name": "Odessa",
+      "slug": "odessa"
+    },
+    {
+      "name": "Pike Creek",
+      "slug": "pike-creek"
+    },
+    {
+      "name": "Pike Creek Valley",
+      "slug": "pike-creek-valley"
+    },
+    {
+      "name": "Port Penn",
+      "slug": "port-penn"
+    },
+    {
+      "name": "Rehoboth Beach",
+      "slug": "rehoboth-beach"
+    },
+    {
+      "name": "Rising Sun-Lebanon",
+      "slug": "rising-sun-lebanon"
+    },
+    {
+      "name": "Riverview",
+      "slug": "riverview"
+    },
+    {
+      "name": "Rodney Village",
+      "slug": "rodney-village"
+    },
+    {
+      "name": "Seaford",
+      "slug": "seaford"
+    },
+    {
+      "name": "Selbyville",
+      "slug": "selbyville"
+    },
+    {
+      "name": "Slaughter Beach",
+      "slug": "slaughter-beach"
+    },
+    {
+      "name": "Smyrna",
+      "slug": "smyrna"
+    },
+    {
+      "name": "South Bethany",
+      "slug": "south-bethany"
+    },
+    {
+      "name": "St. Georges",
+      "slug": "st-georges"
+    },
+    {
+      "name": "Townsend",
+      "slug": "townsend"
+    },
+    {
+      "name": "Viola",
+      "slug": "viola"
+    },
+    {
+      "name": "Wilmington",
+      "slug": "wilmington"
+    },
+    {
+      "name": "Wilmington Manor",
+      "slug": "wilmington-manor"
+    },
+    {
+      "name": "Woodside",
+      "slug": "woodside"
+    },
+    {
+      "name": "Woodside East",
+      "slug": "woodside-east"
+    },
+    {
+      "name": "Wyoming",
+      "slug": "wyoming"
+    }
+  ]
+}

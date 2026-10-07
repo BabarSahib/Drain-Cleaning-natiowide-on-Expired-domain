@@ -1,0 +1,297 @@
+---
+// Footer.astro
+const topStates = [
+  { name: "Texas", slug: "texas" },
+  { name: "California", slug: "california" },
+  { name: "Florida", slug: "florida" },
+  { name: "New York", slug: "new-york" },
+  { name: "Ohio", slug: "ohio" },
+  { name: "Pennsylvania", slug: "pennsylvania" },
+  { name: "Illinois", slug: "illinois" },
+  { name: "Georgia", slug: "georgia" }
+];
+---
+
+<footer class="site-footer">
+  <!-- Top CTA Strip -->
+  <div class="footer-cta-band">
+    <div class="container footer-cta-content">
+      <div>
+        <span class="cta-subtitle">Immediate Emergency Drain Assistance</span>
+        <h3 class="cta-title">Standing Water Or Backed-Up Sewer? Don't Wait Until It Floods.</h3>
+      </div>
+      <div class="cta-phone-action">
+        <a href="tel:+18778230231" class="btn btn-emergency">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Call 24/7 Hotline: (877) 823-0231
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Footer Body -->
+  <div class="container footer-main">
+    <div class="footer-grid">
+      <!-- Col 1: Brand & About -->
+      <div class="footer-col brand-col">
+        <div class="footer-brand">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              <path d="M12 12c.5 1.5 2 2 3 2"></path>
+            </svg>
+          </div>
+          <div>
+            <span class="brand-title">RAPID FLOW</span>
+            <span class="brand-subtitle">DRAIN PROS</span>
+          </div>
+        </div>
+        <p class="brand-desc">
+          Nationwide network of master licensed drain technicians and sewer contractors. Providing round-the-clock emergency clearing, hydro-jetting, and camera inspections with guaranteed upfront pricing.
+        </p>
+        <div class="badges-row">
+          <span class="trust-badge">★ 4.9/5 Rating</span>
+          <span class="trust-badge">Licensed & Insured</span>
+        </div>
+      </div>
+
+      <!-- Col 2: Services -->
+      <div class="footer-col">
+        <h4 class="col-title">Drain Services</h4>
+        <ul class="footer-links">
+          <li><a href="/services/emergency-drain-cleaning/">Emergency Drain Cleaning</a></li>
+          <li><a href="/services/hydro-jetting/">High-Pressure Hydro Jetting</a></li>
+          <li><a href="/services/main-sewer-line-cleaning/">Main Sewer Line Cleaning</a></li>
+          <li><a href="/services/clogged-drain-cleaning/">Clogged Drain Cleaning</a></li>
+          <li><a href="/services/toilet-clog-removal/">Toilet Clog Removal</a></li>
+          <li><a href="/services/commercial-drain-cleaning/">Commercial Drain Cleaning</a></li>
+          <li><a href="/services/" class="all-states-link">→ All 19 Drain Services</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: States -->
+      <div class="footer-col">
+        <h4 class="col-title">Top Service States</h4>
+        <ul class="footer-links">
+          {topStates.map((st) => (
+            <li><a href={`/states/${st.slug}/`}>{st.name} Drain Pros</a></li>
+          ))}
+          <li><a href="/#locations" class="all-states-link">→ Browse All 50 States</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Contact & Hours -->
+      <div class="footer-col">
+        <h4 class="col-title">24/7 National Dispatch</h4>
+        <div class="footer-contact-info">
+          <p><strong>Hotline:</strong> <a href="tel:+18778230231">(877) 823-0231</a></p>
+          <p><strong>Schedule:</strong> 24 Hours / 7 Days / 365 Days</p>
+          <p><strong>Coverage:</strong> Nationwide Mobile Fleet</p>
+          <p class="response-note">Average on-site arrival window is 30 to 45 minutes for emergency requests.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom">
+      <p>&copy; {new Date().getFullYear()} Rapid Flow Drain Pros. All rights reserved. Nationwide Licensed Plumbing Network.</p>
+      <div class="bottom-links">
+        <a href="/services/">All Services</a>
+        <a href="/about/">About Us</a>
+        <a href="/contact/">Contact Dispatch</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--color-primary-950);
+    color: var(--color-slate-300);
+    margin-top: auto;
+  }
+
+  .footer-cta-band {
+    background: linear-gradient(135deg, var(--color-primary-900) 0%, var(--color-primary-800) 100%);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 2.5rem 0;
+  }
+
+  .footer-cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .cta-subtitle {
+    color: var(--color-accent-400);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    display: block;
+    margin-bottom: 0.35rem;
+  }
+
+  .cta-title {
+    color: var(--color-white);
+    font-size: 1.6rem;
+  }
+
+  .footer-main {
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--color-primary-600) 0%, var(--color-accent-500) 100%);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+  }
+
+  .brand-title {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: var(--color-white);
+    display: block;
+    line-height: 1.1;
+  }
+
+  .brand-subtitle {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--color-accent-400);
+    letter-spacing: 0.12em;
+    display: block;
+  }
+
+  .brand-desc {
+    font-size: 0.88rem;
+    color: var(--color-slate-400);
+    line-height: 1.6;
+    margin-bottom: 1.4rem;
+  }
+
+  .badges-row {
+    display: flex;
+    gap: 0.6rem;
+  }
+
+  .trust-badge {
+    font-size: 0.75rem;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--color-slate-200);
+    padding: 0.3rem 0.65rem;
+    border-radius: var(--radius-sm);
+  }
+
+  .col-title {
+    color: var(--color-white);
+    font-size: 1.05rem;
+    margin-bottom: 1.4rem;
+    font-family: var(--font-heading);
+  }
+
+  .footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .footer-links a {
+    color: var(--color-slate-400);
+    font-size: 0.9rem;
+    transition: color 0.15s ease;
+  }
+
+  .footer-links a:hover {
+    color: var(--color-accent-400);
+  }
+
+  .all-states-link {
+    color: var(--color-accent-400) !important;
+    font-weight: 700;
+  }
+
+  .footer-contact-info p {
+    font-size: 0.88rem;
+    margin-bottom: 0.6rem;
+    color: var(--color-slate-300);
+  }
+
+  .footer-contact-info a {
+    color: var(--color-alert-500);
+    font-weight: 700;
+  }
+
+  .response-note {
+    font-size: 0.8rem !important;
+    color: var(--color-slate-400) !important;
+    margin-top: 1rem;
+    line-height: 1.4;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.84rem;
+    color: var(--color-slate-400);
+  }
+
+  .bottom-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .bottom-links a:hover {
+    color: var(--color-white);
+  }
+
+  @media (max-width: 1024px) {
+    .footer-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-cta-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+    .footer-bottom {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+    }
+  }
+</style>

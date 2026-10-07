@@ -1,0 +1,536 @@
+{
+  "state": "Nevada",
+  "slug": "nevada",
+  "abbr": "NV",
+  "cityCount": 132,
+  "cities": [
+    {
+      "name": "Alamo",
+      "slug": "alamo"
+    },
+    {
+      "name": "Amargosa Valley",
+      "slug": "amargosa-valley"
+    },
+    {
+      "name": "Austin",
+      "slug": "austin"
+    },
+    {
+      "name": "Baker",
+      "slug": "baker"
+    },
+    {
+      "name": "Battle Mountain",
+      "slug": "battle-mountain"
+    },
+    {
+      "name": "Beatty",
+      "slug": "beatty"
+    },
+    {
+      "name": "Beaverdam",
+      "slug": "beaverdam"
+    },
+    {
+      "name": "Bennett Springs",
+      "slug": "bennett-springs"
+    },
+    {
+      "name": "Blue Diamond",
+      "slug": "blue-diamond"
+    },
+    {
+      "name": "Boulder City",
+      "slug": "boulder-city"
+    },
+    {
+      "name": "Bunkerville",
+      "slug": "bunkerville"
+    },
+    {
+      "name": "Cal-Nev-Ari",
+      "slug": "cal-nev-ari"
+    },
+    {
+      "name": "Caliente",
+      "slug": "caliente"
+    },
+    {
+      "name": "Carlin",
+      "slug": "carlin"
+    },
+    {
+      "name": "Carson City",
+      "slug": "carson-city"
+    },
+    {
+      "name": "Carter Springs",
+      "slug": "carter-springs"
+    },
+    {
+      "name": "Cold Springs",
+      "slug": "cold-springs"
+    },
+    {
+      "name": "Crescent Valley",
+      "slug": "crescent-valley"
+    },
+    {
+      "name": "Crystal Bay",
+      "slug": "crystal-bay"
+    },
+    {
+      "name": "Dayton",
+      "slug": "dayton"
+    },
+    {
+      "name": "Denio",
+      "slug": "denio"
+    },
+    {
+      "name": "Double Spring",
+      "slug": "double-spring"
+    },
+    {
+      "name": "Dry Valley",
+      "slug": "dry-valley"
+    },
+    {
+      "name": "Dyer",
+      "slug": "dyer"
+    },
+    {
+      "name": "East Valley",
+      "slug": "east-valley"
+    },
+    {
+      "name": "Elko",
+      "slug": "elko"
+    },
+    {
+      "name": "Ely",
+      "slug": "ely"
+    },
+    {
+      "name": "Empire",
+      "slug": "empire"
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise"
+    },
+    {
+      "name": "Eureka",
+      "slug": "eureka"
+    },
+    {
+      "name": "Fallon",
+      "slug": "fallon"
+    },
+    {
+      "name": "Fallon Station",
+      "slug": "fallon-station"
+    },
+    {
+      "name": "Fernley",
+      "slug": "fernley"
+    },
+    {
+      "name": "Fish Springs",
+      "slug": "fish-springs"
+    },
+    {
+      "name": "Fort McDermitt",
+      "slug": "fort-mcdermitt"
+    },
+    {
+      "name": "Gabbs",
+      "slug": "gabbs"
+    },
+    {
+      "name": "Gardnerville",
+      "slug": "gardnerville"
+    },
+    {
+      "name": "Gardnerville Ranchos",
+      "slug": "gardnerville-ranchos"
+    },
+    {
+      "name": "Genoa",
+      "slug": "genoa"
+    },
+    {
+      "name": "Gerlach",
+      "slug": "gerlach"
+    },
+    {
+      "name": "Glenbrook",
+      "slug": "glenbrook"
+    },
+    {
+      "name": "Golconda",
+      "slug": "golconda"
+    },
+    {
+      "name": "Golden Valley",
+      "slug": "golden-valley"
+    },
+    {
+      "name": "Goldfield",
+      "slug": "goldfield"
+    },
+    {
+      "name": "Goodsprings",
+      "slug": "goodsprings"
+    },
+    {
+      "name": "Grass Valley",
+      "slug": "grass-valley"
+    },
+    {
+      "name": "Hawthorne",
+      "slug": "hawthorne"
+    },
+    {
+      "name": "Henderson",
+      "slug": "henderson"
+    },
+    {
+      "name": "Hiko",
+      "slug": "hiko"
+    },
+    {
+      "name": "Humboldt River Ranch",
+      "slug": "humboldt-river-ranch"
+    },
+    {
+      "name": "Imlay",
+      "slug": "imlay"
+    },
+    {
+      "name": "Incline Village",
+      "slug": "incline-village"
+    },
+    {
+      "name": "Indian Hills",
+      "slug": "indian-hills"
+    },
+    {
+      "name": "Indian Springs",
+      "slug": "indian-springs"
+    },
+    {
+      "name": "Jackpot",
+      "slug": "jackpot"
+    },
+    {
+      "name": "Johnson Lane",
+      "slug": "johnson-lane"
+    },
+    {
+      "name": "Kingsbury",
+      "slug": "kingsbury"
+    },
+    {
+      "name": "Kingston",
+      "slug": "kingston"
+    },
+    {
+      "name": "Lakeridge",
+      "slug": "lakeridge"
+    },
+    {
+      "name": "Lamoille",
+      "slug": "lamoille"
+    },
+    {
+      "name": "Las Vegas",
+      "slug": "las-vegas"
+    },
+    {
+      "name": "Laughlin",
+      "slug": "laughlin"
+    },
+    {
+      "name": "Lemmon Valley",
+      "slug": "lemmon-valley"
+    },
+    {
+      "name": "Logan Creek",
+      "slug": "logan-creek"
+    },
+    {
+      "name": "Lovelock",
+      "slug": "lovelock"
+    },
+    {
+      "name": "Lund",
+      "slug": "lund"
+    },
+    {
+      "name": "McDermitt",
+      "slug": "mcdermitt"
+    },
+    {
+      "name": "McGill",
+      "slug": "mcgill"
+    },
+    {
+      "name": "Mesquite",
+      "slug": "mesquite"
+    },
+    {
+      "name": "Mina",
+      "slug": "mina"
+    },
+    {
+      "name": "Minden",
+      "slug": "minden"
+    },
+    {
+      "name": "Moapa Town",
+      "slug": "moapa-town"
+    },
+    {
+      "name": "Moapa Valley",
+      "slug": "moapa-valley"
+    },
+    {
+      "name": "Mogul",
+      "slug": "mogul"
+    },
+    {
+      "name": "Montello",
+      "slug": "montello"
+    },
+    {
+      "name": "Mount Charleston",
+      "slug": "mount-charleston"
+    },
+    {
+      "name": "Mount Wilson",
+      "slug": "mount-wilson"
+    },
+    {
+      "name": "Mountain City",
+      "slug": "mountain-city"
+    },
+    {
+      "name": "Nellis AFB",
+      "slug": "nellis-afb"
+    },
+    {
+      "name": "Nelson",
+      "slug": "nelson"
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon"
+    },
+    {
+      "name": "North Las Vegas",
+      "slug": "north-las-vegas"
+    },
+    {
+      "name": "Orovada",
+      "slug": "orovada"
+    },
+    {
+      "name": "Osino",
+      "slug": "osino"
+    },
+    {
+      "name": "Owyhee",
+      "slug": "owyhee"
+    },
+    {
+      "name": "Pahrump",
+      "slug": "pahrump"
+    },
+    {
+      "name": "Panaca",
+      "slug": "panaca"
+    },
+    {
+      "name": "Paradise",
+      "slug": "paradise"
+    },
+    {
+      "name": "Paradise Valley",
+      "slug": "paradise-valley"
+    },
+    {
+      "name": "Pioche",
+      "slug": "pioche"
+    },
+    {
+      "name": "Preston",
+      "slug": "preston"
+    },
+    {
+      "name": "Rachel",
+      "slug": "rachel"
+    },
+    {
+      "name": "Reno",
+      "slug": "reno"
+    },
+    {
+      "name": "Round Hill Village",
+      "slug": "round-hill-village"
+    },
+    {
+      "name": "Ruhenstroth",
+      "slug": "ruhenstroth"
+    },
+    {
+      "name": "Ruth",
+      "slug": "ruth"
+    },
+    {
+      "name": "Sandy Valley",
+      "slug": "sandy-valley"
+    },
+    {
+      "name": "Schurz",
+      "slug": "schurz"
+    },
+    {
+      "name": "Searchlight",
+      "slug": "searchlight"
+    },
+    {
+      "name": "Silver City",
+      "slug": "silver-city"
+    },
+    {
+      "name": "Silver Peak",
+      "slug": "silver-peak"
+    },
+    {
+      "name": "Silver Springs",
+      "slug": "silver-springs"
+    },
+    {
+      "name": "Skyland",
+      "slug": "skyland"
+    },
+    {
+      "name": "Smith Valley",
+      "slug": "smith-valley"
+    },
+    {
+      "name": "Spanish Springs",
+      "slug": "spanish-springs"
+    },
+    {
+      "name": "Sparks",
+      "slug": "sparks"
+    },
+    {
+      "name": "Spring Creek",
+      "slug": "spring-creek"
+    },
+    {
+      "name": "Spring Valley",
+      "slug": "spring-valley"
+    },
+    {
+      "name": "Stagecoach",
+      "slug": "stagecoach"
+    },
+    {
+      "name": "Stateline",
+      "slug": "stateline"
+    },
+    {
+      "name": "Summerlin South",
+      "slug": "summerlin-south"
+    },
+    {
+      "name": "Sun Valley",
+      "slug": "sun-valley"
+    },
+    {
+      "name": "Sunrise Manor",
+      "slug": "sunrise-manor"
+    },
+    {
+      "name": "Sutcliffe",
+      "slug": "sutcliffe"
+    },
+    {
+      "name": "Tonopah",
+      "slug": "tonopah"
+    },
+    {
+      "name": "Topaz Lake",
+      "slug": "topaz-lake"
+    },
+    {
+      "name": "Topaz Ranch Estates",
+      "slug": "topaz-ranch-estates"
+    },
+    {
+      "name": "Unionville",
+      "slug": "unionville"
+    },
+    {
+      "name": "Ursine",
+      "slug": "ursine"
+    },
+    {
+      "name": "Valmy",
+      "slug": "valmy"
+    },
+    {
+      "name": "Verdi",
+      "slug": "verdi"
+    },
+    {
+      "name": "Virginia City",
+      "slug": "virginia-city"
+    },
+    {
+      "name": "Wadsworth",
+      "slug": "wadsworth"
+    },
+    {
+      "name": "Walker Lake",
+      "slug": "walker-lake"
+    },
+    {
+      "name": "Washoe Valley",
+      "slug": "washoe-valley"
+    },
+    {
+      "name": "Wells",
+      "slug": "wells"
+    },
+    {
+      "name": "West Wendover",
+      "slug": "west-wendover"
+    },
+    {
+      "name": "Whitney",
+      "slug": "whitney"
+    },
+    {
+      "name": "Winchester",
+      "slug": "winchester"
+    },
+    {
+      "name": "Winnemucca",
+      "slug": "winnemucca"
+    },
+    {
+      "name": "Yerington",
+      "slug": "yerington"
+    },
+    {
+      "name": "Zephyr Cove",
+      "slug": "zephyr-cove"
+    }
+  ]
+}

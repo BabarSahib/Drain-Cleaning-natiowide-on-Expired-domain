@@ -1,0 +1,1896 @@
+{
+  "state": "South Carolina",
+  "slug": "south-carolina",
+  "abbr": "SC",
+  "cityCount": 472,
+  "cities": [
+    {
+      "name": "Abbeville",
+      "slug": "abbeville"
+    },
+    {
+      "name": "Abney Crossroads",
+      "slug": "abney-crossroads"
+    },
+    {
+      "name": "Adams Run",
+      "slug": "adams-run"
+    },
+    {
+      "name": "Aiken",
+      "slug": "aiken"
+    },
+    {
+      "name": "Alcolu",
+      "slug": "alcolu"
+    },
+    {
+      "name": "Allendale",
+      "slug": "allendale"
+    },
+    {
+      "name": "Anderson",
+      "slug": "anderson"
+    },
+    {
+      "name": "Andrews",
+      "slug": "andrews"
+    },
+    {
+      "name": "Antreville",
+      "slug": "antreville"
+    },
+    {
+      "name": "Arcadia",
+      "slug": "arcadia"
+    },
+    {
+      "name": "Arcadia Lakes",
+      "slug": "arcadia-lakes"
+    },
+    {
+      "name": "Arial",
+      "slug": "arial"
+    },
+    {
+      "name": "Arkwright",
+      "slug": "arkwright"
+    },
+    {
+      "name": "Arthurtown",
+      "slug": "arthurtown"
+    },
+    {
+      "name": "Ashwood",
+      "slug": "ashwood"
+    },
+    {
+      "name": "Atlantic Beach",
+      "slug": "atlantic-beach"
+    },
+    {
+      "name": "Awendaw",
+      "slug": "awendaw"
+    },
+    {
+      "name": "Aynor",
+      "slug": "aynor"
+    },
+    {
+      "name": "Bamberg",
+      "slug": "bamberg"
+    },
+    {
+      "name": "Barnwell",
+      "slug": "barnwell"
+    },
+    {
+      "name": "Batesburg-Leesville",
+      "slug": "batesburg-leesville"
+    },
+    {
+      "name": "Baxter Village",
+      "slug": "baxter-village"
+    },
+    {
+      "name": "Beaufort",
+      "slug": "beaufort"
+    },
+    {
+      "name": "Beech Island",
+      "slug": "beech-island"
+    },
+    {
+      "name": "Belton",
+      "slug": "belton"
+    },
+    {
+      "name": "Belvedere",
+      "slug": "belvedere"
+    },
+    {
+      "name": "Ben Avon",
+      "slug": "ben-avon"
+    },
+    {
+      "name": "Bennettsville",
+      "slug": "bennettsville"
+    },
+    {
+      "name": "Berea",
+      "slug": "berea"
+    },
+    {
+      "name": "Bethune",
+      "slug": "bethune"
+    },
+    {
+      "name": "Bishopville",
+      "slug": "bishopville"
+    },
+    {
+      "name": "Blacksburg",
+      "slug": "blacksburg"
+    },
+    {
+      "name": "Blackville",
+      "slug": "blackville"
+    },
+    {
+      "name": "Blenheim",
+      "slug": "blenheim"
+    },
+    {
+      "name": "Bluffton",
+      "slug": "bluffton"
+    },
+    {
+      "name": "Blythewood",
+      "slug": "blythewood"
+    },
+    {
+      "name": "Boiling Springs",
+      "slug": "boiling-springs"
+    },
+    {
+      "name": "Bonneau",
+      "slug": "bonneau"
+    },
+    {
+      "name": "Bonneau Beach",
+      "slug": "bonneau-beach"
+    },
+    {
+      "name": "Bowman",
+      "slug": "bowman"
+    },
+    {
+      "name": "Boykin",
+      "slug": "boykin"
+    },
+    {
+      "name": "Bradley",
+      "slug": "bradley"
+    },
+    {
+      "name": "Branchville",
+      "slug": "branchville"
+    },
+    {
+      "name": "Briarcliffe Acres",
+      "slug": "briarcliffe-acres"
+    },
+    {
+      "name": "Brookdale",
+      "slug": "brookdale"
+    },
+    {
+      "name": "Browntown",
+      "slug": "browntown"
+    },
+    {
+      "name": "Brunson",
+      "slug": "brunson"
+    },
+    {
+      "name": "Bucksport",
+      "slug": "bucksport"
+    },
+    {
+      "name": "Buffalo",
+      "slug": "buffalo"
+    },
+    {
+      "name": "Buford",
+      "slug": "buford"
+    },
+    {
+      "name": "Burnettown",
+      "slug": "burnettown"
+    },
+    {
+      "name": "Burton",
+      "slug": "burton"
+    },
+    {
+      "name": "Caesars Head",
+      "slug": "caesars-head"
+    },
+    {
+      "name": "Calhoun Falls",
+      "slug": "calhoun-falls"
+    },
+    {
+      "name": "Camden",
+      "slug": "camden"
+    },
+    {
+      "name": "Cameron",
+      "slug": "cameron"
+    },
+    {
+      "name": "Camp Croft",
+      "slug": "camp-croft"
+    },
+    {
+      "name": "Campobello",
+      "slug": "campobello"
+    },
+    {
+      "name": "Cane Savannah",
+      "slug": "cane-savannah"
+    },
+    {
+      "name": "Capitol View",
+      "slug": "capitol-view"
+    },
+    {
+      "name": "Carlisle",
+      "slug": "carlisle"
+    },
+    {
+      "name": "Carolina Forest",
+      "slug": "carolina-forest"
+    },
+    {
+      "name": "Cash",
+      "slug": "cash"
+    },
+    {
+      "name": "Catawba",
+      "slug": "catawba"
+    },
+    {
+      "name": "Cateechee",
+      "slug": "cateechee"
+    },
+    {
+      "name": "Cayce",
+      "slug": "cayce"
+    },
+    {
+      "name": "Centenary",
+      "slug": "centenary"
+    },
+    {
+      "name": "Centerville",
+      "slug": "centerville"
+    },
+    {
+      "name": "Central",
+      "slug": "central"
+    },
+    {
+      "name": "Central Pacolet",
+      "slug": "central-pacolet"
+    },
+    {
+      "name": "Chapin",
+      "slug": "chapin"
+    },
+    {
+      "name": "Charleston",
+      "slug": "charleston"
+    },
+    {
+      "name": "Cheraw",
+      "slug": "cheraw"
+    },
+    {
+      "name": "Cherokee Falls",
+      "slug": "cherokee-falls"
+    },
+    {
+      "name": "Cherryvale",
+      "slug": "cherryvale"
+    },
+    {
+      "name": "Chesnee",
+      "slug": "chesnee"
+    },
+    {
+      "name": "Chester",
+      "slug": "chester"
+    },
+    {
+      "name": "Chesterfield",
+      "slug": "chesterfield"
+    },
+    {
+      "name": "Chickasaw Point",
+      "slug": "chickasaw-point"
+    },
+    {
+      "name": "City View",
+      "slug": "city-view"
+    },
+    {
+      "name": "Clarks Hill",
+      "slug": "clarks-hill"
+    },
+    {
+      "name": "Clearwater",
+      "slug": "clearwater"
+    },
+    {
+      "name": "Clemson",
+      "slug": "clemson"
+    },
+    {
+      "name": "Clemson University",
+      "slug": "clemson-university"
+    },
+    {
+      "name": "Clifton",
+      "slug": "clifton"
+    },
+    {
+      "name": "Clinton",
+      "slug": "clinton"
+    },
+    {
+      "name": "Clio",
+      "slug": "clio"
+    },
+    {
+      "name": "Clover",
+      "slug": "clover"
+    },
+    {
+      "name": "Cokesbury",
+      "slug": "cokesbury"
+    },
+    {
+      "name": "Columbia",
+      "slug": "columbia"
+    },
+    {
+      "name": "Conestee",
+      "slug": "conestee"
+    },
+    {
+      "name": "Converse",
+      "slug": "converse"
+    },
+    {
+      "name": "Conway",
+      "slug": "conway"
+    },
+    {
+      "name": "Coosawhatchie",
+      "slug": "coosawhatchie"
+    },
+    {
+      "name": "Cope",
+      "slug": "cope"
+    },
+    {
+      "name": "Cordova",
+      "slug": "cordova"
+    },
+    {
+      "name": "Coronaca",
+      "slug": "coronaca"
+    },
+    {
+      "name": "Cottageville",
+      "slug": "cottageville"
+    },
+    {
+      "name": "Coward",
+      "slug": "coward"
+    },
+    {
+      "name": "Cowpens",
+      "slug": "cowpens"
+    },
+    {
+      "name": "Cross Anchor",
+      "slug": "cross-anchor"
+    },
+    {
+      "name": "Cross Hill",
+      "slug": "cross-hill"
+    },
+    {
+      "name": "Dacusville",
+      "slug": "dacusville"
+    },
+    {
+      "name": "Dale",
+      "slug": "dale"
+    },
+    {
+      "name": "Dalzell",
+      "slug": "dalzell"
+    },
+    {
+      "name": "Danwood",
+      "slug": "danwood"
+    },
+    {
+      "name": "Darlington",
+      "slug": "darlington"
+    },
+    {
+      "name": "Daufuskie Island",
+      "slug": "daufuskie-island"
+    },
+    {
+      "name": "Daviston",
+      "slug": "daviston"
+    },
+    {
+      "name": "DeBordieu Colony",
+      "slug": "debordieu-colony"
+    },
+    {
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    {
+      "name": "Dentsville",
+      "slug": "dentsville"
+    },
+    {
+      "name": "Dillon",
+      "slug": "dillon"
+    },
+    {
+      "name": "Donalds",
+      "slug": "donalds"
+    },
+    {
+      "name": "Dovesville",
+      "slug": "dovesville"
+    },
+    {
+      "name": "Drayton",
+      "slug": "drayton"
+    },
+    {
+      "name": "Due West",
+      "slug": "due-west"
+    },
+    {
+      "name": "Dunbar",
+      "slug": "dunbar"
+    },
+    {
+      "name": "Duncan",
+      "slug": "duncan"
+    },
+    {
+      "name": "Dunean",
+      "slug": "dunean"
+    },
+    {
+      "name": "Easley",
+      "slug": "easley"
+    },
+    {
+      "name": "East Camden",
+      "slug": "east-camden"
+    },
+    {
+      "name": "East Gaffney",
+      "slug": "east-gaffney"
+    },
+    {
+      "name": "East Sumter",
+      "slug": "east-sumter"
+    },
+    {
+      "name": "Eastover",
+      "slug": "eastover"
+    },
+    {
+      "name": "Edgefield",
+      "slug": "edgefield"
+    },
+    {
+      "name": "Edisto",
+      "slug": "edisto"
+    },
+    {
+      "name": "Edisto Beach",
+      "slug": "edisto-beach"
+    },
+    {
+      "name": "Edmund",
+      "slug": "edmund"
+    },
+    {
+      "name": "Ehrhardt",
+      "slug": "ehrhardt"
+    },
+    {
+      "name": "Elgin",
+      "slug": "elgin"
+    },
+    {
+      "name": "Elko",
+      "slug": "elko"
+    },
+    {
+      "name": "Elliott",
+      "slug": "elliott"
+    },
+    {
+      "name": "Elloree",
+      "slug": "elloree"
+    },
+    {
+      "name": "Enoree",
+      "slug": "enoree"
+    },
+    {
+      "name": "Estill",
+      "slug": "estill"
+    },
+    {
+      "name": "Eureka Mill",
+      "slug": "eureka-mill"
+    },
+    {
+      "name": "Eutawville",
+      "slug": "eutawville"
+    },
+    {
+      "name": "Fair Play",
+      "slug": "fair-play"
+    },
+    {
+      "name": "Fairfax",
+      "slug": "fairfax"
+    },
+    {
+      "name": "Fairforest",
+      "slug": "fairforest"
+    },
+    {
+      "name": "Fairview Crossroads",
+      "slug": "fairview-crossroads"
+    },
+    {
+      "name": "Fingerville",
+      "slug": "fingerville"
+    },
+    {
+      "name": "Finklea",
+      "slug": "finklea"
+    },
+    {
+      "name": "Five Forks",
+      "slug": "five-forks"
+    },
+    {
+      "name": "Florence",
+      "slug": "florence"
+    },
+    {
+      "name": "Floydale",
+      "slug": "floydale"
+    },
+    {
+      "name": "Folly Beach",
+      "slug": "folly-beach"
+    },
+    {
+      "name": "Forest Acres",
+      "slug": "forest-acres"
+    },
+    {
+      "name": "Forestbrook",
+      "slug": "forestbrook"
+    },
+    {
+      "name": "Foreston",
+      "slug": "foreston"
+    },
+    {
+      "name": "Fort Lawn",
+      "slug": "fort-lawn"
+    },
+    {
+      "name": "Fort Mill",
+      "slug": "fort-mill"
+    },
+    {
+      "name": "Fountain Inn",
+      "slug": "fountain-inn"
+    },
+    {
+      "name": "Fripp Island",
+      "slug": "fripp-island"
+    },
+    {
+      "name": "Furman",
+      "slug": "furman"
+    },
+    {
+      "name": "Gadsden",
+      "slug": "gadsden"
+    },
+    {
+      "name": "Gaffney",
+      "slug": "gaffney"
+    },
+    {
+      "name": "Gantt",
+      "slug": "gantt"
+    },
+    {
+      "name": "Garden City",
+      "slug": "garden-city"
+    },
+    {
+      "name": "Gaston",
+      "slug": "gaston"
+    },
+    {
+      "name": "Gayle Mill",
+      "slug": "gayle-mill"
+    },
+    {
+      "name": "Georgetown",
+      "slug": "georgetown"
+    },
+    {
+      "name": "Gifford",
+      "slug": "gifford"
+    },
+    {
+      "name": "Gilbert",
+      "slug": "gilbert"
+    },
+    {
+      "name": "Gillisonville",
+      "slug": "gillisonville"
+    },
+    {
+      "name": "Glendale",
+      "slug": "glendale"
+    },
+    {
+      "name": "Glenn Springs",
+      "slug": "glenn-springs"
+    },
+    {
+      "name": "Gloverville",
+      "slug": "gloverville"
+    },
+    {
+      "name": "Golden Grove",
+      "slug": "golden-grove"
+    },
+    {
+      "name": "Goose Creek",
+      "slug": "goose-creek"
+    },
+    {
+      "name": "Govan",
+      "slug": "govan"
+    },
+    {
+      "name": "Gramling",
+      "slug": "gramling"
+    },
+    {
+      "name": "Graniteville",
+      "slug": "graniteville"
+    },
+    {
+      "name": "Gray Court",
+      "slug": "gray-court"
+    },
+    {
+      "name": "Great Falls",
+      "slug": "great-falls"
+    },
+    {
+      "name": "Greeleyville",
+      "slug": "greeleyville"
+    },
+    {
+      "name": "Green Sea",
+      "slug": "green-sea"
+    },
+    {
+      "name": "Greenville",
+      "slug": "greenville"
+    },
+    {
+      "name": "Greenwood",
+      "slug": "greenwood"
+    },
+    {
+      "name": "Greer",
+      "slug": "greer"
+    },
+    {
+      "name": "Grover",
+      "slug": "grover"
+    },
+    {
+      "name": "Hamer",
+      "slug": "hamer"
+    },
+    {
+      "name": "Hampton",
+      "slug": "hampton"
+    },
+    {
+      "name": "Hanahan",
+      "slug": "hanahan"
+    },
+    {
+      "name": "Harbor Island",
+      "slug": "harbor-island"
+    },
+    {
+      "name": "Hardeeville",
+      "slug": "hardeeville"
+    },
+    {
+      "name": "Harleyville",
+      "slug": "harleyville"
+    },
+    {
+      "name": "Hartsville",
+      "slug": "hartsville"
+    },
+    {
+      "name": "Heath Springs",
+      "slug": "heath-springs"
+    },
+    {
+      "name": "Helena",
+      "slug": "helena"
+    },
+    {
+      "name": "Hemingway",
+      "slug": "hemingway"
+    },
+    {
+      "name": "Hickory Grove",
+      "slug": "hickory-grove"
+    },
+    {
+      "name": "Hilda",
+      "slug": "hilda"
+    },
+    {
+      "name": "Hilltop",
+      "slug": "hilltop"
+    },
+    {
+      "name": "Hilton Head Island",
+      "slug": "hilton-head-island"
+    },
+    {
+      "name": "Hodges",
+      "slug": "hodges"
+    },
+    {
+      "name": "Holly Hill",
+      "slug": "holly-hill"
+    },
+    {
+      "name": "Hollywood",
+      "slug": "hollywood"
+    },
+    {
+      "name": "Homeland Park",
+      "slug": "homeland-park"
+    },
+    {
+      "name": "Homewood",
+      "slug": "homewood"
+    },
+    {
+      "name": "Honea Path",
+      "slug": "honea-path"
+    },
+    {
+      "name": "Hopkins",
+      "slug": "hopkins"
+    },
+    {
+      "name": "India Hook",
+      "slug": "india-hook"
+    },
+    {
+      "name": "Inman",
+      "slug": "inman"
+    },
+    {
+      "name": "Inman Mills",
+      "slug": "inman-mills"
+    },
+    {
+      "name": "Irmo",
+      "slug": "irmo"
+    },
+    {
+      "name": "Irwin",
+      "slug": "irwin"
+    },
+    {
+      "name": "Islandton",
+      "slug": "islandton"
+    },
+    {
+      "name": "Isle of Palms",
+      "slug": "isle-of-palms"
+    },
+    {
+      "name": "Iva",
+      "slug": "iva"
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson"
+    },
+    {
+      "name": "Jacksonboro",
+      "slug": "jacksonboro"
+    },
+    {
+      "name": "James Island",
+      "slug": "james-island"
+    },
+    {
+      "name": "Jamestown",
+      "slug": "jamestown"
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson"
+    },
+    {
+      "name": "Jenkinsville",
+      "slug": "jenkinsville"
+    },
+    {
+      "name": "Joanna",
+      "slug": "joanna"
+    },
+    {
+      "name": "Johnsonville",
+      "slug": "johnsonville"
+    },
+    {
+      "name": "Johnston",
+      "slug": "johnston"
+    },
+    {
+      "name": "Jonesville",
+      "slug": "jonesville"
+    },
+    {
+      "name": "Judson",
+      "slug": "judson"
+    },
+    {
+      "name": "Keowee Key",
+      "slug": "keowee-key"
+    },
+    {
+      "name": "Kershaw",
+      "slug": "kershaw"
+    },
+    {
+      "name": "Ketchuptown",
+      "slug": "ketchuptown"
+    },
+    {
+      "name": "Kiawah Island",
+      "slug": "kiawah-island"
+    },
+    {
+      "name": "Kingstree",
+      "slug": "kingstree"
+    },
+    {
+      "name": "Kline",
+      "slug": "kline"
+    },
+    {
+      "name": "La France",
+      "slug": "la-france"
+    },
+    {
+      "name": "Ladson",
+      "slug": "ladson"
+    },
+    {
+      "name": "Lake City",
+      "slug": "lake-city"
+    },
+    {
+      "name": "Lake Murray of Richland",
+      "slug": "lake-murray-of-richland"
+    },
+    {
+      "name": "Lake Secession",
+      "slug": "lake-secession"
+    },
+    {
+      "name": "Lake View",
+      "slug": "lake-view"
+    },
+    {
+      "name": "Lake Wylie",
+      "slug": "lake-wylie"
+    },
+    {
+      "name": "Lakewood",
+      "slug": "lakewood"
+    },
+    {
+      "name": "Lamar",
+      "slug": "lamar"
+    },
+    {
+      "name": "Lancaster",
+      "slug": "lancaster"
+    },
+    {
+      "name": "Landrum",
+      "slug": "landrum"
+    },
+    {
+      "name": "Lane",
+      "slug": "lane"
+    },
+    {
+      "name": "Langley",
+      "slug": "langley"
+    },
+    {
+      "name": "Latta",
+      "slug": "latta"
+    },
+    {
+      "name": "Laurel Bay",
+      "slug": "laurel-bay"
+    },
+    {
+      "name": "Laurens",
+      "slug": "laurens"
+    },
+    {
+      "name": "Lesslie",
+      "slug": "lesslie"
+    },
+    {
+      "name": "Lexington",
+      "slug": "lexington"
+    },
+    {
+      "name": "Liberty",
+      "slug": "liberty"
+    },
+    {
+      "name": "Lincolnville",
+      "slug": "lincolnville"
+    },
+    {
+      "name": "Litchfield Beach",
+      "slug": "litchfield-beach"
+    },
+    {
+      "name": "Little Mountain",
+      "slug": "little-mountain"
+    },
+    {
+      "name": "Little River",
+      "slug": "little-river"
+    },
+    {
+      "name": "Little Rock",
+      "slug": "little-rock"
+    },
+    {
+      "name": "Live Oak",
+      "slug": "live-oak"
+    },
+    {
+      "name": "Livingston",
+      "slug": "livingston"
+    },
+    {
+      "name": "Lobeco",
+      "slug": "lobeco"
+    },
+    {
+      "name": "Lockhart",
+      "slug": "lockhart"
+    },
+    {
+      "name": "Lodge",
+      "slug": "lodge"
+    },
+    {
+      "name": "Longcreek",
+      "slug": "longcreek"
+    },
+    {
+      "name": "Loris",
+      "slug": "loris"
+    },
+    {
+      "name": "Lowndesville",
+      "slug": "lowndesville"
+    },
+    {
+      "name": "Lowrys",
+      "slug": "lowrys"
+    },
+    {
+      "name": "Lugoff",
+      "slug": "lugoff"
+    },
+    {
+      "name": "Luray",
+      "slug": "luray"
+    },
+    {
+      "name": "Lydia",
+      "slug": "lydia"
+    },
+    {
+      "name": "Lyman",
+      "slug": "lyman"
+    },
+    {
+      "name": "Lynchburg",
+      "slug": "lynchburg"
+    },
+    {
+      "name": "Manning",
+      "slug": "manning"
+    },
+    {
+      "name": "Manville",
+      "slug": "manville"
+    },
+    {
+      "name": "Marion",
+      "slug": "marion"
+    },
+    {
+      "name": "Mauldin",
+      "slug": "mauldin"
+    },
+    {
+      "name": "Mayesville",
+      "slug": "mayesville"
+    },
+    {
+      "name": "Mayo",
+      "slug": "mayo"
+    },
+    {
+      "name": "McBee",
+      "slug": "mcbee"
+    },
+    {
+      "name": "McClellanville",
+      "slug": "mcclellanville"
+    },
+    {
+      "name": "McColl",
+      "slug": "mccoll"
+    },
+    {
+      "name": "McConnells",
+      "slug": "mcconnells"
+    },
+    {
+      "name": "McCormick",
+      "slug": "mccormick"
+    },
+    {
+      "name": "Meggett",
+      "slug": "meggett"
+    },
+    {
+      "name": "Modoc",
+      "slug": "modoc"
+    },
+    {
+      "name": "Monarch Mill",
+      "slug": "monarch-mill"
+    },
+    {
+      "name": "Moncks Corner",
+      "slug": "moncks-corner"
+    },
+    {
+      "name": "Monetta",
+      "slug": "monetta"
+    },
+    {
+      "name": "Mount Carmel",
+      "slug": "mount-carmel"
+    },
+    {
+      "name": "Mount Croghan",
+      "slug": "mount-croghan"
+    },
+    {
+      "name": "Mount Pleasant",
+      "slug": "mount-pleasant"
+    },
+    {
+      "name": "Mountville",
+      "slug": "mountville"
+    },
+    {
+      "name": "Mulberry",
+      "slug": "mulberry"
+    },
+    {
+      "name": "Mullins",
+      "slug": "mullins"
+    },
+    {
+      "name": "Murphys Estates",
+      "slug": "murphys-estates"
+    },
+    {
+      "name": "Murrells Inlet",
+      "slug": "murrells-inlet"
+    },
+    {
+      "name": "Myrtle Beach",
+      "slug": "myrtle-beach"
+    },
+    {
+      "name": "Neeses",
+      "slug": "neeses"
+    },
+    {
+      "name": "New Ellenton",
+      "slug": "new-ellenton"
+    },
+    {
+      "name": "Newberry",
+      "slug": "newberry"
+    },
+    {
+      "name": "Newport",
+      "slug": "newport"
+    },
+    {
+      "name": "Newry",
+      "slug": "newry"
+    },
+    {
+      "name": "Newtown",
+      "slug": "newtown"
+    },
+    {
+      "name": "Nichols",
+      "slug": "nichols"
+    },
+    {
+      "name": "Ninety Six",
+      "slug": "ninety-six"
+    },
+    {
+      "name": "Norris",
+      "slug": "norris"
+    },
+    {
+      "name": "North",
+      "slug": "north"
+    },
+    {
+      "name": "North Augusta",
+      "slug": "north-augusta"
+    },
+    {
+      "name": "North Charleston",
+      "slug": "north-charleston"
+    },
+    {
+      "name": "North Hartsville",
+      "slug": "north-hartsville"
+    },
+    {
+      "name": "North Myrtle Beach",
+      "slug": "north-myrtle-beach"
+    },
+    {
+      "name": "North Santee",
+      "slug": "north-santee"
+    },
+    {
+      "name": "Northlake",
+      "slug": "northlake"
+    },
+    {
+      "name": "Norway",
+      "slug": "norway"
+    },
+    {
+      "name": "Oak Grove",
+      "slug": "oak-grove"
+    },
+    {
+      "name": "Oakland",
+      "slug": "oakland"
+    },
+    {
+      "name": "Olanta",
+      "slug": "olanta"
+    },
+    {
+      "name": "Olar",
+      "slug": "olar"
+    },
+    {
+      "name": "Olympia",
+      "slug": "olympia"
+    },
+    {
+      "name": "Orangeburg",
+      "slug": "orangeburg"
+    },
+    {
+      "name": "Oswego",
+      "slug": "oswego"
+    },
+    {
+      "name": "Pacolet",
+      "slug": "pacolet"
+    },
+    {
+      "name": "Pageland",
+      "slug": "pageland"
+    },
+    {
+      "name": "Pamplico",
+      "slug": "pamplico"
+    },
+    {
+      "name": "Parker",
+      "slug": "parker"
+    },
+    {
+      "name": "Parksville",
+      "slug": "parksville"
+    },
+    {
+      "name": "Patrick",
+      "slug": "patrick"
+    },
+    {
+      "name": "Pauline",
+      "slug": "pauline"
+    },
+    {
+      "name": "Pawleys Island",
+      "slug": "pawleys-island"
+    },
+    {
+      "name": "Paxville",
+      "slug": "paxville"
+    },
+    {
+      "name": "Peak",
+      "slug": "peak"
+    },
+    {
+      "name": "Pelion",
+      "slug": "pelion"
+    },
+    {
+      "name": "Pelzer",
+      "slug": "pelzer"
+    },
+    {
+      "name": "Pendleton",
+      "slug": "pendleton"
+    },
+    {
+      "name": "Perry",
+      "slug": "perry"
+    },
+    {
+      "name": "Pickens",
+      "slug": "pickens"
+    },
+    {
+      "name": "Piedmont",
+      "slug": "piedmont"
+    },
+    {
+      "name": "Pimlico",
+      "slug": "pimlico"
+    },
+    {
+      "name": "Pine Ridge",
+      "slug": "pine-ridge"
+    },
+    {
+      "name": "Pinewood",
+      "slug": "pinewood"
+    },
+    {
+      "name": "Pinopolis",
+      "slug": "pinopolis"
+    },
+    {
+      "name": "Plum Branch",
+      "slug": "plum-branch"
+    },
+    {
+      "name": "Pomaria",
+      "slug": "pomaria"
+    },
+    {
+      "name": "Port Royal",
+      "slug": "port-royal"
+    },
+    {
+      "name": "Powdersville",
+      "slug": "powdersville"
+    },
+    {
+      "name": "Princeton",
+      "slug": "princeton"
+    },
+    {
+      "name": "Privateer",
+      "slug": "privateer"
+    },
+    {
+      "name": "Promised Land",
+      "slug": "promised-land"
+    },
+    {
+      "name": "Prosperity",
+      "slug": "prosperity"
+    },
+    {
+      "name": "Quinby",
+      "slug": "quinby"
+    },
+    {
+      "name": "Rains",
+      "slug": "rains"
+    },
+    {
+      "name": "Ravenel",
+      "slug": "ravenel"
+    },
+    {
+      "name": "Red Bank",
+      "slug": "red-bank"
+    },
+    {
+      "name": "Red Hill",
+      "slug": "red-hill"
+    },
+    {
+      "name": "Reevesville",
+      "slug": "reevesville"
+    },
+    {
+      "name": "Reidville",
+      "slug": "reidville"
+    },
+    {
+      "name": "Rembert",
+      "slug": "rembert"
+    },
+    {
+      "name": "Richburg",
+      "slug": "richburg"
+    },
+    {
+      "name": "Ridge Spring",
+      "slug": "ridge-spring"
+    },
+    {
+      "name": "Ridgeland",
+      "slug": "ridgeland"
+    },
+    {
+      "name": "Ridgeville",
+      "slug": "ridgeville"
+    },
+    {
+      "name": "Ridgeway",
+      "slug": "ridgeway"
+    },
+    {
+      "name": "Riverview",
+      "slug": "riverview"
+    },
+    {
+      "name": "Rock Hill",
+      "slug": "rock-hill"
+    },
+    {
+      "name": "Rockville",
+      "slug": "rockville"
+    },
+    {
+      "name": "Roebuck",
+      "slug": "roebuck"
+    },
+    {
+      "name": "Rowesville",
+      "slug": "rowesville"
+    },
+    {
+      "name": "Ruby",
+      "slug": "ruby"
+    },
+    {
+      "name": "Russellville",
+      "slug": "russellville"
+    },
+    {
+      "name": "Saint Charles",
+      "slug": "saint-charles"
+    },
+    {
+      "name": "Salem",
+      "slug": "salem"
+    },
+    {
+      "name": "Salley",
+      "slug": "salley"
+    },
+    {
+      "name": "Saluda",
+      "slug": "saluda"
+    },
+    {
+      "name": "Sandy Springs",
+      "slug": "sandy-springs"
+    },
+    {
+      "name": "Sangaree",
+      "slug": "sangaree"
+    },
+    {
+      "name": "Sans Souci",
+      "slug": "sans-souci"
+    },
+    {
+      "name": "Santee",
+      "slug": "santee"
+    },
+    {
+      "name": "Saxon",
+      "slug": "saxon"
+    },
+    {
+      "name": "Scotia",
+      "slug": "scotia"
+    },
+    {
+      "name": "Scranton",
+      "slug": "scranton"
+    },
+    {
+      "name": "Seabrook",
+      "slug": "seabrook"
+    },
+    {
+      "name": "Seabrook Island",
+      "slug": "seabrook-island"
+    },
+    {
+      "name": "Sellers",
+      "slug": "sellers"
+    },
+    {
+      "name": "Seneca",
+      "slug": "seneca"
+    },
+    {
+      "name": "Seven Oaks",
+      "slug": "seven-oaks"
+    },
+    {
+      "name": "Sharon",
+      "slug": "sharon"
+    },
+    {
+      "name": "Sheldon",
+      "slug": "sheldon"
+    },
+    {
+      "name": "Shell Point",
+      "slug": "shell-point"
+    },
+    {
+      "name": "Shiloh",
+      "slug": "shiloh"
+    },
+    {
+      "name": "Silverstreet",
+      "slug": "silverstreet"
+    },
+    {
+      "name": "Simpsonville",
+      "slug": "simpsonville"
+    },
+    {
+      "name": "Six Mile",
+      "slug": "six-mile"
+    },
+    {
+      "name": "Slater-Marietta",
+      "slug": "slater-marietta"
+    },
+    {
+      "name": "Smoaks",
+      "slug": "smoaks"
+    },
+    {
+      "name": "Smyrna",
+      "slug": "smyrna"
+    },
+    {
+      "name": "Snelling",
+      "slug": "snelling"
+    },
+    {
+      "name": "Socastee",
+      "slug": "socastee"
+    },
+    {
+      "name": "Society Hill",
+      "slug": "society-hill"
+    },
+    {
+      "name": "South Congaree",
+      "slug": "south-congaree"
+    },
+    {
+      "name": "South Sumter",
+      "slug": "south-sumter"
+    },
+    {
+      "name": "South Union",
+      "slug": "south-union"
+    },
+    {
+      "name": "Southern Shops",
+      "slug": "southern-shops"
+    },
+    {
+      "name": "Spartanburg",
+      "slug": "spartanburg"
+    },
+    {
+      "name": "Springdale",
+      "slug": "springdale"
+    },
+    {
+      "name": "Springfield",
+      "slug": "springfield"
+    },
+    {
+      "name": "St. Andrews",
+      "slug": "st-andrews"
+    },
+    {
+      "name": "St. George",
+      "slug": "st-george"
+    },
+    {
+      "name": "St. Matthews",
+      "slug": "st-matthews"
+    },
+    {
+      "name": "St. Stephen",
+      "slug": "st-stephen"
+    },
+    {
+      "name": "Starr",
+      "slug": "starr"
+    },
+    {
+      "name": "Startex",
+      "slug": "startex"
+    },
+    {
+      "name": "Stateburg",
+      "slug": "stateburg"
+    },
+    {
+      "name": "Stuckey",
+      "slug": "stuckey"
+    },
+    {
+      "name": "Sullivan&#x27;s Island",
+      "slug": "sullivans-island"
+    },
+    {
+      "name": "Summerton",
+      "slug": "summerton"
+    },
+    {
+      "name": "Summerville",
+      "slug": "summerville"
+    },
+    {
+      "name": "Summit",
+      "slug": "summit"
+    },
+    {
+      "name": "Sumter",
+      "slug": "sumter"
+    },
+    {
+      "name": "Surfside Beach",
+      "slug": "surfside-beach"
+    },
+    {
+      "name": "Swansea",
+      "slug": "swansea"
+    },
+    {
+      "name": "Sycamore",
+      "slug": "sycamore"
+    },
+    {
+      "name": "Tamassee",
+      "slug": "tamassee"
+    },
+    {
+      "name": "Tatum",
+      "slug": "tatum"
+    },
+    {
+      "name": "Taylors",
+      "slug": "taylors"
+    },
+    {
+      "name": "Tega Cay",
+      "slug": "tega-cay"
+    },
+    {
+      "name": "The Cliffs Valley",
+      "slug": "the-cliffs-valley"
+    },
+    {
+      "name": "Tigerville",
+      "slug": "tigerville"
+    },
+    {
+      "name": "Timmonsville",
+      "slug": "timmonsville"
+    },
+    {
+      "name": "Tradesville",
+      "slug": "tradesville"
+    },
+    {
+      "name": "Travelers Rest",
+      "slug": "travelers-rest"
+    },
+    {
+      "name": "Trenton",
+      "slug": "trenton"
+    },
+    {
+      "name": "Troy",
+      "slug": "troy"
+    },
+    {
+      "name": "Turbeville",
+      "slug": "turbeville"
+    },
+    {
+      "name": "Ulmer",
+      "slug": "ulmer"
+    },
+    {
+      "name": "Union",
+      "slug": "union"
+    },
+    {
+      "name": "Unity",
+      "slug": "unity"
+    },
+    {
+      "name": "Utica",
+      "slug": "utica"
+    },
+    {
+      "name": "Valley Falls",
+      "slug": "valley-falls"
+    },
+    {
+      "name": "Van Wyck",
+      "slug": "van-wyck"
+    },
+    {
+      "name": "Vance",
+      "slug": "vance"
+    },
+    {
+      "name": "Varnville",
+      "slug": "varnville"
+    },
+    {
+      "name": "Wade Hampton",
+      "slug": "wade-hampton"
+    },
+    {
+      "name": "Wagener",
+      "slug": "wagener"
+    },
+    {
+      "name": "Walhalla",
+      "slug": "walhalla"
+    },
+    {
+      "name": "Wallace",
+      "slug": "wallace"
+    },
+    {
+      "name": "Walterboro",
+      "slug": "walterboro"
+    },
+    {
+      "name": "Ward",
+      "slug": "ward"
+    },
+    {
+      "name": "Ware Place",
+      "slug": "ware-place"
+    },
+    {
+      "name": "Ware Shoals",
+      "slug": "ware-shoals"
+    },
+    {
+      "name": "Warrenville",
+      "slug": "warrenville"
+    },
+    {
+      "name": "Waterloo",
+      "slug": "waterloo"
+    },
+    {
+      "name": "Watts Mills",
+      "slug": "watts-mills"
+    },
+    {
+      "name": "Wedgefield",
+      "slug": "wedgefield"
+    },
+    {
+      "name": "Welcome",
+      "slug": "welcome"
+    },
+    {
+      "name": "Wellford",
+      "slug": "wellford"
+    },
+    {
+      "name": "West Columbia",
+      "slug": "west-columbia"
+    },
+    {
+      "name": "West Pelzer",
+      "slug": "west-pelzer"
+    },
+    {
+      "name": "West Union",
+      "slug": "west-union"
+    },
+    {
+      "name": "Westminster",
+      "slug": "westminster"
+    },
+    {
+      "name": "White Knoll",
+      "slug": "white-knoll"
+    },
+    {
+      "name": "Whitmire",
+      "slug": "whitmire"
+    },
+    {
+      "name": "Whitney",
+      "slug": "whitney"
+    },
+    {
+      "name": "Wilkinson Heights",
+      "slug": "wilkinson-heights"
+    },
+    {
+      "name": "Williams",
+      "slug": "williams"
+    },
+    {
+      "name": "Williamston",
+      "slug": "williamston"
+    },
+    {
+      "name": "Willington",
+      "slug": "willington"
+    },
+    {
+      "name": "Williston",
+      "slug": "williston"
+    },
+    {
+      "name": "Windsor",
+      "slug": "windsor"
+    },
+    {
+      "name": "Winnsboro",
+      "slug": "winnsboro"
+    },
+    {
+      "name": "Winnsboro Mills",
+      "slug": "winnsboro-mills"
+    },
+    {
+      "name": "Wisacky",
+      "slug": "wisacky"
+    },
+    {
+      "name": "Woodfield",
+      "slug": "woodfield"
+    },
+    {
+      "name": "Woodford",
+      "slug": "woodford"
+    },
+    {
+      "name": "Woodruff",
+      "slug": "woodruff"
+    },
+    {
+      "name": "Wyboo",
+      "slug": "wyboo"
+    },
+    {
+      "name": "Yemassee",
+      "slug": "yemassee"
+    },
+    {
+      "name": "York",
+      "slug": "york"
+    },
+    {
+      "name": "Zion",
+      "slug": "zion"
+    }
+  ]
+}

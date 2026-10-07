@@ -1,0 +1,824 @@
+{
+  "state": "Wyoming",
+  "slug": "wyoming",
+  "abbr": "WY",
+  "cityCount": 204,
+  "cities": [
+    {
+      "name": "Afton",
+      "slug": "afton"
+    },
+    {
+      "name": "Albany",
+      "slug": "albany"
+    },
+    {
+      "name": "Albin",
+      "slug": "albin"
+    },
+    {
+      "name": "Alcova",
+      "slug": "alcova"
+    },
+    {
+      "name": "Alpine",
+      "slug": "alpine"
+    },
+    {
+      "name": "Alpine Northeast",
+      "slug": "alpine-northeast"
+    },
+    {
+      "name": "Alpine Northwest",
+      "slug": "alpine-northwest"
+    },
+    {
+      "name": "Alta",
+      "slug": "alta"
+    },
+    {
+      "name": "Antelope Hills",
+      "slug": "antelope-hills"
+    },
+    {
+      "name": "Arapahoe",
+      "slug": "arapahoe"
+    },
+    {
+      "name": "Arlington",
+      "slug": "arlington"
+    },
+    {
+      "name": "Arrowhead Springs",
+      "slug": "arrowhead-springs"
+    },
+    {
+      "name": "Arvada",
+      "slug": "arvada"
+    },
+    {
+      "name": "Atlantic City",
+      "slug": "atlantic-city"
+    },
+    {
+      "name": "Auburn",
+      "slug": "auburn"
+    },
+    {
+      "name": "Baggs",
+      "slug": "baggs"
+    },
+    {
+      "name": "Bairoil",
+      "slug": "bairoil"
+    },
+    {
+      "name": "Bar Nunn",
+      "slug": "bar-nunn"
+    },
+    {
+      "name": "Basin",
+      "slug": "basin"
+    },
+    {
+      "name": "Bear River",
+      "slug": "bear-river"
+    },
+    {
+      "name": "Bedford",
+      "slug": "bedford"
+    },
+    {
+      "name": "Bessemer Bend",
+      "slug": "bessemer-bend"
+    },
+    {
+      "name": "Beulah",
+      "slug": "beulah"
+    },
+    {
+      "name": "Big Horn",
+      "slug": "big-horn"
+    },
+    {
+      "name": "Big Piney",
+      "slug": "big-piney"
+    },
+    {
+      "name": "Bondurant",
+      "slug": "bondurant"
+    },
+    {
+      "name": "Boulder",
+      "slug": "boulder"
+    },
+    {
+      "name": "Boulder Flats",
+      "slug": "boulder-flats"
+    },
+    {
+      "name": "Brookhurst",
+      "slug": "brookhurst"
+    },
+    {
+      "name": "Buffalo",
+      "slug": "buffalo"
+    },
+    {
+      "name": "Burlington",
+      "slug": "burlington"
+    },
+    {
+      "name": "Burns",
+      "slug": "burns"
+    },
+    {
+      "name": "Byron",
+      "slug": "byron"
+    },
+    {
+      "name": "Carpenter",
+      "slug": "carpenter"
+    },
+    {
+      "name": "Carter",
+      "slug": "carter"
+    },
+    {
+      "name": "Casper",
+      "slug": "casper"
+    },
+    {
+      "name": "Casper Mountain",
+      "slug": "casper-mountain"
+    },
+    {
+      "name": "Centennial",
+      "slug": "centennial"
+    },
+    {
+      "name": "Cheyenne",
+      "slug": "cheyenne"
+    },
+    {
+      "name": "Chugcreek",
+      "slug": "chugcreek"
+    },
+    {
+      "name": "Chugwater",
+      "slug": "chugwater"
+    },
+    {
+      "name": "Clearmont",
+      "slug": "clearmont"
+    },
+    {
+      "name": "Clearview Acres",
+      "slug": "clearview-acres"
+    },
+    {
+      "name": "Cody",
+      "slug": "cody"
+    },
+    {
+      "name": "Cokeville",
+      "slug": "cokeville"
+    },
+    {
+      "name": "Cora",
+      "slug": "cora"
+    },
+    {
+      "name": "Cowley",
+      "slug": "cowley"
+    },
+    {
+      "name": "Crowheart",
+      "slug": "crowheart"
+    },
+    {
+      "name": "Daniel",
+      "slug": "daniel"
+    },
+    {
+      "name": "Dayton",
+      "slug": "dayton"
+    },
+    {
+      "name": "Deaver",
+      "slug": "deaver"
+    },
+    {
+      "name": "Diamondville",
+      "slug": "diamondville"
+    },
+    {
+      "name": "Dixon",
+      "slug": "dixon"
+    },
+    {
+      "name": "Douglas",
+      "slug": "douglas"
+    },
+    {
+      "name": "Dubois",
+      "slug": "dubois"
+    },
+    {
+      "name": "East Thermopolis",
+      "slug": "east-thermopolis"
+    },
+    {
+      "name": "Eden",
+      "slug": "eden"
+    },
+    {
+      "name": "Edgerton",
+      "slug": "edgerton"
+    },
+    {
+      "name": "El Rancho",
+      "slug": "el-rancho"
+    },
+    {
+      "name": "Elk Mountain",
+      "slug": "elk-mountain"
+    },
+    {
+      "name": "Encampment",
+      "slug": "encampment"
+    },
+    {
+      "name": "Esterbrook",
+      "slug": "esterbrook"
+    },
+    {
+      "name": "Ethete",
+      "slug": "ethete"
+    },
+    {
+      "name": "Etna",
+      "slug": "etna"
+    },
+    {
+      "name": "Evanston",
+      "slug": "evanston"
+    },
+    {
+      "name": "Evansville",
+      "slug": "evansville"
+    },
+    {
+      "name": "Fairview",
+      "slug": "fairview"
+    },
+    {
+      "name": "Farson",
+      "slug": "farson"
+    },
+    {
+      "name": "Fontenelle",
+      "slug": "fontenelle"
+    },
+    {
+      "name": "Fort Bridger",
+      "slug": "fort-bridger"
+    },
+    {
+      "name": "Fort Laramie",
+      "slug": "fort-laramie"
+    },
+    {
+      "name": "Fort Washakie",
+      "slug": "fort-washakie"
+    },
+    {
+      "name": "Fox Farm-College",
+      "slug": "fox-farm-college"
+    },
+    {
+      "name": "Fox Park",
+      "slug": "fox-park"
+    },
+    {
+      "name": "Frannie",
+      "slug": "frannie"
+    },
+    {
+      "name": "Freedom",
+      "slug": "freedom"
+    },
+    {
+      "name": "Garland",
+      "slug": "garland"
+    },
+    {
+      "name": "Gillette",
+      "slug": "gillette"
+    },
+    {
+      "name": "Glendo",
+      "slug": "glendo"
+    },
+    {
+      "name": "Glenrock",
+      "slug": "glenrock"
+    },
+    {
+      "name": "Granger",
+      "slug": "granger"
+    },
+    {
+      "name": "Green River",
+      "slug": "green-river"
+    },
+    {
+      "name": "Greybull",
+      "slug": "greybull"
+    },
+    {
+      "name": "Grover",
+      "slug": "grover"
+    },
+    {
+      "name": "Guernsey",
+      "slug": "guernsey"
+    },
+    {
+      "name": "Hanna",
+      "slug": "hanna"
+    },
+    {
+      "name": "Hartrandt",
+      "slug": "hartrandt"
+    },
+    {
+      "name": "Hartville",
+      "slug": "hartville"
+    },
+    {
+      "name": "Hawk Springs",
+      "slug": "hawk-springs"
+    },
+    {
+      "name": "Hill View Heights",
+      "slug": "hill-view-heights"
+    },
+    {
+      "name": "Hillsdale",
+      "slug": "hillsdale"
+    },
+    {
+      "name": "Hoback",
+      "slug": "hoback"
+    },
+    {
+      "name": "Homa Hills",
+      "slug": "homa-hills"
+    },
+    {
+      "name": "Hudson",
+      "slug": "hudson"
+    },
+    {
+      "name": "Hulett",
+      "slug": "hulett"
+    },
+    {
+      "name": "Huntley",
+      "slug": "huntley"
+    },
+    {
+      "name": "Hyattville",
+      "slug": "hyattville"
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson"
+    },
+    {
+      "name": "James Town",
+      "slug": "james-town"
+    },
+    {
+      "name": "Jeffrey City",
+      "slug": "jeffrey-city"
+    },
+    {
+      "name": "Johnstown",
+      "slug": "johnstown"
+    },
+    {
+      "name": "Kaycee",
+      "slug": "kaycee"
+    },
+    {
+      "name": "Kelly",
+      "slug": "kelly"
+    },
+    {
+      "name": "Kemmerer",
+      "slug": "kemmerer"
+    },
+    {
+      "name": "Kirby",
+      "slug": "kirby"
+    },
+    {
+      "name": "La Barge",
+      "slug": "la-barge"
+    },
+    {
+      "name": "La Grange",
+      "slug": "la-grange"
+    },
+    {
+      "name": "Lakeview North",
+      "slug": "lakeview-north"
+    },
+    {
+      "name": "Lance Creek",
+      "slug": "lance-creek"
+    },
+    {
+      "name": "Lander",
+      "slug": "lander"
+    },
+    {
+      "name": "Laramie",
+      "slug": "laramie"
+    },
+    {
+      "name": "Lingle",
+      "slug": "lingle"
+    },
+    {
+      "name": "Little America",
+      "slug": "little-america"
+    },
+    {
+      "name": "Lonetree",
+      "slug": "lonetree"
+    },
+    {
+      "name": "Lost Springs",
+      "slug": "lost-springs"
+    },
+    {
+      "name": "Lovell",
+      "slug": "lovell"
+    },
+    {
+      "name": "Lucerne",
+      "slug": "lucerne"
+    },
+    {
+      "name": "Lusk",
+      "slug": "lusk"
+    },
+    {
+      "name": "Lyman",
+      "slug": "lyman"
+    },
+    {
+      "name": "Mammoth",
+      "slug": "mammoth"
+    },
+    {
+      "name": "Manderson",
+      "slug": "manderson"
+    },
+    {
+      "name": "Manville",
+      "slug": "manville"
+    },
+    {
+      "name": "Marbleton",
+      "slug": "marbleton"
+    },
+    {
+      "name": "McKinnon",
+      "slug": "mckinnon"
+    },
+    {
+      "name": "Meadow Acres",
+      "slug": "meadow-acres"
+    },
+    {
+      "name": "Medicine Bow",
+      "slug": "medicine-bow"
+    },
+    {
+      "name": "Meeteetse",
+      "slug": "meeteetse"
+    },
+    {
+      "name": "Midwest",
+      "slug": "midwest"
+    },
+    {
+      "name": "Mills",
+      "slug": "mills"
+    },
+    {
+      "name": "Moorcroft",
+      "slug": "moorcroft"
+    },
+    {
+      "name": "Moose Wilson Road",
+      "slug": "moose-wilson-road"
+    },
+    {
+      "name": "Mountain View",
+      "slug": "mountain-view"
+    },
+    {
+      "name": "Newcastle",
+      "slug": "newcastle"
+    },
+    {
+      "name": "Nordic",
+      "slug": "nordic"
+    },
+    {
+      "name": "North Rock Springs",
+      "slug": "north-rock-springs"
+    },
+    {
+      "name": "Oakley",
+      "slug": "oakley"
+    },
+    {
+      "name": "Opal",
+      "slug": "opal"
+    },
+    {
+      "name": "Orin",
+      "slug": "orin"
+    },
+    {
+      "name": "Osage",
+      "slug": "osage"
+    },
+    {
+      "name": "Osmond",
+      "slug": "osmond"
+    },
+    {
+      "name": "Owl Creek",
+      "slug": "owl-creek"
+    },
+    {
+      "name": "Parkman",
+      "slug": "parkman"
+    },
+    {
+      "name": "Pavillion",
+      "slug": "pavillion"
+    },
+    {
+      "name": "Pine Bluffs",
+      "slug": "pine-bluffs"
+    },
+    {
+      "name": "Pine Haven",
+      "slug": "pine-haven"
+    },
+    {
+      "name": "Pinedale",
+      "slug": "pinedale"
+    },
+    {
+      "name": "Point of Rocks",
+      "slug": "point-of-rocks"
+    },
+    {
+      "name": "Powder Horn",
+      "slug": "powder-horn"
+    },
+    {
+      "name": "Powder River",
+      "slug": "powder-river"
+    },
+    {
+      "name": "Powell",
+      "slug": "powell"
+    },
+    {
+      "name": "Purple Sage",
+      "slug": "purple-sage"
+    },
+    {
+      "name": "Rafter J Ranch",
+      "slug": "rafter-j-ranch"
+    },
+    {
+      "name": "Ralston",
+      "slug": "ralston"
+    },
+    {
+      "name": "Ranchester",
+      "slug": "ranchester"
+    },
+    {
+      "name": "Ranchettes",
+      "slug": "ranchettes"
+    },
+    {
+      "name": "Rawlins",
+      "slug": "rawlins"
+    },
+    {
+      "name": "Red Butte",
+      "slug": "red-butte"
+    },
+    {
+      "name": "Reliance",
+      "slug": "reliance"
+    },
+    {
+      "name": "Riverside",
+      "slug": "riverside"
+    },
+    {
+      "name": "Riverton",
+      "slug": "riverton"
+    },
+    {
+      "name": "Robertson",
+      "slug": "robertson"
+    },
+    {
+      "name": "Rock River",
+      "slug": "rock-river"
+    },
+    {
+      "name": "Rock Springs",
+      "slug": "rock-springs"
+    },
+    {
+      "name": "Rolling Hills",
+      "slug": "rolling-hills"
+    },
+    {
+      "name": "Ryan Park",
+      "slug": "ryan-park"
+    },
+    {
+      "name": "Saratoga",
+      "slug": "saratoga"
+    },
+    {
+      "name": "Shell",
+      "slug": "shell"
+    },
+    {
+      "name": "Sheridan",
+      "slug": "sheridan"
+    },
+    {
+      "name": "Shoshoni",
+      "slug": "shoshoni"
+    },
+    {
+      "name": "Sinclair",
+      "slug": "sinclair"
+    },
+    {
+      "name": "Slater",
+      "slug": "slater"
+    },
+    {
+      "name": "Sleepy Hollow",
+      "slug": "sleepy-hollow"
+    },
+    {
+      "name": "Smoot",
+      "slug": "smoot"
+    },
+    {
+      "name": "South Greeley",
+      "slug": "south-greeley"
+    },
+    {
+      "name": "South Park",
+      "slug": "south-park"
+    },
+    {
+      "name": "Star Valley Ranch",
+      "slug": "star-valley-ranch"
+    },
+    {
+      "name": "Story",
+      "slug": "story"
+    },
+    {
+      "name": "Sundance",
+      "slug": "sundance"
+    },
+    {
+      "name": "Superior",
+      "slug": "superior"
+    },
+    {
+      "name": "Table Rock",
+      "slug": "table-rock"
+    },
+    {
+      "name": "Taylor",
+      "slug": "taylor"
+    },
+    {
+      "name": "Ten Sleep",
+      "slug": "ten-sleep"
+    },
+    {
+      "name": "Teton Village",
+      "slug": "teton-village"
+    },
+    {
+      "name": "Thayne",
+      "slug": "thayne"
+    },
+    {
+      "name": "Thermopolis",
+      "slug": "thermopolis"
+    },
+    {
+      "name": "Torrington",
+      "slug": "torrington"
+    },
+    {
+      "name": "Turnerville",
+      "slug": "turnerville"
+    },
+    {
+      "name": "Upton",
+      "slug": "upton"
+    },
+    {
+      "name": "Urie",
+      "slug": "urie"
+    },
+    {
+      "name": "Van Tassell",
+      "slug": "van-tassell"
+    },
+    {
+      "name": "Veteran",
+      "slug": "veteran"
+    },
+    {
+      "name": "Vista West",
+      "slug": "vista-west"
+    },
+    {
+      "name": "Wamsutter",
+      "slug": "wamsutter"
+    },
+    {
+      "name": "Warren AFB",
+      "slug": "warren-afb"
+    },
+    {
+      "name": "Washam",
+      "slug": "washam"
+    },
+    {
+      "name": "Westview Circle",
+      "slug": "westview-circle"
+    },
+    {
+      "name": "Wheatland",
+      "slug": "wheatland"
+    },
+    {
+      "name": "Whiting",
+      "slug": "whiting"
+    },
+    {
+      "name": "Wilson",
+      "slug": "wilson"
+    },
+    {
+      "name": "Woods Landing-Jelm",
+      "slug": "woods-landing-jelm"
+    },
+    {
+      "name": "Worland",
+      "slug": "worland"
+    },
+    {
+      "name": "Wright",
+      "slug": "wright"
+    },
+    {
+      "name": "Y-O Ranch",
+      "slug": "y-o-ranch"
+    },
+    {
+      "name": "Yoder",
+      "slug": "yoder"
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "state": "Connecticut",
+  "slug": "connecticut",
+  "abbr": "CT",
+  "cityCount": 184,
+  "cities": [
+    {
+      "name": "Ansonia",
+      "slug": "ansonia"
+    },
+    {
+      "name": "Ball Pond",
+      "slug": "ball-pond"
+    },
+    {
+      "name": "Baltic",
+      "slug": "baltic"
+    },
+    {
+      "name": "Bantam",
+      "slug": "bantam"
+    },
+    {
+      "name": "Bethlehem Village",
+      "slug": "bethlehem-village"
+    },
+    {
+      "name": "Bigelow Corners",
+      "slug": "bigelow-corners"
+    },
+    {
+      "name": "Blue Hills",
+      "slug": "blue-hills"
+    },
+    {
+      "name": "Bogus Hill",
+      "slug": "bogus-hill"
+    },
+    {
+      "name": "Botsford",
+      "slug": "botsford"
+    },
+    {
+      "name": "Branchville",
+      "slug": "branchville"
+    },
+    {
+      "name": "Branford Center",
+      "slug": "branford-center"
+    },
+    {
+      "name": "Bridgeport",
+      "slug": "bridgeport"
+    },
+    {
+      "name": "Bridgewater",
+      "slug": "bridgewater"
+    },
+    {
+      "name": "Bristol",
+      "slug": "bristol"
+    },
+    {
+      "name": "Broad Brook",
+      "slug": "broad-brook"
+    },
+    {
+      "name": "Brookfield Center",
+      "slug": "brookfield-center"
+    },
+    {
+      "name": "Byram",
+      "slug": "byram"
+    },
+    {
+      "name": "Canaan",
+      "slug": "canaan"
+    },
+    {
+      "name": "Candlewood Isle",
+      "slug": "candlewood-isle"
+    },
+    {
+      "name": "Candlewood Knolls",
+      "slug": "candlewood-knolls"
+    },
+    {
+      "name": "Candlewood Lake Club",
+      "slug": "candlewood-lake-club"
+    },
+    {
+      "name": "Candlewood Orchards",
+      "slug": "candlewood-orchards"
+    },
+    {
+      "name": "Candlewood Shores",
+      "slug": "candlewood-shores"
+    },
+    {
+      "name": "Cannondale",
+      "slug": "cannondale"
+    },
+    {
+      "name": "Canton Valley",
+      "slug": "canton-valley"
+    },
+    {
+      "name": "Cheshire Village",
+      "slug": "cheshire-village"
+    },
+    {
+      "name": "Chester Center",
+      "slug": "chester-center"
+    },
+    {
+      "name": "Chimney Point",
+      "slug": "chimney-point"
+    },
+    {
+      "name": "Coleytown",
+      "slug": "coleytown"
+    },
+    {
+      "name": "Collinsville",
+      "slug": "collinsville"
+    },
+    {
+      "name": "Compo",
+      "slug": "compo"
+    },
+    {
+      "name": "Conning Towers Nautilus Park",
+      "slug": "conning-towers-nautilus-park"
+    },
+    {
+      "name": "Cornwall",
+      "slug": "cornwall"
+    },
+    {
+      "name": "Cornwall Bridge",
+      "slug": "cornwall-bridge"
+    },
+    {
+      "name": "Cos Cob",
+      "slug": "cos-cob"
+    },
+    {
+      "name": "Coventry Lake",
+      "slug": "coventry-lake"
+    },
+    {
+      "name": "Crystal Lake",
+      "slug": "crystal-lake"
+    },
+    {
+      "name": "Danbury",
+      "slug": "danbury"
+    },
+    {
+      "name": "Daniels Farm",
+      "slug": "daniels-farm"
+    },
+    {
+      "name": "Danielson",
+      "slug": "danielson"
+    },
+    {
+      "name": "Darien Downtown",
+      "slug": "darien-downtown"
+    },
+    {
+      "name": "Dayville",
+      "slug": "dayville"
+    },
+    {
+      "name": "Deep River Center",
+      "slug": "deep-river-center"
+    },
+    {
+      "name": "Derby",
+      "slug": "derby"
+    },
+    {
+      "name": "Dodgingtown",
+      "slug": "dodgingtown"
+    },
+    {
+      "name": "East Brooklyn",
+      "slug": "east-brooklyn"
+    },
+    {
+      "name": "East Village",
+      "slug": "east-village"
+    },
+    {
+      "name": "Essex Village",
+      "slug": "essex-village"
+    },
+    {
+      "name": "Fairfield University",
+      "slug": "fairfield-university"
+    },
+    {
+      "name": "Falls Village",
+      "slug": "falls-village"
+    },
+    {
+      "name": "Fenwick",
+      "slug": "fenwick"
+    },
+    {
+      "name": "Gales Ferry",
+      "slug": "gales-ferry"
+    },
+    {
+      "name": "Gaylordsville",
+      "slug": "gaylordsville"
+    },
+    {
+      "name": "Georgetown",
+      "slug": "georgetown"
+    },
+    {
+      "name": "Glastonbury Center",
+      "slug": "glastonbury-center"
+    },
+    {
+      "name": "Glenville",
+      "slug": "glenville"
+    },
+    {
+      "name": "Greens Farms",
+      "slug": "greens-farms"
+    },
+    {
+      "name": "Groton Long Point",
+      "slug": "groton-long-point"
+    },
+    {
+      "name": "Guilford Center",
+      "slug": "guilford-center"
+    },
+    {
+      "name": "Hartford",
+      "slug": "hartford"
+    },
+    {
+      "name": "Hawleyville",
+      "slug": "hawleyville"
+    },
+    {
+      "name": "Hazardville",
+      "slug": "hazardville"
+    },
+    {
+      "name": "Heritage Village",
+      "slug": "heritage-village"
+    },
+    {
+      "name": "Higganum",
+      "slug": "higganum"
+    },
+    {
+      "name": "Indian Field",
+      "slug": "indian-field"
+    },
+    {
+      "name": "Inglenook",
+      "slug": "inglenook"
+    },
+    {
+      "name": "Jewett City",
+      "slug": "jewett-city"
+    },
+    {
+      "name": "Kellogg Point",
+      "slug": "kellogg-point"
+    },
+    {
+      "name": "Kensington",
+      "slug": "kensington"
+    },
+    {
+      "name": "Knollcrest",
+      "slug": "knollcrest"
+    },
+    {
+      "name": "Lake Bungee",
+      "slug": "lake-bungee"
+    },
+    {
+      "name": "Lake Chaffee",
+      "slug": "lake-chaffee"
+    },
+    {
+      "name": "Lake Pocotopaug",
+      "slug": "lake-pocotopaug"
+    },
+    {
+      "name": "Lakes East",
+      "slug": "lakes-east"
+    },
+    {
+      "name": "Lakes West",
+      "slug": "lakes-west"
+    },
+    {
+      "name": "Lakeside Woods",
+      "slug": "lakeside-woods"
+    },
+    {
+      "name": "Lakeville",
+      "slug": "lakeville"
+    },
+    {
+      "name": "Long Hill",
+      "slug": "long-hill"
+    },
+    {
+      "name": "Lordship",
+      "slug": "lordship"
+    },
+    {
+      "name": "Madison Center",
+      "slug": "madison-center"
+    },
+    {
+      "name": "Mamanasco Lake",
+      "slug": "mamanasco-lake"
+    },
+    {
+      "name": "Mansfield Center",
+      "slug": "mansfield-center"
+    },
+    {
+      "name": "Mashantucket",
+      "slug": "mashantucket"
+    },
+    {
+      "name": "Mechanicsville",
+      "slug": "mechanicsville"
+    },
+    {
+      "name": "Meriden",
+      "slug": "meriden"
+    },
+    {
+      "name": "Middletown",
+      "slug": "middletown"
+    },
+    {
+      "name": "Milford city",
+      "slug": "milford-city"
+    },
+    {
+      "name": "Mill Plain",
+      "slug": "mill-plain"
+    },
+    {
+      "name": "Moodus",
+      "slug": "moodus"
+    },
+    {
+      "name": "Moosup",
+      "slug": "moosup"
+    },
+    {
+      "name": "Murray",
+      "slug": "murray"
+    },
+    {
+      "name": "Mystic",
+      "slug": "mystic"
+    },
+    {
+      "name": "Naugatuck",
+      "slug": "naugatuck"
+    },
+    {
+      "name": "New Britain",
+      "slug": "new-britain"
+    },
+    {
+      "name": "New Canaan",
+      "slug": "new-canaan"
+    },
+    {
+      "name": "New Hartford Center",
+      "slug": "new-hartford-center"
+    },
+    {
+      "name": "New Haven",
+      "slug": "new-haven"
+    },
+    {
+      "name": "New London",
+      "slug": "new-london"
+    },
+    {
+      "name": "New Preston",
+      "slug": "new-preston"
+    },
+    {
+      "name": "Niantic",
+      "slug": "niantic"
+    },
+    {
+      "name": "Noank",
+      "slug": "noank"
+    },
+    {
+      "name": "Noroton",
+      "slug": "noroton"
+    },
+    {
+      "name": "Noroton Heights",
+      "slug": "noroton-heights"
+    },
+    {
+      "name": "North Granby",
+      "slug": "north-granby"
+    },
+    {
+      "name": "North Grosvenor Dale",
+      "slug": "north-grosvenor-dale"
+    },
+    {
+      "name": "Northford",
+      "slug": "northford"
+    },
+    {
+      "name": "Northwest Harwinton",
+      "slug": "northwest-harwinton"
+    },
+    {
+      "name": "Norwalk",
+      "slug": "norwalk"
+    },
+    {
+      "name": "Norwich",
+      "slug": "norwich"
+    },
+    {
+      "name": "Oakville",
+      "slug": "oakville"
+    },
+    {
+      "name": "Old Greenwich",
+      "slug": "old-greenwich"
+    },
+    {
+      "name": "Old Hill",
+      "slug": "old-hill"
+    },
+    {
+      "name": "Old Mystic",
+      "slug": "old-mystic"
+    },
+    {
+      "name": "Old Saybrook Center",
+      "slug": "old-saybrook-center"
+    },
+    {
+      "name": "Oronoque",
+      "slug": "oronoque"
+    },
+    {
+      "name": "Oxoboxo River",
+      "slug": "oxoboxo-river"
+    },
+    {
+      "name": "Pawcatuck",
+      "slug": "pawcatuck"
+    },
+    {
+      "name": "Pemberwick",
+      "slug": "pemberwick"
+    },
+    {
+      "name": "Plainfield Village",
+      "slug": "plainfield-village"
+    },
+    {
+      "name": "Plantsville",
+      "slug": "plantsville"
+    },
+    {
+      "name": "Plattsville",
+      "slug": "plattsville"
+    },
+    {
+      "name": "Pleasant Valley",
+      "slug": "pleasant-valley"
+    },
+    {
+      "name": "Poplar Plains",
+      "slug": "poplar-plains"
+    },
+    {
+      "name": "Poquonock Bridge",
+      "slug": "poquonock-bridge"
+    },
+    {
+      "name": "Quasset Lake",
+      "slug": "quasset-lake"
+    },
+    {
+      "name": "Quinebaug",
+      "slug": "quinebaug"
+    },
+    {
+      "name": "Quinnipiac University",
+      "slug": "quinnipiac-university"
+    },
+    {
+      "name": "Redding Center",
+      "slug": "redding-center"
+    },
+    {
+      "name": "Ridgebury",
+      "slug": "ridgebury"
+    },
+    {
+      "name": "Riverside",
+      "slug": "riverside"
+    },
+    {
+      "name": "Riverton",
+      "slug": "riverton"
+    },
+    {
+      "name": "Rock Ridge",
+      "slug": "rock-ridge"
+    },
+    {
+      "name": "Rockville",
+      "slug": "rockville"
+    },
+    {
+      "name": "Route 7 Gateway",
+      "slug": "route-7-gateway"
+    },
+    {
+      "name": "Sacred Heart University",
+      "slug": "sacred-heart-university"
+    },
+    {
+      "name": "Sail Harbor",
+      "slug": "sail-harbor"
+    },
+    {
+      "name": "Salmon Brook",
+      "slug": "salmon-brook"
+    },
+    {
+      "name": "Sandy Hook",
+      "slug": "sandy-hook"
+    },
+    {
+      "name": "Saugatuck",
+      "slug": "saugatuck"
+    },
+    {
+      "name": "Saybrook Manor",
+      "slug": "saybrook-manor"
+    },
+    {
+      "name": "Shelton",
+      "slug": "shelton"
+    },
+    {
+      "name": "Sherman",
+      "slug": "sherman"
+    },
+    {
+      "name": "Sherwood Manor",
+      "slug": "sherwood-manor"
+    },
+    {
+      "name": "Simsbury Center",
+      "slug": "simsbury-center"
+    },
+    {
+      "name": "South Coventry",
+      "slug": "south-coventry"
+    },
+    {
+      "name": "South Wilton",
+      "slug": "south-wilton"
+    },
+    {
+      "name": "South Windham",
+      "slug": "south-windham"
+    },
+    {
+      "name": "South Woodstock",
+      "slug": "south-woodstock"
+    },
+    {
+      "name": "Southport",
+      "slug": "southport"
+    },
+    {
+      "name": "Southwood Acres",
+      "slug": "southwood-acres"
+    },
+    {
+      "name": "Stafford Springs",
+      "slug": "stafford-springs"
+    },
+    {
+      "name": "Stamford",
+      "slug": "stamford"
+    },
+    {
+      "name": "Staples",
+      "slug": "staples"
+    },
+    {
+      "name": "Stepney",
+      "slug": "stepney"
+    },
+    {
+      "name": "Storrs",
+      "slug": "storrs"
+    },
+    {
+      "name": "Stratford Downtown",
+      "slug": "stratford-downtown"
+    },
+    {
+      "name": "Suffield Depot",
+      "slug": "suffield-depot"
+    },
+    {
+      "name": "Tariffville",
+      "slug": "tariffville"
+    },
+    {
+      "name": "Tashua",
+      "slug": "tashua"
+    },
+    {
+      "name": "Taylor Corners",
+      "slug": "taylor-corners"
+    },
+    {
+      "name": "Terramuggus",
+      "slug": "terramuggus"
+    },
+    {
+      "name": "Terryville",
+      "slug": "terryville"
+    },
+    {
+      "name": "Thompsonville",
+      "slug": "thompsonville"
+    },
+    {
+      "name": "Tokeneke",
+      "slug": "tokeneke"
+    },
+    {
+      "name": "Topstone",
+      "slug": "topstone"
+    },
+    {
+      "name": "Torrington",
+      "slug": "torrington"
+    },
+    {
+      "name": "Trumbull Center",
+      "slug": "trumbull-center"
+    },
+    {
+      "name": "Wallingford Center",
+      "slug": "wallingford-center"
+    },
+    {
+      "name": "Waterbury",
+      "slug": "waterbury"
+    },
+    {
+      "name": "Wauregan",
+      "slug": "wauregan"
+    },
+    {
+      "name": "Weatogue",
+      "slug": "weatogue"
+    },
+    {
+      "name": "West Cornwall",
+      "slug": "west-cornwall"
+    },
+    {
+      "name": "West Haven",
+      "slug": "west-haven"
+    },
+    {
+      "name": "West Mountain",
+      "slug": "west-mountain"
+    },
+    {
+      "name": "West Simsbury",
+      "slug": "west-simsbury"
+    },
+    {
+      "name": "Westbrook Center",
+      "slug": "westbrook-center"
+    },
+    {
+      "name": "Weston",
+      "slug": "weston"
+    },
+    {
+      "name": "Westport Village",
+      "slug": "westport-village"
+    },
+    {
+      "name": "Willimantic",
+      "slug": "willimantic"
+    },
+    {
+      "name": "Wilton Center",
+      "slug": "wilton-center"
+    },
+    {
+      "name": "Winsted",
+      "slug": "winsted"
+    },
+    {
+      "name": "Witches Woods",
+      "slug": "witches-woods"
+    },
+    {
+      "name": "Woodbury Center",
+      "slug": "woodbury-center"
+    },
+    {
+      "name": "Woodmont",
+      "slug": "woodmont"
+    }
+  ]
+}
