@@ -1,6 +1,3 @@
-import fs from 'fs';
-import path from 'path';
-
 export interface CityInfo {
   name: string;
   slug: string;
@@ -67,19 +64,25 @@ export const allStatesList: StateSummary[] = [
   { name: "Wyoming", slug: "wyoming", abbr: "WY" }
 ];
 
-export function getStateData(stateSlug: string) {
-  const meta = allStatesList.find((s) => s.slug === stateSlug.toLowerCase());
-  if (!meta) return null;
+// Vite/Astro eager bundling for Edge / Cloudflare Workers runtime
+const stateFiles = import.meta.glob('./state-cities/*.json', { eager: true }) as Record<string, any>;
 
-  try {
-    const filePath = path.resolve(`src/data/state-cities/${stateSlug.toLowerCase()}.json`);
-    if (fs.existsSync(filePath)) {
-      const raw = fs.readFileSync(filePath, 'utf-8');
-      return JSON.parse(raw);
-    }
-  } catch (e) {
-    console.error(`Failed loading cities for ${stateSlug}`, e);
+const stateDataMap = new Map<string, any>();
+
+for (const [filePath, module] of Object.entries(stateFiles)) {
+  const data = module.default || module;
+  if (data && data.slug) {
+    stateDataMap.set(data.slug.toLowerCase(), data);
   }
+}
+
+export function getStateData(stateSlug: string) {
+  const slug = stateSlug.toLowerCase();
+  if (stateDataMap.has(slug)) {
+    return stateDataMap.get(slug);
+  }
+  const meta = allStatesList.find((s) => s.slug === slug);
+  if (!meta) return null;
 
   return {
     state: meta.name,
