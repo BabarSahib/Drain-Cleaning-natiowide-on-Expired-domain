@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maxsonplumbing.com/sitemap.xml
+Sitemap: https://maxsonplumbing.com/sitemap-main.xml
